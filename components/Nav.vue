@@ -92,6 +92,11 @@ const navList = reactive([
 			}
 		]
 	},
+  {
+    name: '关于颜医生',
+    url: '/gyys',
+    subList: []
+  },
 	{
 		name: '显微吸脂',
 		url: '/xwxz',
