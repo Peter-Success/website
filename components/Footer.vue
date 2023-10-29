@@ -20,23 +20,25 @@
         <img class="qrcode" src="~/assets/images/footer/footer-qrcode.png" alt="">
       </div>
     </div>
+
     <div class="footer-h5">
       <div class="footer-h5-top">
-        <div class="one">
-          <div class="one-logo">
-            <img src="~/assets/images/nav/logo.png" alt="">
-          </div>
-          <div class="one-list">
-            <div class="one-list-item" v-for="(n, i) in mediaList" :key="i">
-              <img src="~/assets/images/nav/icon0.png" alt="">
-            </div>
-          </div>
+        <div class="logoBox">
+          <img src="~/assets/images/nav/logo.png" alt="">
         </div>
-        <div class="two">
-          <img src="~/assets/images/footer/footer-qrcode.png" alt="">
-        </div>
-        <div class="three">
-          COPYRIGHT © LIPRO| Adipose System Regulation & Body Sculpture Surgical Center ALL RIGHTS RESERVED
+
+        <div class="contentBox">
+          <img class="media" src="~/assets/images/footer/footer-media-h5.png" alt="">
+          <div class="textBox">
+            <div class="textBox-title">联系我们：</div>
+
+            <ul class="textBox-text">
+              <li>Email：drterryyen @gmail.com</li>
+              <li>Wechat: drterryassistant</li>
+              <li>中国上海市长宁区定西路738号2F上海复丽医疗美容门诊部</li>
+            </ul>
+          </div>
+          <img class="qrcode" src="~/assets/images/footer/footer-qrcode.png" alt="">
         </div>
       </div>
       <div class="footer-h5-bottom">
@@ -139,63 +141,66 @@ const mediaList = reactive([
       }
     }
   }
+
   @at-root &-h5 {
     display: none;
     width: 100%;
+
     @at-root &-top {
       width: 100%;
-      background-color: #3D3D3D;
-      padding: 15px 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      .one {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-        @at-root &-logo {
-          width: 257px;
-          height: 73px;
-          img {
-            width: 100%;
-          }
-        }
-        @at-root &-list {
-          margin: 30px auto;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          @at-root &-item {
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
-            img {
-              width: 100%;
-            }
-          }
-        }
-      }
 
-      .two {
-        width: 100%;
+      .logoBox {
+        text-align: center;
+        padding: 15px 0;
+        background: #DDA365;
 
         img {
-          width: 100%;
+          height: 64px;
+          width: auto;
+          vertical-align: middle;
         }
       }
 
-      .three {
-        padding: 16px 50px;
-        font-size: 10px;
-        color: #ffffff;
+      .contentBox {
+        background-color: #3D3D3D;
         text-align: center;
-        border-top: 1px dashed rgba(255, 255, 255, 0.5);
+
+        .media {
+          height: 24px;
+          vertical-align: middle;
+          margin: 28px 0;
+        }
+
+        .textBox {
+          text-align: left;
+          padding: 0 25px;
+          font-size: 14px;
+          font-weight: 500;
+          color: #FFFFFF;
+          list-style: none;
+          margin: 0;
+          line-height: 1.5;
+
+          @at-root &-title {
+            margin-bottom: 16px;
+          }
+
+          @at-root &-text {
+            list-style: none;
+            padding: 0;
+          }
+        }
+
+        .qrcode {
+          width: 95%;
+          height: auto;
+          vertical-align: middle;
+          margin: 10px 0;
+        }
       }
     }
+
     @at-root &-bottom {
-      margin-top: 1px;
       display: flex;
       justify-content: space-between;
       align-items: center;
