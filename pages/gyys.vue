@@ -30,6 +30,7 @@
       </swiper-slide>
     </swiper>
 
+    <!--    pc版-->
     <div class="gyys-pc">
       <!--      教育背景部分-->
       <div class="education">
@@ -207,6 +208,7 @@
       </div>
     </div>
 
+    <!--    h5版-->
     <div class="gyys-h5">
       <!--      教育背景部分-->
       <div class="education">

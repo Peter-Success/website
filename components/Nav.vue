@@ -97,6 +97,11 @@ const navList = reactive([
     url: '/gyys',
     subList: []
   },
+  {
+    name: 'RFAL灵动雕塑',
+    url: '/ldds',
+    subList: []
+  },
 	{
 		name: '显微吸脂',
 		url: '/xwxz',
