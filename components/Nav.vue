@@ -25,11 +25,11 @@
 					</a-dropdown>
 				</div>
 			</div>
-			<div class="nav-right">
-				<div class="nav-right-item" v-for="(n, i) in mediaList" :key="i">
-					<img src="~/assets/images/nav/icon0.png" alt="">
-				</div>
-			</div>
+<!--			<div class="nav-right">-->
+<!--				<div class="nav-right-item" v-for="(n, i) in mediaList" :key="i">-->
+<!--					<img src="~/assets/images/nav/icon0.png" alt="">-->
+<!--				</div>-->
+<!--			</div>-->
 		</div>
 		<div class="nav-h5">
 			<div class="nav-h5-left">
@@ -71,26 +71,9 @@
 // 导航数据
 const navList = reactive([
 	{
-		name: '关于我们',
+		name: '首页',
 		url: '/',
-		subList: [
-			{
-				name: 'TML美式显微吸脂',
-				url: '/'
-			},
-			{
-				name: '微整形',
-				url: '/a'
-			},
-			{
-				name: 'TML美式显微吸脂',
-				url: '/b'
-			},
-			{
-				name: '微整形',
-				url: '/c'
-			}
-		]
+		subList: []
 	},
   {
     name: '关于颜医生',
@@ -101,6 +84,22 @@ const navList = reactive([
     name: 'RFAL灵动雕塑',
     url: '/ldds',
     subList: []
+  },
+  {
+    name: '服务项目',
+    url: 'wzx',
+    subList: [
+      {
+        name: '微整形',
+        url: '/wzx'
+      },{
+        name: 'TML美式',
+        url: '/TMLms'
+      },{
+        name: '男性女乳',
+        url: '/nxnr'
+      }
+    ]
   },
 	{
 		name: '显微吸脂',
@@ -123,11 +122,6 @@ const navList = reactive([
 				url: '/c'
 			}
 		]
-	},
-	{
-		name: '服务项目',
-		url: '/fwxm',
-		subList: []
 	},
 	{
 		name: '媒体报道',

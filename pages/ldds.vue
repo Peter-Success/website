@@ -188,7 +188,7 @@
             ·如您有任何不了解的问题或疑惑，请不要迟疑，随时与我们联系。
           </p>
         </div>
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg-pc.png" alt="">
       </div>
 
       <!--      特色服务-->
@@ -325,54 +325,70 @@
           <span>Other</span>
         </div>
 
-        <ul class="contrast-itemBox">
-          <li class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db1.png" alt="">
-            <div>抗衰紧致黑科技-巧变“精英”美容术</div>
-            <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
-            <ul class="contrast-itemBox-tagBox">
-              <li>紧致轮廓</li>
-              <li>瘦 脸</li>
-              <li>面部拉提</li>
-            </ul>
-          </li>
-          <li class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db2.png" alt="">
-            <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
-            <span>嘟嘟肉bye-bye，恢复英气感</span>
-            <ul class="contrast-itemBox-tagBox">
-              <li>嘟嘟肉</li>
-              <li>V脸神器</li>
-              <li>发 腮</li>
-            </ul>
-          </li>
-          <li class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db3.png" alt="">
-            <div>男性也需要，油腻双下巴退散！</div>
-            <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
-            <ul class="contrast-itemBox-tagBox">
-              <li>双下巴</li>
-              <li>赫本线</li>
-              <li>面颈拉提</li>
-            </ul>
-          </li>
-          <li class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db4.png" alt="">
-            <div>男性也需要，油腻双下巴退散！</div>
-            <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
-            <ul class="contrast-itemBox-tagBox">
-              <li>双下巴</li>
-              <li>赫本线</li>
-              <li>面颈拉提</li>
-            </ul>
-          </li>
-        </ul>
+        <div class="contrast-itemBox">
+          <swiper
+              :slides-per-view="'auto'"
+              :space-between="0"
+          >
+            <swiper-slide>
+              <li class="contrast-itemBox-item">
+                <img src="~/assets/images/ldds/ldds-db1.png" alt="">
+                <div>抗衰紧致黑科技-巧变“精英”美容术</div>
+                <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
+                <ul class="contrast-itemBox-tagBox">
+                  <li>紧致轮廓</li>
+                  <li>瘦 脸</li>
+                  <li>面部拉提</li>
+                </ul>
+              </li>
+            </swiper-slide>
+            <swiper-slide>
+              <li class="contrast-itemBox-item">
+                <img src="~/assets/images/ldds/ldds-db2.png" alt="">
+                <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
+                <span>嘟嘟肉bye-bye，恢复英气感</span>
+                <ul class="contrast-itemBox-tagBox">
+                  <li>嘟嘟肉</li>
+                  <li>V脸神器</li>
+                  <li>发 腮</li>
+                </ul>
+              </li>
+            </swiper-slide>
+            <swiper-slide>
+              <li class="contrast-itemBox-item">
+                <img src="~/assets/images/ldds/ldds-db3.png" alt="">
+                <div>男性也需要，油腻双下巴退散！</div>
+                <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+                <ul class="contrast-itemBox-tagBox">
+                  <li>双下巴</li>
+                  <li>赫本线</li>
+                  <li>面颈拉提</li>
+                </ul>
+              </li>
+            </swiper-slide>
+            <swiper-slide>
+              <li class="contrast-itemBox-item">
+                <img src="~/assets/images/ldds/ldds-db4.png" alt="">
+                <div>男性也需要，油腻双下巴退散！</div>
+                <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+                <ul class="contrast-itemBox-tagBox">
+                  <li>双下巴</li>
+                  <li>赫本线</li>
+                  <li>面颈拉提</li>
+                </ul>
+              </li>
+            </swiper-slide>
+          </swiper>
+        </div>
       </div>
 
       <!--      注意事项部分-->
       <div class="notice">
+        <div class="notice-title">术后注意事项</div>
+
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg-h5.png" alt="">
+
         <div class="notice-textBox">
-          <div class="title">术后注意事项：</div>
           <p>
             ·治疗后会有粉红色的麻药水会从手术针口流出，一般此情况治疗后前24小时最为显著，会持续3-7天，“适度”活动有助于排出麻药水，请量力而行。避免局部的碰撞及挤压。避免剧烈活动。伤口局部结痂应自行脱落，不可人为剥脱。
           </p>
@@ -395,7 +411,6 @@
             ·如您有任何不了解的问题或疑惑，请不要迟疑，随时与我们联系。
           </p>
         </div>
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
       </div>
 
       <!--      特色服务-->
@@ -419,8 +434,32 @@
 </template>
 
 <script>
+import {Swiper, SwiperSlide} from 'swiper/vue'
+import {Pagination, Autoplay} from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/pagination'
+
 export default {
-  name: "ldds"
+  name: "ldds",
+
+  components: {
+    Swiper,
+    SwiperSlide
+  },
+
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper)
+    };
+    const onSlideChange = () => {
+      console.log('slide change')
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+      modules: [Pagination, Autoplay]
+    }
+  }
 }
 </script>
 
@@ -942,6 +981,150 @@ export default {
             font-size: 12px;
             color: rgba(68, 68, 68, 0.85);
             line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    //对比部分
+    .contrast {
+      background: #F3F3F3;
+      padding: 32px 0 45px;
+
+      @at-root &-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: #000000;
+        margin-bottom: 18px;
+
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          margin-left: 10px;
+        }
+      }
+
+      @at-root &-itemBox {
+        display: flex;
+
+        :deep(.swiper-slide) {
+          width: auto;
+        }
+
+        @at-root &-item {
+          border-radius: 10px;
+          background: #FFFFFF;
+          //width: 290px;
+          width: 270px;
+          margin: 0 10px;
+          padding: 15px 8px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+            margin-bottom: 10px;
+          }
+
+          div {
+            font-size: 16px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 5px;
+          }
+
+          span {
+            display: block;
+            height: 42px;
+            font-size: 13px;
+            color: #666666;
+            line-height: 1.5;
+            margin-bottom: 5px;
+          }
+        }
+
+        @at-root &-tagBox {
+          display: flex;
+          align-content: center;
+
+          li {
+            width: 62px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background: #D8D8D8;
+            margin-right: 10px;
+            font-size: 12px;
+            color: #888888;
+          }
+        }
+      }
+    }
+
+    //注意事项部分
+    .notice {
+      padding: 35px 20px 39px;
+
+      @at-root &-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 25px;
+      }
+
+      @at-root &-img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        margin-bottom: 25px;
+      }
+
+      @at-root &-textBox {
+        p {
+          font-size: 14px;
+          line-height: 1.5;
+          color: rgba(68, 68, 68, 0.85);
+          margin-bottom: 15px;
+        }
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    //特色服务
+    .serve {
+      padding: 31px 20px 50px;
+      background: url("~/assets/images/ldds/ldds-fuBgi.png") no-repeat left top/100% 100%;
+
+      @at-root &-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #333333;
+        margin-bottom: 26px;
+      }
+
+      @at-root &-contentBox {
+        li {
+          margin-bottom: 26px;
+
+          img {
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+            border-radius: 8px;
           }
         }
       }
