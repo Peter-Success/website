@@ -105,6 +105,25 @@
 
         </li>
       </ul>
+
+      <!--      注意事项-->
+      <div class="attention">
+        <div class="attention-textBox">
+          <div class="attention-textBox-title">术后注意事项：</div>
+          <p>1、注射后，因个人体质，皮肤可能会出现发红、肿胀、疼痛、瘀青等情形均属正常状况。在注射几天后，这些反应会自动缓解。</p>
+          <p>2、注射后前3 天冰敷可帮助红肿减退，肿胀持续约1周左右消失。</p>
+          <p>3、注射部位注射后前4-6 周可能会有硬块的触感，此为正常的现象，这是注射后的正常象。</p>
+          <p>4、若术后出现瘀青约7-14 天消失，可适当使用去瘀药膏。</p>
+          <p>5、注射后4 小时内针孔尚未完全愈合，针眼处请勿碰水。</p>
+          <p>6、一周内勿到高温场合，如泡温泉及汗蒸、烤箱、热瑜伽，避免烫染护发。</p>
+          <p>7、一周内不用去角质，面部刮痧和使用同类洁肤护肤产品。</p>
+          <p>8、一个月内避免暴晒，日光浴，并注意做好防晒隔离。</p>
+          <p>9、一周内不饮酒、不食用海鲜及辛辣刺激食物，微凉水洗脸，不宜用太热或太冷的水。</p>
+          <p>10、加强保湿，避免皮肤因缺水老化产生细纹皱纹。</p>
+          <p>◆有任何疑虑请安排回诊咨询。</p>
+        </div>
+        <img class="headImg" src="~/assets/images/wzx/wzx-zyImg.png" alt="">
+      </div>
     </div>
 
     <!--    h5版-->
@@ -267,6 +286,39 @@ export default {
 
       .detail-item:nth-child(2n+1) {
         background: #F6F6F6;
+      }
+    }
+
+    //注意事项
+    .attention {
+      padding: 30px 360px 45px;
+      background: #FFFFFF;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      @at-root &-textBox {
+        flex: 1;
+        margin-right: 79px;
+
+        @at-root &-title {
+          font-size: 36px;
+          color: #333333;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 14px;
+          color: rgba(68, 68, 68, 0.85);
+          line-height: 1.5;
+          margin-bottom: 10px;
+        }
+      }
+
+      img {
+        width: 524px;
+        height: auto;
+        vertical-align: middle;
       }
     }
   }
