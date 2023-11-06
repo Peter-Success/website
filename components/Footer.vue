@@ -19,6 +19,9 @@
         </div>
         <img class="qrcode" src="~/assets/images/footer/footer-qrcode.png" alt="">
       </div>
+      <div class="footer-pc-hint">
+        任何治疗皆会因个人体质与术后保养影响，而导致治疗效果有所差异，本站之内容仅供参考，实际须由医师当面与您进行评估沟通而定。未经授权同意，请勿节录或转载本站图文，翻印必究。
+      </div>
     </div>
 
     <div class="footer-h5">
@@ -39,6 +42,10 @@
             </ul>
           </div>
           <img class="qrcode" src="~/assets/images/footer/footer-qrcode.png" alt="">
+
+          <div class="hint">
+            任何治疗皆会因个人体质与术后保养影响，而导致治疗效果有所差异，本站之内容仅供参考，实际须由医师当面与您进行评估沟通而定。未经授权同意，请勿节录或转载本站图文，翻印必究。
+          </div>
         </div>
       </div>
       <div class="footer-h5-bottom">
@@ -86,6 +93,8 @@ const mediaList = reactive([
 <style lang="scss" scoped>
 .footer {
   @at-root &-pc {
+    background-color: #3D3D3D;
+
     @at-root &-top {
       background-color: #DDA365;
       height: 160px;
@@ -103,11 +112,10 @@ const mediaList = reactive([
       }
     }
     @at-root &-bottom {
-      background-color: #3D3D3D;
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding: 40px 0 170px;
+      padding: 40px 0 59px;
 
       .media {
         width: auto;
@@ -139,6 +147,16 @@ const mediaList = reactive([
         height: 134px;
         vertical-align: middle;
       }
+    }
+    @at-root &-hint {
+      margin: 40px 360px 0;
+      padding: 10px 100px 170px;
+      text-align: center;
+      text-align: center;
+      border-top: 1px solid #FFFFFF;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #FFFFFF;
     }
   }
 
@@ -196,6 +214,17 @@ const mediaList = reactive([
           height: auto;
           vertical-align: middle;
           margin: 10px 0;
+        }
+
+        .hint {
+          margin-top: 20px;
+          padding: 10px;
+          text-align: center;
+          text-align: center;
+          border-top: 1px solid #FFFFFF;
+          font-size: 12px;
+          line-height: 1.5;
+          color: #FFFFFF;
         }
       }
     }
