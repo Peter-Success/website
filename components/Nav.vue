@@ -1,6 +1,6 @@
 <template>
 	<div class="nav">
-		<div class="nav-pc">
+		<div class="nav-pc" :style="{'backgroundColor': `rgba(61,61,61,${scrollTop/100})`}">
 			<div class="nav-left">
 				<img src="~/assets/images/nav/logo.png" alt="">
 			</div>
@@ -170,6 +170,14 @@ const currentIndex = navList.findIndex(n => {
 const subList = computed(() => {
 	return navList[currentIndex].subList || []
 })
+// 监听滚动
+let scrollTop = ref(0)
+onMounted(() => {
+	window.addEventListener('scroll', function (e) {
+		scrollTop.value = document.querySelector('html').scrollTop
+		console.log('scrollTop---', scrollTop.value)
+	})
+})
 </script>
 
 <style lang="scss" scoped>
@@ -236,7 +244,7 @@ const subList = computed(() => {
 		justify-content: center;
 		align-items: center;
 		height: 120px;
-		background-color: #3D3D3D;
+		background-color: rgba(0,0,0,0);
 	}
 	@at-root &-h5 {
 		display: none;
