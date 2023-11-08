@@ -150,7 +150,7 @@ const mediaList = reactive([
     }
     @at-root &-hint {
       margin: 40px 360px 0;
-      padding: 10px 100px 170px;
+      padding: 10px 100px 20px;
       text-align: center;
       text-align: center;
       border-top: 1px solid #FFFFFF;
