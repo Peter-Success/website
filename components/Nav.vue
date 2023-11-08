@@ -103,34 +103,26 @@ const navList = reactive([
   },
 	{
 		name: '显微吸脂',
-		url: '/xwxz',
+		url: '/404',
 		subList: [
 			{
 				name: 'TML美式显微吸脂',
-				url: '/4'
+				url: '/404'
 			},
 			{
 				name: '微整形',
-				url: '/a'
-			},
-			{
-				name: 'TML美式显微吸脂',
-				url: '/b'
-			},
-			{
-				name: '微整形',
-				url: '/c'
+				url: '/404'
 			}
 		]
 	},
 	{
 		name: '媒体报道',
-		url: '/mtbd',
+		url: '/404',
 		subList: []
 	},
 	{
 		name: '美丽见证',
-		url: '/mljz',
+		url: '/404',
 		subList: []
 	},
 	{
@@ -204,7 +196,7 @@ onMounted(() => {
 		font-size: 16px;
 		color: #ffffff;
 		font-weight: 400;
-		
+
 		@at-root &-item {
 			height: 120px;
 			line-height: 120px;
