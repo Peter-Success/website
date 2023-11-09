@@ -11,7 +11,7 @@
 
 <style lang="scss" scoped>
 .slot-box {
-	padding: 120px 0 0 0;
+	padding: 0 0 0 0;
 	position: relative;
 }
 @media (max-width: 576px) {
