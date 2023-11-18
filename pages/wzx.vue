@@ -106,6 +106,11 @@
         </li>
       </ul>
 
+      <!--      问答-->
+      <div class="question">
+        <Unfold></Unfold>
+      </div>
+
       <!--      注意事项-->
       <div class="attention">
         <div class="attention-textBox">
@@ -232,6 +237,8 @@ export default {
 
     //详解部分
     .detail {
+      margin-bottom: 0;
+
       @at-root &-item {
         padding: 38px 360px;
         display: flex;
@@ -287,6 +294,12 @@ export default {
       .detail-item:nth-child(2n+1) {
         background: #F6F6F6;
       }
+    }
+
+    //问答
+    .question {
+      padding: 60px 360px;
+      background: #EFEFF3;
     }
 
     //注意事项

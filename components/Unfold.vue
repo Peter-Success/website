@@ -37,17 +37,20 @@
       </ul>
     </div>
 
+    <!--    H5-->
     <ul class="unfold-h5">
-      <li class="unfoldBox-itemBox">
-        <div class="unfoldBox-itemBox-questionBox">
+      <li v-for="(item,index) in list" :key="index" class="unfoldBox-itemBox">
+        <div class="unfoldBox-itemBox-questionBox" @click="questionClick(item.id)">
           <div class="text">
-            治疗后体重会有大的改变吗？
+            {{ item.question }}
           </div>
 
           <img src="~/assets/images/unfold/unfold-arrows.png" alt="">
         </div>
-        <div class="unfoldBox-itemBox-answer">
-          答：很多人对于治疗后会减少体重这件事情有很大的错误迷思，TML美式显微脂肪雕塑目的是雕塑身材，并非减重也并非减少脂肪，因为脂肪很轻，取出的脂肪并不会改变体重变化，所以术后体脂率是不会改变的，但对于身材上的修饰效果是一定有的，让脂肪长在对的地方比过度减少脂肪来得更为重要。
+        <div class="unfoldBox-itemBox-answer" :class="activeQuestion === item.id ? 'showAnswer' : ''">
+          <div class="textBox">
+            {{ item.answer }}
+          </div>
         </div>
       </li>
     </ul>
@@ -64,8 +67,14 @@ export default {
       default: () => {
         return [
           {question: '问题1', answer: '答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1答案1'},
-          {question: '问题2', answer: '答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2'},
-          {question: '问题3', answer: '答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3'},
+          {
+            question: '问题2',
+            answer: '答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2答案2'
+          },
+          {
+            question: '问题3',
+            answer: '答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3答案3'
+          },
           {question: '问题4', answer: '答案4答案4答案4答案4答案4答案4答案4答案4答案4答案4'},
           {question: '问题5', answer: '答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5答案5'},
         ]
@@ -173,8 +182,55 @@ export default {
     }
   }
 
+  //H5
   @at-root &-h5 {
     display: none;
+    .unfoldBox {
+      @at-root &-itemBox {
+        background: #FFFFFF;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+        @at-root &-questionBox {
+          padding: 22px 25px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .text {
+            flex: 1;
+            font-size: 16px;
+            font-weight: 500;
+            color: #000000;
+          }
+
+          img {
+            flex-shrink: 0;
+            height: 20px;
+            width: auto;
+            vertical-align: middle;
+          }
+        }
+
+        @at-root &-answer {
+          border-top: 1px solid #E6E6E6;
+          max-height: 0;
+          transition: max-height 0.3s;
+
+          .textBox {
+            padding: 15px 25px;
+            line-height: 1.5;
+            font-size: 15px;
+            color: #666666;
+          }
+        }
+
+        .showAnswer {
+          max-height: 200px;
+        }
+      }
+    }
   }
 }
 

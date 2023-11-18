@@ -187,6 +187,11 @@
           </li>
         </ul>
       </div>
+
+      <!--      问答-->
+      <div class="question">
+        <Unfold></Unfold>
+      </div>
     </div>
 
     <!--    h5版-->
@@ -386,6 +391,11 @@
           </li>
         </ul>
       </div>
+
+      <!--      问答-->
+      <div class="question">
+        <Unfold></Unfold>
+      </div>
     </div>
   </div>
 </template>
@@ -394,13 +404,15 @@
 import {Swiper, SwiperSlide} from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import Unfold from '~/components/Unfold.vue'
 
 export default {
   name: "nxnr",
 
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
+    Unfold
   }
 }
 </script>
@@ -744,6 +756,12 @@ export default {
         }
       }
     }
+
+    //问答
+    .question {
+      padding: 60px 360px;
+      background: #EFEFF3;
+    }
   }
 
   //h5版
@@ -1058,6 +1076,12 @@ export default {
           }
         }
       }
+    }
+
+    //问答
+    .question {
+      padding: 20px;
+      background: #EFEFF3;
     }
   }
 }

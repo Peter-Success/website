@@ -87,7 +87,7 @@ const navList = reactive([
   },
   {
     name: '服务项目',
-    url: 'TMLms',
+    url: 'wzx',
     subList: [
       {
         name: '微整形',

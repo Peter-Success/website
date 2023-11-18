@@ -404,6 +404,11 @@
           </li>
         </ul>
       </div>
+
+      <!--      问答-->
+      <div class="question">
+        <Unfold></Unfold>
+      </div>
     </div>
   </div>
 </template>
@@ -412,7 +417,7 @@
 import {Swiper, SwiperSlide} from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import Unfold from '@/components/Unfold.vue'
+import Unfold from '~/components/Unfold.vue'
 
 export default {
   name: "TMLms",
@@ -1110,6 +1115,12 @@ export default {
           }
         }
       }
+    }
+
+    //问答
+    .question {
+      padding: 20px;
+      background: #EFEFF3;
     }
   }
 }
