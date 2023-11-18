@@ -11,20 +11,20 @@
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/index/index-banner-pc.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner-pc.png" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/index/index-banner-h5.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner-h5.png" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/index/index-banner1-pc.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner1-pc.png" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/index/index-banner1-h5.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner1-h5.png" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -97,13 +97,13 @@
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience6.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience7.png" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>美国著名整形专家Michael Pasq</span>
+            <span>美国著名整形专家Michael Pasquale</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience7.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience6.png" alt="">
           <div class="groupPhoto-item-textBox">
             <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
           </div>
@@ -465,6 +465,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background: url("../assets/images/gyys/gyys-bgi.png") no-repeat right bottom/373px 518px;
 
         @at-root &-portrait {
           flex-shrink: 0;
