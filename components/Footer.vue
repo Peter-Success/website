@@ -84,7 +84,37 @@
         </div>
 
         <div class="contentBox">
-          <img class="media" src="~/assets/images/footer/footer-media-h5.png" alt="">
+          <div class="media">
+            <ul class="media-iocnBox">
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('youtu')" class="icon" src="~/assets/images/footer/footer-youtu.png" alt="">
+              </li>
+
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('ins')" class="icon" src="~/assets/images/footer/footer-ins.png" alt="">
+              </li>
+
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('faceb')" class="icon" src="~/assets/images/footer/footer-faceb.png" alt="">
+              </li>
+
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('weixin')" class="icon" src="~/assets/images/footer/footer-weixin.png" alt="">
+
+                <div class="bubbleBox" :class="showBubbleText === 'weixin' ? 'showBubble' : ''">
+                  <img src="~/assets/images/footer/kfCode.png" alt="">
+                </div>
+              </li>
+
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('weibo')" class="icon" src="~/assets/images/footer/footer-weibo.png" alt="">
+              </li>
+
+              <li class="media-iocnBox-item">
+                <img @click="iconClick('zhihu')" class="icon" src="~/assets/images/footer/footer-zhihu.png" alt="">
+              </li>
+            </ul>
+          </div>
           <div class="textBox">
             <div class="textBox-title">联系我们：</div>
 
@@ -94,7 +124,21 @@
               <li>中国上海市长宁区定西路738号2F上海复丽医疗美容门诊部</li>
             </ul>
           </div>
-          <img class="qrcode" src="~/assets/images/footer/footer-qrcode.png" alt="">
+          <div class="qrcode">
+            <div class="qrcode-leftBox">
+              <div>颜医生服务热线</div>
+              <span>13693224553</span>
+            </div>
+
+            <div class="qrcode-codeBox">
+              <img src="~/assets/images/footer/gzhCode.png" alt="">
+              <div>关注公众号</div>
+            </div>
+            <div class="qrcode-codeBox">
+              <img src="~/assets/images/footer/kfCode.png" alt="">
+              <div>联系客服</div>
+            </div>
+          </div>
 
           <div class="hint">
             任何治疗皆会因个人体质与术后保养影响，而导致治疗效果有所差异，本站之内容仅供参考，实际须由医师当面与您进行评估沟通而定。未经授权同意，请勿节录或转载本站图文，翻印必究。
@@ -363,9 +407,61 @@ export default {
         text-align: center;
 
         .media {
-          height: 24px;
-          vertical-align: middle;
-          margin: 28px 0;
+          padding: 28px 0;
+
+          @at-root &-iocnBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @at-root &-item {
+              margin: 5px;
+              position: relative;
+
+              .icon {
+                height: 24px;
+                width: 24px;
+                vertical-align: middle;
+              }
+
+              .bubbleBox {
+                display: none;
+                position: absolute;
+                bottom: 55px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 10;
+                width: 150px;
+                padding: 10px;
+                background: #FFFFFF;
+                border-radius: 6px;
+
+                img {
+                  width: 100%;
+                  vertical-align: middle;
+                }
+              }
+
+              .bubbleBox:before {
+                display: block;
+                content: '';
+                width: 0;
+                height: 0;
+                border-top: 10px solid #FFFFFF;
+                border-right: 10px solid transparent;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: -9px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 15;
+              }
+
+              .showBubble {
+                display: block !important;
+              }
+            }
+          }
         }
 
         .textBox {
@@ -389,10 +485,34 @@ export default {
         }
 
         .qrcode {
-          width: 95%;
-          height: auto;
-          vertical-align: middle;
-          margin: 10px 0;
+          display: flex;
+          justify-content: center;
+
+          @at-root &-leftBox {
+            font-size: 16px;
+            color: #909494;
+            text-align: center;
+            margin-right: 10px;
+
+            span {
+              font-size: 24px;
+              font-weight: 500;
+              color: #666666;
+            }
+          }
+
+          @at-root &-codeBox {
+            text-align: center;
+            margin-right: 10px;
+            font-size: 10px;
+            color: #909494;
+
+            img {
+              height: 80px;
+              vertical-align: middle;
+              margin-bottom: 8px;
+            }
+          }
         }
 
         .hint {
