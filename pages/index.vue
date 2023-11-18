@@ -700,7 +700,7 @@
         </a-col>
         <a-col class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
-            <img src="~/assets/images/index/four-text1.jpg" alt="">
+            <img src="~/assets/images/index/four-text2.jpg" alt="">
           </div>
           <div class="index-four-content_item--title">
             <div class="left">全网热搜 《纯纯甘 整形医师的一天》 </div>
