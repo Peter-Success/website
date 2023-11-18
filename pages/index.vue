@@ -30,12 +30,11 @@
       </swiper-slide>
     </swiper>
     <div class="index-two">
-      <div class="index-two-title">为什么选择咨询 Dr.Terry Yen</div>
+      <div class="index-two-title">为什么选择咨询  Dr.Terry Yen</div>
       <div class="index-two-content">
-        <p>Dr.Terry Yen毕业于北京大学医学系临床,师从高景恒教授、郝治华教授、王冀耕教授、Dr.Jeffrey Klein、 Dr. Sydney Coleman、Dr. Michael
-          Pasquale等国内外知名整形美容及皮肤科专家，赴美、韩进修，在美国及中国台湾都有丰富临床经验。多次在顶级学术会议中担任演讲嘉宾及参与多本整形美容医学教科书翻译出版。</p>
-        <p>擅长美式显微吸脂（Tumescent microcannula
-          liposculpture）、男性女乳症微创治疗、特殊人群减重指导、运动及再生医学。同时在两岸整型美容核心期刊发表论文数篇，研究课题以美式显微吸脂的临床运用、男性女乳症、自体脂肪为主。</p>
+        <p>欢迎来到颜士鈞医师中国北京的诊室，我们致力于通过融合整形美容外科的科学和艺术来提供定制医疗服务，提供专业、人性、定制化的治疗方案， 致力于为您提供世界一流的服务，运用全球领先的技术满足您的美容及抗衰需求。</p>
+        <p>师从高景恒教授、郝治华教授、王冀耕教授、王笃行教授、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
+        <p>良好的医疗美容源于对人体生理构造和技术的深刻理解、对细节的关注、积累的临床经验和一丝不苟的执行。</p>
       </div>
       <div class="index-two-btn">
         <img src="~/assets/images/index/index-two-btn.png" alt="">
@@ -108,10 +107,7 @@
           <div class="title">
             <div class="left">
               <div class="big">微整形</div>
-              <div class="small">TML xizhi</div>
-            </div>
-            <div class="right">
-              阅读更多
+              <div class="small">Micro-plastic surgery</div>
             </div>
           </div>
           <div class="content">
@@ -121,11 +117,12 @@
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--bottom">面部的组织如果失去支撑，易产生凹陷纹路，造成组织松垮下垂，从而让面部显得疲惫松垂</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">面部微调</div>
+                <div class="content-item-tag--item">冻龄抗衰</div>
+                <div class="content-item-tag--item">瘦脸</div>
               </div>
             </div>
             <div class="content-item">
@@ -133,12 +130,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">女性如何丰满面部微调</div>
+                <div class="content-item-txt--bottom">瘦脸不一定要削骨，透过注射的方式微调轮廓，瞬间青春有感，快速修饰脸型</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">下巴塑形</div>
+                <div class="content-item-tag--item">T区微调</div>
+                <div class="content-item-tag--item">液态隆鼻</div>
               </div>
             </div>
             <div class="content-item">
@@ -146,12 +144,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">颜值微调</div>
+                <div class="content-item-txt--bottom">自然美颜，透过注射的方式让五官及整体比例更加精致化，外表更有魅力。</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">午餐美容</div>
+                <div class="content-item-tag--item">木偶纹</div>
+                <div class="content-item-tag--item">法令纹</div>
               </div>
             </div>
             <div class="content-item">
@@ -159,12 +158,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">面部轮廓固定-T区塑形</div>
+                <div class="content-item-txt--bottom">面部老化，产生凹陷纹路松垂，透过不动刀、微整注射对抗地心引力，组织提升</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">逆龄</div>
+                <div class="content-item-tag--item">少女针</div>
+                <div class="content-item-tag--item">童颜针</div>
               </div>
             </div>
           </div>
@@ -239,11 +239,8 @@
         <div class="index-three-list--item">
           <div class="title">
             <div class="left">
-              <div class="big">微整形</div>
-              <div class="small">TML xizhi</div>
-            </div>
-            <div class="right">
-              阅读更多
+              <div class="big">RFAL灵动雕塑</div>
+              <div class="small">Aura Lifting</div>
             </div>
           </div>
           <div class="content">
@@ -252,12 +249,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">以色列Inmode新型皮下热玛吉</div>
+                <div class="content-item-txt--bottom">紧肤、溶脂、提升轻轻松松一次搞定，效果显著，随做随走。</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">微创治疗</div>
+                <div class="content-item-tag--item">射频溶脂</div>
+                <div class="content-item-tag--item">全程清醒</div>
               </div>
             </div>
             <div class="content-item">
@@ -265,12 +263,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">抗衰紧致黑科技-巧变“精英”美容术</div>
+                <div class="content-item-txt--bottom">新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">紧致轮廓</div>
+                <div class="content-item-tag--item">瘦脸</div>
+                <div class="content-item-tag--item">面部拉提</div>
               </div>
             </div>
             <div class="content-item">
@@ -278,12 +277,13 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
+                <div class="content-item-txt--bottom">嘟嘟肉bye-bye，恢复英气感</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">嘟嘟肉</div>
+                <div class="content-item-tag--item">V脸神器</div>
+                <div class="content-item-tag--item">发腮</div>
               </div>
             </div>
             <div class="content-item">
@@ -291,8 +291,8 @@
                 <img src="~/assets/images/index/three-0-0.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">男性也需要，油腻双下巴退散！</div>
+                <div class="content-item-txt--bottom">下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</div>
               </div>
               <div class="content-item-tag">
                 <div class="content-item-tag--item">25-35岁</div>
@@ -1027,6 +1027,7 @@ export default {
               }
             }
             @at-root &-txt {
+              box-sizing: border-box;
               margin-top: 10px;
               font-size: 13px;
               font-weight: 400;
@@ -1037,6 +1038,10 @@ export default {
                 font-weight: 600;
                 color: #000000;
                 line-height: 22px;
+              }
+
+              @at-root &--bottom {
+                height: 36px;
               }
             }
             @at-root &-tag {
@@ -1051,7 +1056,8 @@ export default {
                 color: rgba(0, 0, 0, 0.6);
                 height: 24px;
                 line-height: 24px;
-                padding: 0 7px;
+                width: 62px;
+                text-align: center;
                 margin-right: 10px;
               }
             }
