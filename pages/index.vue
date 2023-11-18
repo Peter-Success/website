@@ -21,23 +21,23 @@
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/index/index-banner-pc.png" alt="">
+            <img src="~/assets/images/index/index-banner1-pc.png" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/index/index-banner-h5.png" alt="">
+            <img src="~/assets/images/index/index-banner1-h5.png" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
     </swiper>
     <div class="index-two">
-      <div class="index-two-title">为什么选择咨询  Dr.Terry Yen</div>
+      <div class="index-two-title">为什么选择咨询 Dr.Terry Yen</div>
       <div class="index-two-content">
         <p>欢迎来到颜士鈞医师中国北京的诊室，我们致力于通过融合整形美容外科的科学和艺术来提供定制医疗服务，提供专业、人性、定制化的治疗方案， 致力于为您提供世界一流的服务，运用全球领先的技术满足您的美容及抗衰需求。</p>
         <p>师从高景恒教授、郝治华教授、王冀耕教授、王笃行教授、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
         <p>良好的医疗美容源于对人体生理构造和技术的深刻理解、对细节的关注、积累的临床经验和一丝不苟的执行。</p>
       </div>
       <div class="index-two-btn">
-        <img src="~/assets/images/index/index-two-btn.png" alt="">
+        <img @click="gotoLxzx" src="~/assets/images/index/index-two-btn.png" alt="">
       </div>
       <div class="index-two-img">
         <a-row>
@@ -113,7 +113,7 @@
           <div class="content">
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-0-0.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">微整形-面部细雕</div>
@@ -127,7 +127,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-0-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">女性如何丰满面部微调</div>
@@ -141,7 +141,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-0-2.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">颜值微调</div>
@@ -155,7 +155,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-0-3.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">面部轮廓固定-T区塑形</div>
@@ -246,7 +246,7 @@
           <div class="content">
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-1-0.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">以色列Inmode新型皮下热玛吉</div>
@@ -260,7 +260,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-1-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">抗衰紧致黑科技-巧变“精英”美容术</div>
@@ -274,7 +274,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-1-2.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
@@ -288,7 +288,7 @@
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-1-3.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">男性也需要，油腻双下巴退散！</div>
@@ -371,64 +371,65 @@
         <div class="index-three-list--item">
           <div class="title">
             <div class="left">
-              <div class="big">微整形</div>
-              <div class="small">TML xizhi</div>
-            </div>
-            <div class="right">
-              阅读更多
+              <div class="big">TML美式显微脂肪雕塑</div>
+              <div class="small">Tumescent Liposculpture</div>
             </div>
           </div>
           <div class="content">
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-2-0.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">世界公认最安全有效的形体雕塑方式</div>
+                <div class="content-item-txt--bottom">TML美式显微脂肪雕塑源自美国，借由移除你身体里面的不完美，雕刻出被埋藏的曼妙的形体。</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">全程清醒</div>
+                <div class="content-item-tag--item">微创治疗</div>
+                <div class="content-item-tag--item">随做随走</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-2-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">显微副乳祛除</div>
+                <div class="content-item-txt--bottom">轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">针眼伤口</div>
+                <div class="content-item-tag--item">随做随走</div>
+                <div class="content-item-tag--item">副乳祛除</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-2-2.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">显微臀腿部雕塑</div>
+                <div class="content-item-txt--bottom">击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">假胯宽</div>
+                <div class="content-item-tag--item">马鞍肉</div>
+                <div class="content-item-tag--item">蜜桃臀</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-2-3.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">精致身型打造</div>
+                <div class="content-item-txt--bottom">告别圣诞树身型，让你的肉肉们再也不勒！</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">蝴蝶袖</div>
+                <div class="content-item-tag--item">副乳祛除</div>
+                <div class="content-item-tag--item">后背</div>
               </div>
             </div>
           </div>
@@ -503,64 +504,61 @@
         <div class="index-three-list--item">
           <div class="title">
             <div class="left">
-              <div class="big">微整形</div>
-              <div class="small">TML xizhi</div>
-            </div>
-            <div class="right">
-              阅读更多
+              <div class="big">美式微创男乳祛除术 </div>
+              <div class="small">Scarless Breast Removal</div>
             </div>
           </div>
           <div class="content">
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-3-0.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">为什么我是男人却有大胸部？</div>
+                <div class="content-item-txt--bottom">采用局部麻醉，仅用针眼伤口,过程轻松无负担</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">男性女乳</div>
+                <div class="content-item-tag--item">无痕治疗</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-3-1.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">不瞒你说，男人也有罩杯的烦恼</div>
+                <div class="content-item-txt--bottom">文青艺术男体验美式微创男乳祛除术</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">男性女乳</div>
+                <div class="content-item-tag--item">微创精雕</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-3-2.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">告别宽松衣物，让你抬头挺胸</div>
+                <div class="content-item-txt--bottom">药商高管美式微创男乳祛除术初体验</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">无痕治疗</div>
+                <div class="content-item-tag--item">男性女乳</div>
               </div>
             </div>
             <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-0-0.png" alt="">
+                <img src="~/assets/images/index/three-3-3.png" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">微整形-面部细雕</div>
-                <div class="content-item-txt--bottom">适用：提拉，填充</div>
+                <div class="content-item-txt--top">健身真的能“瘦胸”吗？</div>
+                <div class="content-item-txt--bottom">健身达人体验美式微创男乳祛除术</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">25-35岁</div>
-                <div class="content-item-tag--item">面部</div>
+                <div class="content-item-tag--item">无痕治疗</div>
+                <div class="content-item-tag--item">健身达人</div>
               </div>
             </div>
           </div>
@@ -675,29 +673,29 @@
       <a-row class="index-four-content">
         <a-col class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
-            <img src="~/assets/images/index/news-test.png" alt="">
+            <img src="~/assets/images/index/four-text1.jpg" alt="">
           </div>
           <div class="index-four-content_item--title">
-            <div class="left">张女士张女士张女士:</div>
-            <div class="right">- 享受美体的快乐…</div>
+            <div class="left">《荷兰金融报》采访-中国消费群体的审美转型</div>
+<!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年2月19日 作者terry yan</div>
+          <div class="index-four-content_item--time">2022年2月19日  作者terry yan</div>
           <div class="index-four-content_item--txt">
-            美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.
+            颜士钧医师接受《荷兰金融报》（Het Financieele Dagblad）採访，介绍中国消费群体的审美转型
           </div>
           <div class="index-four-content_item--btn">阅读更多</div>
         </a-col>
         <a-col class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
-            <img src="~/assets/images/index/news-test.png" alt="">
+            <img src="~/assets/images/index/four-text1.jpg" alt="">
           </div>
           <div class="index-four-content_item--title">
-            <div class="left">张女士张女士张女士:</div>
-            <div class="right">- 享受美体的快乐…</div>
+            <div class="left">全网热搜 《纯纯甘 整形医师的一天》 </div>
+<!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年2月19日 作者terry yan</div>
+          <div class="index-four-content_item--time">2022年10月23日  作者：浮生一日</div>
           <div class="index-four-content_item--txt">
-            美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.
+            【浮生一日】北京整形医生颜士钧的真实一天。，一个台湾长大，美国做医学研究，北京工作的整形外科医生。一直在深造一直在加班；也和大多数北漂一样，他租住在单身公寓里，怀揣着很大的梦想。跟他一起揭开医美行业更真实的一面吧。
           </div>
           <div class="index-four-content_item--btn">阅读更多</div>
         </a-col>
@@ -720,7 +718,8 @@
         <li>
           <img src="~/assets/images/index/index-icon-meirong.png" alt="">
           <div>安心保证</div>
-          <p>颜医师谨慎选用合格之医疗设备、耗材、药品等，配合的医师与护理人员符合执行资格且不断进修训练，以提供安全完善的医疗服务；并对各种风险进行分析管理，提供品质管理的最高指导原则，确保品质管理系统能正常运作，并持续的适用与有效。</p>
+          <p>
+            颜医师谨慎选用合格之医疗设备、耗材、药品等，配合的医师与护理人员符合执行资格且不断进修训练，以提供安全完善的医疗服务；并对各种风险进行分析管理，提供品质管理的最高指导原则，确保品质管理系统能正常运作，并持续的适用与有效。</p>
         </li>
 
         <li>
@@ -735,70 +734,6 @@
           <p>在颜医师这里有价格透明有保障，童叟无欺，让您选择更省心。</p>
         </li>
       </ul>
-    </div>
-    <div class="index-five">
-      <a-row class="index-five-content" :gutter="[60, 60]">
-        <a-col class="index-five-content_item" :xs="12" :sm="6">
-          <div class="index-five-content_item--top">
-            <div class="icon">
-              <img src="~/assets/images/index/test-icon.png" alt="">
-            </div>
-            <div class="txt">随做随走</div>
-          </div>
-          <div class="index-five-content_item--center">随做随走，手术后可以立即工作，不影响生活</div>
-          <div class="index-five-content_item--bottom">
-            <div class="txt">了解更多</div>
-            <div class="icon">
-              <right-outlined/>
-            </div>
-          </div>
-        </a-col>
-        <a-col class="index-five-content_item" :xs="12" :sm="6">
-          <div class="index-five-content_item--top">
-            <div class="icon">
-              <img src="~/assets/images/index/test-icon.png" alt="">
-            </div>
-            <div class="txt">随做随走</div>
-          </div>
-          <div class="index-five-content_item--center">随做随走，手术后可以立即工作，不影响生活</div>
-          <div class="index-five-content_item--bottom">
-            <div class="txt">了解更多</div>
-            <div class="icon">
-              <right-outlined/>
-            </div>
-          </div>
-        </a-col>
-        <a-col class="index-five-content_item" :xs="12" :sm="6">
-          <div class="index-five-content_item--top">
-            <div class="icon">
-              <img src="~/assets/images/index/test-icon.png" alt="">
-            </div>
-            <div class="txt">随做随走</div>
-          </div>
-          <div class="index-five-content_item--center">随做随走，手术后可以立即工作，不影响生活</div>
-          <div class="index-five-content_item--bottom">
-            <div class="txt">了解更多</div>
-            <div class="icon">
-              <right-outlined/>
-            </div>
-          </div>
-        </a-col>
-        <a-col class="index-five-content_item" :xs="12" :sm="6">
-          <div class="index-five-content_item--top">
-            <div class="icon">
-              <img src="~/assets/images/index/test-icon.png" alt="">
-            </div>
-            <div class="txt">随做随走</div>
-          </div>
-          <div class="index-five-content_item--center">随做随走，手术后可以立即工作，不影响生活</div>
-          <div class="index-five-content_item--bottom">
-            <div class="txt">了解更多</div>
-            <div class="icon">
-              <right-outlined/>
-            </div>
-          </div>
-        </a-col>
-      </a-row>
     </div>
   </div>
 </template>
@@ -825,6 +760,11 @@ export default {
       onSwiper,
       onSlideChange,
       modules: [Pagination, Autoplay]
+    }
+  },
+  methods: {
+    gotoLxzx() {
+      console.log('开始咨询')
     }
   }
 }
@@ -1183,7 +1123,9 @@ export default {
         @at-root &--txt {
           font-size: 15px;
           color: rgba(68, 68, 68, 0.85);
-          margin-bottom: 38px;
+          //margin-bottom: 38px;
+          height: 90px;
+          box-sizing: border-box;
         }
         @at-root &--btn {
           font-size: 13px;
@@ -1224,7 +1166,7 @@ export default {
         width: 238px;
         text-align: center;
 
-        img{
+        img {
           height: 28px;
           width: auto;
           vertical-align: middle;
@@ -1550,7 +1492,7 @@ export default {
         li {
           width: 160px;
 
-          img{
+          img {
             height: 28px;
           }
 
