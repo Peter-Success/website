@@ -101,30 +101,16 @@ const navList = reactive([
       }
     ]
   },
-	{
-		name: '显微吸脂',
-		url: '/404',
-		subList: [
-			{
-				name: 'TML美式显微吸脂',
-				url: '/404'
-			},
-			{
-				name: '微整形',
-				url: '/404'
-			}
-		]
-	},
-	{
-		name: '媒体报道',
-		url: '/404',
-		subList: []
-	},
-	{
-		name: '美丽见证',
-		url: '/404',
-		subList: []
-	},
+  {
+    name: '媒体报道',
+    url: '/mtbd',
+    subList: []
+  },
+  {
+    name: '美丽见证',
+    url: '/mljz',
+    subList: []
+  },
 	{
 		name: '联系咨询',
 		url: '/lxzx',
