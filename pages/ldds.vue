@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <img class="consult-btn" src="~/assets/images/ldds/ldds-zxBtn.png" alt="">
+        <img @click="gotoLxzx" class="consult-btn" src="~/assets/images/ldds/ldds-zxBtn.png" alt="">
 
         <ul class="consult-bottomBox">
           <li>
@@ -448,6 +448,7 @@ import {Swiper, SwiperSlide} from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import Unfold from '~/components/Unfold.vue'
+import {navigateTo} from "nuxt/app";
 
 export default {
   name: "ldds",
@@ -456,6 +457,14 @@ export default {
     Swiper,
     SwiperSlide,
     Unfold
+  },
+
+  methods: {
+    gotoLxzx() {
+      navigateTo({
+        path: "/lxzx"
+      })
+    }
   }
 }
 </script>

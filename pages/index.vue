@@ -756,6 +756,7 @@ import {Swiper, SwiperSlide} from 'swiper/vue'
 import {Pagination, Autoplay} from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import {navigateTo} from "nuxt/app";
 
 export default {
   components: {
@@ -777,7 +778,9 @@ export default {
   },
   methods: {
     gotoLxzx() {
-      console.log('开始咨询')
+      navigateTo({
+        path: "/lxzx"
+      })
     }
   }
 }

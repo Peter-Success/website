@@ -2,8 +2,13 @@
   <div class="footer">
     <div class="footer-pc">
       <div class="footer-pc-phone">
-        <div class="footer-pc-phone-one">联系我们</div>
-        <div class="footer-pc-phone-two">公众号</div>
+        <div class="footer-pc-phone-one" @click="gotoLxzx">联系我们</div>
+        <div class="footer-pc-phone-two" @click="gzhClick">
+          <span>公众号</span>
+          <div class="bubbleBox" :class="showBubble ?  'showBubble' : ''">
+            <img src="~/assets/images/footer/gzhCode.png" alt="">
+          </div>
+        </div>
         <div class="footer-pc-phone-three">138 8888 8888</div>
       </div>
       <div class="footer-pc-top">
@@ -146,15 +151,22 @@
         </div>
       </div>
       <div class="footer-h5-bottom">
-        <div class="footer-h5-bottom--item">联系我们</div>
-        <div class="footer-h5-bottom--item active">公众号</div>
-        <div class="footer-h5-bottom--item">138 8888 8888</div>
+        <div class="footer-h5-bottom--item" @click="gotoLxzx">联系我们</div>
+        <div class="footer-h5-bottom--item active" @click="gzhClick">
+          <span>公众号</span>
+          <div class="bubbleBox" :class="showBubble ?  'showBubble' : ''">
+            <img src="~/assets/images/footer/gzhCode.png" alt="">
+          </div>
+        </div>
+        <div class="footer-h5-bottom--item"><a href="tel:13888888888">138 8888 8888</a></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import {navigateTo} from "nuxt/app";
+
 export default {
   data() {
     return {
@@ -165,7 +177,8 @@ export default {
         'weibo': 'http://weibo.com/drterryyen',
         'zhihu': 'https://www.zhihu.com/people/drterryyen'
       },
-      showBubbleText: ''
+      showBubbleText: '',
+      showBubble: false
     }
   },
 
@@ -180,6 +193,14 @@ export default {
       } else {
         location.href = this.mediaUrl[val]
       }
+    },
+    gzhClick() {
+      this.showBubble = !this.showBubble
+    },
+    gotoLxzx() {
+      navigateTo({
+        path: "/lxzx"
+      })
     }
   }
 }
@@ -226,6 +247,44 @@ export default {
         color: #FFFFFF;
         border-left: 1px solid #FFFFFF;
         border-right: 1px solid #FFFFFF;
+        position: relative;
+
+        .bubbleBox {
+          display: none;
+          position: absolute;
+          bottom: 40px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 10;
+          background: #DDDDDD;
+          width: 100px;
+          padding: 10px;
+          border-radius: 6px;
+
+          img {
+            width: 100%;
+            vertical-align: middle;
+          }
+        }
+
+        .bubbleBox:before {
+          display: block;
+          content: '';
+          width: 0;
+          height: 0;
+          border-top: 10px solid #DDDDDD;
+          border-right: 10px solid transparent;
+          border-left: 10px solid transparent;
+          position: absolute;
+          bottom: -9px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 15;
+        }
+
+        .showBubble {
+          display: block !important;
+        }
       }
 
       @at-root &-three {
@@ -541,9 +600,48 @@ export default {
         flex: 1;
         text-align: center;
         margin-right: 1px;
+        position: relative;
+
         &.active {
           background-color: #333333;
           color: #ffffff;
+        }
+
+        .bubbleBox {
+          display: none;
+          position: absolute;
+          bottom: 40px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 10;
+          background: #DDDDDD;
+          width: 100px;
+          padding: 10px;
+          border-radius: 6px;
+
+          img {
+            width: 100%;
+            vertical-align: middle;
+          }
+        }
+
+        .bubbleBox:before {
+          display: block;
+          content: '';
+          width: 0;
+          height: 0;
+          border-top: 10px solid #DDDDDD;
+          border-right: 10px solid transparent;
+          border-left: 10px solid transparent;
+          position: absolute;
+          bottom: -9px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 15;
+        }
+
+        .showBubble {
+          display: block !important;
         }
 
         &:last-child {

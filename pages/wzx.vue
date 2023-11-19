@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <img class="consult-btn" src="~/assets/images/wzx/wzx-zxBtn.png" alt="">
+        <img @click="gotoLxzx" class="consult-btn" src="~/assets/images/wzx/wzx-zxBtn.png" alt="">
 
         <img class="consult-bottomBox" src="~/assets/images/wzx/wzx-zxBg.png" alt="">
       </div>
@@ -137,8 +137,18 @@
 </template>
 
 <script>
+import {navigateTo} from "nuxt/app";
+
 export default {
-  name: "wzx"
+  name: "wzx",
+
+  methods: {
+    gotoLxzx() {
+      navigateTo({
+        path: "/lxzx"
+      })
+    }
+  }
 }
 </script>
 
