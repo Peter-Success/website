@@ -11,7 +11,7 @@
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/gyys/gyys-banner-pc.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
             <img src="~/assets/images/gyys/gyys-banner-h5.png" alt="">
@@ -21,7 +21,7 @@
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/gyys/gyys-banner1-pc.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner1-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
             <img src="~/assets/images/gyys/gyys-banner1-h5.png" alt="">
