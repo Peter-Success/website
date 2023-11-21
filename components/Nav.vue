@@ -101,16 +101,16 @@ const navList = reactive([
       }
     ]
   },
-  {
-    name: '媒体报道',
-    url: '/mtbd',
-    subList: []
-  },
-  {
-    name: '美丽见证',
-    url: '/mljz',
-    subList: []
-  },
+  // {
+  //   name: '媒体报道',
+  //   url: '/mtbd',
+  //   subList: []
+  // },
+  // {
+  //   name: '美丽见证',
+  //   url: '/mljz',
+  //   subList: []
+  // },
 	{
 		name: '联系咨询',
 		url: '/lxzx',

@@ -1422,7 +1422,9 @@ export default {
       padding: 0 20px;
       @at-root &-title {
         padding: 30px 0 10px 0;
-        justify-content: center;
+        display: block;
+        text-align: center;
+        //justify-content: center;
         @at-root &--left {
           font-size: 24px;
           color: #000000;

@@ -9,7 +9,7 @@
             <img src="~/assets/images/footer/gzhCode.png" alt="">
           </div>
         </div>
-        <div class="footer-pc-phone-three">138 8888 8888</div>
+        <div class="footer-pc-phone-three">13693224553</div>
       </div>
       <div class="footer-pc-top">
         <div class="logo">
@@ -36,7 +36,7 @@
               <img @click="iconClick('weixin')" class="icon" src="~/assets/images/footer/footer-weixin.png" alt="">
 
               <div class="bubbleBox" :class="showBubbleText === 'weixin' ? 'showBubble' : ''">
-                <img src="~/assets/images/footer/kfCode.png" alt="">
+                <img src="~/assets/images/footer/kfCode.jpg" alt="">
               </div>
             </li>
 
@@ -71,7 +71,7 @@
             <div>关注公众号</div>
           </div>
           <div class="qrcode-codeBox">
-            <img src="~/assets/images/footer/kfCode.png" alt="">
+            <img src="~/assets/images/footer/kfCode.jpg" alt="">
             <div>联系客服</div>
           </div>
         </div>
@@ -107,7 +107,7 @@
                 <img @click="iconClick('weixin')" class="icon" src="~/assets/images/footer/footer-weixin.png" alt="">
 
                 <div class="bubbleBox" :class="showBubbleText === 'weixin' ? 'showBubble' : ''">
-                  <img src="~/assets/images/footer/kfCode.png" alt="">
+                  <img src="~/assets/images/footer/kfCode.jpg" alt="">
                 </div>
               </li>
 
@@ -140,7 +140,7 @@
               <div>关注公众号</div>
             </div>
             <div class="qrcode-codeBox">
-              <img src="~/assets/images/footer/kfCode.png" alt="">
+              <img src="~/assets/images/footer/kfCode.jpg" alt="">
               <div>联系客服</div>
             </div>
           </div>
@@ -158,7 +158,7 @@
             <img src="~/assets/images/footer/gzhCode.png" alt="">
           </div>
         </div>
-        <div class="footer-h5-bottom--item"><a href="tel:13888888888">138 8888 8888</a></div>
+        <div class="footer-h5-bottom--item"><a href="tel:13888888888">13693224553</a></div>
       </div>
     </div>
   </div>
@@ -185,17 +185,23 @@ export default {
   methods: {
     iconClick(val) {
       if (val === 'weixin') {
-        if (this.showBubbleText === 'weixin') {
-          this.showBubbleText = ''
-        } else {
+        if (this.showBubbleText !== 'weixin') {
           this.showBubbleText = val
+          setTimeout(() => {
+            this.showBubbleText = ''
+          }, 5000)
         }
       } else {
         location.href = this.mediaUrl[val]
       }
     },
     gzhClick() {
-      this.showBubble = !this.showBubble
+      if (!this.showBubble) {
+        this.showBubble = true
+        setTimeout(() => {
+          this.showBubble = false
+        }, 5000)
+      }
     },
     gotoLxzx() {
       navigateTo({

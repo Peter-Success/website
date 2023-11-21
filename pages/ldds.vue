@@ -210,7 +210,7 @@
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
 
@@ -437,7 +437,7 @@
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
   </div>
@@ -452,6 +452,17 @@ import {navigateTo} from "nuxt/app";
 
 export default {
   name: "ldds",
+
+  data() {
+    return {
+      questionList: [
+          {question: 'Q. 做一次收紧效果可以维持多久?', answer: '答：正常情况下3-5年。'},
+          {question: 'Q:恢复期多长时间?', answer: '答：隔天上班完全没问题，术后面部贴胶带72小时'},
+          {question: 'Q. 做的时候会不会很痛?', answer: '答：No! 跟看牙差不多，除了打麻药稍微有感，全程比7D还轻松'},
+          {question: 'Q:多久后可以做第二次RFAL灵动雕塑', answer: '答：1年后。'}
+      ]
+    }
+  },
 
   components: {
     Swiper,
