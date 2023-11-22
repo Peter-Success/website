@@ -3,7 +3,7 @@
     <!--    pc版-->
     <div class="TMLms-pc">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/TMLms/TMLms-headImg-pc.png" alt="">
+      <img class="headImg" src="~/assets/images/TMLms/TMLms-headImg-pc.jpg" alt="">
 
       <!--      适用人群及项目-->
       <ul class="apply">
@@ -194,14 +194,14 @@
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
 
     <!--    h5版-->
     <div class="TMLms-h5">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/TMLms/TMLms-headImg-h5.png" alt="">
+      <img class="headImg" src="~/assets/images/TMLms/TMLms-headImg-h5.jpg" alt="">
 
       <!--      适用人群及项目-->
       <ul class="apply">
@@ -407,7 +407,7 @@
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
   </div>
@@ -428,6 +428,32 @@ export default {
     Unfold
   },
 
+  data() {
+    return {
+      questionList: [
+        {
+          question: 'Q.治疗后体重会有大的改变吗？',
+          answer: '答：很多人对于治疗后会减少体重这件事情有很大的错误迷思，TML美式显微脂肪雕塑目的是雕塑身材，并非减重也并非减少脂肪，因为脂肪很轻，取出的脂肪并不会改变体重变化，所以术后体脂率是不会改变的，但对于身材上的修饰效果是一定有的，让脂肪长在对的地方比过度减少脂肪来得更为重要。'
+        },
+        {
+          question: 'Q.TML美式显微脂肪雕塑适合哪些部位？',
+          answer: '答：1. 手臂。2. 副乳及腋下赘肉。3. 腰腹部（上腹部、下腹部、腰侧曲线）。4. 大腿（包含大腿内侧曲线、大腿外侧曲线、大腿前侧曲线）。5. 臀部（微笑线、扁屁股、蜜桃臀）。6. 后背部（包含后背肉、后腰肉、富贵包、水牛肩）.7. 男性女乳。8. 针对过去抽脂部位的凹凸不平修复'
+        },
+        {
+          question: 'Q.治疗需要麻醉吗？会不会疼痛？',
+          answer: '答：以颜医师团队丰富的临床经验，治疗可以全程在局部麻醉下进行。即使很怕痛的女生都可以在意识清楚的状况下完成治疗、不适感非常低，甚至是在手术过程，是可以一边聊天一边刷手机，甚至过程中都可以睡着，术后也完全不影响活动，可以自己返回家中。'
+        },
+        {
+          question: 'Q.治疗后会复胖吗？',
+          answer: '答：有可能但概率较低。TML美式显微脂肪雕塑是曲线雕塑，也就是减少该部位的脂肪细胞数量，达到良好的曲线，如果体重增加，因为脂肪细胞数目已经减少了，曲线改善的效果因而维持，所以治疗过的地方是不容易复胖的。'
+        },
+        {
+          question: 'Q.治疗后多久能够运动？',
+          answer: '答：与传统吸脂手术不同，TML美式显微脂肪雕塑非常微创，随做随走，完全不影响日程活动，只要无特殊情况，治疗后一周即可开始锻炼。'
+        }
+      ]
+    }
+  },
 }
 </script>
 

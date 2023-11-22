@@ -188,7 +188,7 @@
             ·如您有任何不了解的问题或疑惑，请不要迟疑，随时与我们联系。
           </p>
         </div>
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg-pc.png" alt="">
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
       </div>
 
       <!--      特色服务-->
@@ -217,7 +217,7 @@
     <!--    h5版-->
     <div class="ldds-h5">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/ldds/ldds-headImg-h5.png" alt="">
+      <img class="headImg" src="~/assets/images/ldds/ldds-headImg-h5.jpg" alt="">
 
       <!--      适用人群及项目-->
       <ul class="apply">
@@ -391,7 +391,7 @@
       <div class="notice">
         <div class="notice-title">术后注意事项</div>
 
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg-h5.png" alt="">
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
 
         <div class="notice-textBox">
           <p>
