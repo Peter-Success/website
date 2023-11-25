@@ -47,7 +47,7 @@
 			>
 				<div class="content">
 					<div class="content-left">
-						<div class="content-left-item" v-for="(n, i) in navList" :key="i" @click="handleClick">
+						<div class="content-left-item" v-for="(n, i) in navList" :key="i" @click="handleClick(n)">
 							<NuxtLink class="content-left-item--txt" :to="n.url">
 								{{n.name}}
 								<right-outlined class="content-left-item--icon" v-if="n.subList.length" />
@@ -55,7 +55,7 @@
 						</div>
 					</div>
 					<div class="content-right">
-						<div class="content-right-item" v-for="(j, k) in subList" :key="k" @click="handleClick">
+						<div class="content-right-item" v-for="(j, k) in subList" :key="k" @click="handleClick(j)">
 							<NuxtLink class="content-right-item--txt" :to="j.url">
 								{{j.name}}
 							</NuxtLink>
@@ -87,7 +87,7 @@ const navList = reactive([
   },
   {
     name: '服务项目',
-    url: 'wzx',
+    url: '/wzx',
     subList: [
       {
         name: '微整形',
@@ -137,15 +137,21 @@ const visible = ref<boolean>(false)
 const showDrawer = () => {
 	visible.value = !visible.value
 }
-const handleClick = () => {
+const handleClick = (n) => {
+  const { subList = [] } = n
+  if (subList && subList.length) {
+    return false
+  }
 	visible.value = false
 }
 // 获取当前导航
 const currentPath = useRoute().path
+console.log('currentPath---', currentPath)
 const currentIndex = navList.findIndex(n => {
 	return n.url === currentPath
 })
 const subList = computed(() => {
+  console.log('currentIndex---', currentIndex)
 	return navList[currentIndex].subList || []
 })
 // 监听滚动
