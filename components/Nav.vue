@@ -48,14 +48,15 @@
 				<div class="content">
 					<div class="content-left">
 						<div class="content-left-item" v-for="(n, i) in navList" :key="i" @click="handleClick(n)">
-							<NuxtLink class="content-left-item--txt" :to="n.url">
-								{{n.name}}
-								<right-outlined class="content-left-item--icon" v-if="n.subList.length" />
-							</NuxtLink>
+							<div v-if="n.subList.length > 0" class="content-left-item--txt" :class="[currentRoute.indexOf(n.url) >= 0 ? 'active' : '']">
+                {{n.name}}
+                <right-outlined class="content-left-item--icon" v-if="n.subList.length" />
+              </div>
+              <NuxtLink v-else class="content-left-item--txt" :to="n.url">{{n.name}}</NuxtLink>
 						</div>
 					</div>
 					<div class="content-right">
-						<div class="content-right-item" v-for="(j, k) in subList" :key="k" @click="handleClick(j)">
+						<div class="content-right-item" v-for="(j, k) in subNav.list" :key="k" @click="handleClick(j)">
 							<NuxtLink class="content-right-item--txt" :to="j.url">
 								{{j.name}}
 							</NuxtLink>
@@ -69,6 +70,8 @@
 
 <script lang="ts" setup>
 // 导航数据
+import {ref} from "@vue/reactivity";
+
 const navList = reactive([
 	{
 		name: '首页',
@@ -87,17 +90,17 @@ const navList = reactive([
   },
   {
     name: '服务项目',
-    url: '/wzx',
+    url: 'fwxm',
     subList: [
       {
         name: '微整形',
-        url: '/wzx'
+        url: '/fwxm/wzx'
       },{
         name: 'TML美式',
-        url: '/TMLms'
+        url: '/fwxm/TMLms'
       },{
         name: '男性女乳',
-        url: '/nxnr'
+        url: '/fwxm/nxnr'
       }
     ]
   },
@@ -133,27 +136,36 @@ const mediaList = reactive([
 	}
 ])
 // H5导航
+const subNav = reactive({
+  list: []
+})
 const visible = ref<boolean>(false)
 const showDrawer = () => {
 	visible.value = !visible.value
 }
 const handleClick = (n) => {
-  const { subList = [] } = n
-  if (subList && subList.length) {
+  const { subList: list = [] } = n
+  if (list && list.length) {
+    subNav.list = list
     return false
   }
 	visible.value = false
 }
+// 获取当前路由
+const currentRoute = ref('')
+currentRoute.value = useRoute().path
 // 获取当前导航
-const currentPath = useRoute().path
-console.log('currentPath---', currentPath)
-const currentIndex = navList.findIndex(n => {
-	return n.url === currentPath
-})
-const subList = computed(() => {
-  console.log('currentIndex---', currentIndex)
-	return navList[currentIndex].subList || []
-})
+// const currentIndex = navList.findIndex(n => {
+// 	return n.url === currentPath
+// })
+// const subList = computed(() => {
+//   console.log('currentIndex---', currentIndex)
+//   if (currentIndex >= navList.length || currentIndex < 0) {
+//     return  []
+//   }
+//   const { subList = [] } = navList[currentIndex]
+// 	return subList
+// })
 // 监听滚动
 let scrollTop = ref(0)
 onMounted(() => {
@@ -270,6 +282,9 @@ onMounted(() => {
 						line-height: 48px;
 						@at-root &--txt {
 							color: #333333;
+              &.active {
+                color: #D6954F !important;
+              }
 						}
 						@at-root &--icon {
 							font-size: 16px;
