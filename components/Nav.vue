@@ -48,7 +48,7 @@
 				<div class="content">
 					<div class="content-left">
 						<div class="content-left-item" v-for="(n, i) in navList" :key="i" @click="handleClick(n)">
-							<div v-if="n.subList.length > 0" class="content-left-item--txt" :class="[currentRoute.indexOf(n.url) >= 0 ? 'active' : '']">
+							<div v-if="n.subList.length > 0" class="content-left-item--txt" :class="[currentRoute.indexOf(n.value) >= 0 ? 'active' : '']">
                 {{n.name}}
                 <right-outlined class="content-left-item--icon" v-if="n.subList.length" />
               </div>
@@ -76,30 +76,37 @@ const navList = reactive([
 	{
 		name: '首页',
 		url: '/',
+    value: 'index',
 		subList: []
 	},
   {
     name: '关于颜医生',
     url: '/gyys',
+    value: 'gyys',
     subList: []
   },
   {
     name: 'RFAL灵动雕塑',
     url: '/ldds',
+    value: 'ldds',
     subList: []
   },
   {
     name: '服务项目',
-    url: 'fwxm',
+    url: '/fwxm/wzx',
+    value: 'fwxm',
     subList: [
       {
         name: '微整形',
+        value: 'wzx',
         url: '/fwxm/wzx'
       },{
         name: 'TML美式',
+        value: 'TMLms',
         url: '/fwxm/TMLms'
       },{
         name: '男性女乳',
+        value: 'nxnr',
         url: '/fwxm/nxnr'
       }
     ]
@@ -117,6 +124,7 @@ const navList = reactive([
 	{
 		name: '联系咨询',
 		url: '/lxzx',
+    value: 'lxzx',
 		subList: []
 	}
 ])
@@ -141,31 +149,33 @@ const subNav = reactive({
 })
 const visible = ref<boolean>(false)
 const showDrawer = () => {
+  // 获取当前导航
+  currentRoute.value = useRoute().path
+  console.log('route---', useRoute())
+  const currentIndex = navList.findIndex(n => {
+    return currentRoute.value.indexOf(n.value) >= 0
+  })
+  console.log('currentIndex---', currentIndex)
+  // 设置子导航
+  if (currentIndex === -1) {
+    subNav.list = []
+  } else {
+    const { subList = [] } = navList[currentIndex]
+    subNav.list = subList
+  }
 	visible.value = !visible.value
 }
 const handleClick = (n) => {
   const { subList: list = [] } = n
   if (list && list.length) {
     subNav.list = list
-    return false
+  } else {
+    subNav.list = []
+    visible.value = false
   }
-	visible.value = false
 }
 // 获取当前路由
 const currentRoute = ref('')
-currentRoute.value = useRoute().path
-// 获取当前导航
-// const currentIndex = navList.findIndex(n => {
-// 	return n.url === currentPath
-// })
-// const subList = computed(() => {
-//   console.log('currentIndex---', currentIndex)
-//   if (currentIndex >= navList.length || currentIndex < 0) {
-//     return  []
-//   }
-//   const { subList = [] } = navList[currentIndex]
-// 	return subList
-// })
 // 监听滚动
 let scrollTop = ref(0)
 onMounted(() => {
@@ -303,6 +313,8 @@ onMounted(() => {
 						padding: 0 0 0 10px;
 						@at-root &--txt {
 							color: #333333;
+              display: inline-block;
+              width: 100%;
 						}
 					}
 				}
