@@ -11,7 +11,7 @@
 						v-else
 						overlayClassName="nav-dropdown"
 					>
-						<NuxtLink class="ant-dropdown-link nav-center-item--txt" @click.prevent :to="n.url">
+						<NuxtLink class="ant-dropdown-link nav-center-item--txt" :class="[currentRoute.indexOf(n.value) >= 0 ? 'active' : '']" @click.prevent :to="n.url">
 							{{n.name}}
 							<down-outlined style="font-size: 18px;color: #ffffff" class="arrow" />
 						</NuxtLink>
@@ -182,6 +182,15 @@ onMounted(() => {
 		console.log('scrollTop---', scrollTop.value)
 	})
 })
+const router = useRouter()
+console.log('router---', router)
+router.beforeEach((to, from, next) => {
+  console.log('to--', to)
+  console.log('from--', from)
+  console.log('next--', next)
+  currentRoute.value = to.path
+  next()
+})
 </script>
 
 <style lang="scss" scoped>
@@ -216,6 +225,9 @@ onMounted(() => {
 			@at-root &--txt {
 				color: #ffffff;
 				text-decoration: none;
+        &.active {
+          color: #D6954F !important;
+        }
 			}
 			.ant-dropdown-link {
 				display: flex;
