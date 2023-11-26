@@ -3,7 +3,7 @@
     <!--    pc版-->
     <div class="nxnr-pc">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/nxnr/nxnr-headImg-pc.png" alt="">
+      <img class="headImg" src="~/assets/images/nxnr/nxnr-headImg-pc.jpg" alt="">
 
       <!--      介绍部分-->
       <div class="introduce">
@@ -197,7 +197,7 @@
     <!--    h5版-->
     <div class="nxnr-h5">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/nxnr/nxnr-headImg-h5.png" alt="">
+      <img class="headImg" src="~/assets/images/nxnr/nxnr-headImg-h5.jpg" alt="">
 
       <!--      介绍部分-->
       <div class="introduce">

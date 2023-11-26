@@ -70,8 +70,6 @@
 
 <script lang="ts" setup>
 // 导航数据
-import {ref} from "@vue/reactivity";
-
 const navList = reactive([
 	{
 		name: '首页',
