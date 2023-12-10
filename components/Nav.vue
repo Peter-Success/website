@@ -109,16 +109,22 @@ const navList = reactive([
       }
     ]
   },
-  // {
-  //   name: '媒体报道',
-  //   url: '/mtbd',
-  //   subList: []
-  // },
-  // {
-  //   name: '美丽见证',
-  //   url: '/mljz',
-  //   subList: []
-  // },
+  {
+    name: '媒体报道',
+    url: '/mtbd',
+    subList: []
+  },
+  {
+    name: '美丽见证',
+    url: '/mljz',
+    subList: []
+  },
+
+  {
+    name: '颜医生专栏',
+    url: '/yszl',
+    subList: []
+  },
 	{
 		name: '联系咨询',
 		url: '/lxzx',

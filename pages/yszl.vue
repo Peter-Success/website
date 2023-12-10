@@ -1,20 +1,30 @@
 <template>
-  <div class="mljz">
+  <div class="yszl">
     <!--    PC版-->
-    <div class="mljz-pc">
+    <div class="yszl-pc">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/mljz/mljz-headImg-pc.jpg" alt="">
+      <img class="headImg" src="~/assets/images/yszl/yszl-headImg-pc.jpg" alt="">
+
+      <!--      分类-->
+      <ul class="apply">
+        <li class="apply-item title">全部(8)</li>
+        <li class="apply-item">注射相关(2)</li>
+        <li class="apply-item">医美科普(2)</li>
+        <li class="apply-item">抗衰相关(2)</li>
+        <li class="apply-item">脂肪相关(2)</li>
+        <li class="apply-item">男弱相关(2)</li>
+      </ul>
 
       <!--      案例部分-->
       <div class="caseBox">
         <div class="caseBox-title">
-          <div>脸部案例</div>
-          <span>Other</span>
+          <div>全部专栏</div>
+          <span>All</span>
         </div>
 
         <ul class="caseBox-itemBox">
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -29,7 +39,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -44,32 +54,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>胸腹部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -84,7 +69,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -99,32 +84,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>臀部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -139,77 +99,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>腿部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -227,20 +117,30 @@
     </div>
 
     <!--    移动版-->
-    <div class="mljz-h5">
+    <div class="yszl-h5">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/mljz/mljz-headImg-h5.jpg" alt="">
+      <img class="headImg" src="~/assets/images/yszl/yszl-headImg-h5.jpg" alt="">
+
+      <!--      分类-->
+      <ul class="apply">
+        <li class="apply-item title">全部(8)</li>
+        <li class="apply-item">注射相关(2)</li>
+        <li class="apply-item">医美科普(2)</li>
+        <li class="apply-item">抗衰相关(2)</li>
+        <li class="apply-item">脂肪相关(2)</li>
+        <li class="apply-item">男弱相关(2)</li>
+      </ul>
 
       <!--      案例部分-->
       <div class="caseBox">
         <div class="caseBox-title">
-          <div>脸部案例</div>
-          <span>Other</span>
+          <div>全部专栏</div>
+          <span>All</span>
         </div>
 
         <ul class="caseBox-itemBox">
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -255,7 +155,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -270,32 +170,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>胸腹部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -310,7 +185,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -325,32 +200,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>臀部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -365,77 +215,7 @@
           </li>
 
           <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-        </ul>
-      </div>
-
-      <!--      案例部分-->
-      <div class="caseBox">
-        <div class="caseBox-title">
-          <div>腿部案例</div>
-          <span>Other</span>
-        </div>
-
-        <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
-
-            <div class="titleBox">
-              <div>张女士：</div>
-              <span>- 享受美体的快乐…</span>
-            </div>
-
-            <div class="date">20023–4-10</div>
-
-            <div class="content">美国美容整形手术学院AICPS讲师韩国美容外科协會讲师东方国际美容外科协会讲师.</div>
-
-            <div class="btn">阅读更多</div>
-          </li>
-
-          <li class="caseBox-itemBox-item">
-            <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
+            <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
               <div>张女士：</div>
@@ -456,12 +236,12 @@
 
 <script>
 export default {
-  name: 'mljz'
+  name: 'yszl'
 }
 </script>
 
 <style lang="scss" scoped>
-.mljz {
+.yszl {
   background: #FFFFFF;
   font-size: 12px;
   line-height: 1.2;
@@ -475,6 +255,30 @@ export default {
       width: 100%;
       height: auto;
       vertical-align: middle;
+    }
+
+    //分类
+    .apply {
+      padding: 30px 360px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #E8E8E8;
+
+      @at-root &-item {
+        width: 140px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        background: #EAEAEA;
+        font-size: 13px;
+        color: #909494;
+        margin-right: 20px;
+      }
+
+      .title {
+        background: #BABABA;
+        color: #FFFFFF;
+      }
     }
 
     //案例部分
@@ -502,6 +306,7 @@ export default {
 
         @at-root &-item {
           width: 360px;
+          margin-bottom: 30px;
 
           img {
             width: 100%;
@@ -561,6 +366,32 @@ export default {
       width: 100%;
       height: auto;
       vertical-align: middle;
+    }
+
+    //分类
+    .apply {
+      padding: 10px 20px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @at-root &-item {
+        flex-shrink: 0;
+        width: 105px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        background: #EAEAEA;
+        font-size: 13px;
+        color: #909494;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        background: #BABABA;
+        color: #FFFFFF;
+      }
     }
 
     //案例部分
@@ -635,7 +466,7 @@ export default {
 }
 
 @media (max-width: 576px) {
-  .mljz {
+  .yszl {
     @at-root &-pc {
       display: none;
     }
