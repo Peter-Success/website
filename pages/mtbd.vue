@@ -9,7 +9,7 @@
       <div class="listBox">
         <div class="listBox-title">媒体报道</div>
         <ul class="listBox-itemBox">
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -23,7 +23,7 @@
             </div>
           </li>
 
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -37,7 +37,7 @@
             </div>
           </li>
 
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -63,7 +63,7 @@
       <div class="listBox">
         <div class="listBox-title">媒体报道</div>
         <ul class="listBox-itemBox">
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -77,7 +77,7 @@
             </div>
           </li>
 
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -91,7 +91,7 @@
             </div>
           </li>
 
-          <li class="listBox-itemBox-item">
+          <li @click="gotoDetail" class="listBox-itemBox-item">
             <img class="image" src="~/assets/images/mtbd/mtbd-item-img.png" alt="">
 
             <div class="textBox">
@@ -111,8 +111,18 @@
 </template>
 
 <script>
+import {navigateTo} from "nuxt/app";
+
 export default {
-  name: 'mtbd'
+  name: 'mtbd',
+
+  methods: {
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
+      })
+    }
+  }
 }
 </script>
 

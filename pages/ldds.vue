@@ -119,7 +119,7 @@
         </div>
 
         <ul class="contrast-itemBox">
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db1.png" alt="">
             <div>抗衰紧致黑科技-巧变“精英”美容术</div>
             <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
@@ -129,7 +129,7 @@
               <li>面部拉提</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db2.png" alt="">
             <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
             <span>嘟嘟肉bye-bye，恢复英气感</span>
@@ -139,7 +139,7 @@
               <li>发 腮</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db3.png" alt="">
             <div>男性也需要，油腻双下巴退散！</div>
             <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
@@ -149,7 +149,7 @@
               <li>面颈拉提</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db4.png" alt="">
             <div>男性也需要，油腻双下巴退散！</div>
             <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
@@ -336,7 +336,7 @@
               :space-between="0"
           >
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db1.png" alt="">
                 <div>抗衰紧致黑科技-巧变“精英”美容术</div>
                 <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
@@ -345,10 +345,10 @@
                   <li>瘦 脸</li>
                   <li>面部拉提</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db2.png" alt="">
                 <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
                 <span>嘟嘟肉bye-bye，恢复英气感</span>
@@ -357,10 +357,10 @@
                   <li>V脸神器</li>
                   <li>发 腮</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db3.png" alt="">
                 <div>男性也需要，油腻双下巴退散！</div>
                 <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
@@ -369,10 +369,10 @@
                   <li>赫本线</li>
                   <li>面颈拉提</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db4.png" alt="">
                 <div>男性也需要，油腻双下巴退散！</div>
                 <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
@@ -381,7 +381,7 @@
                   <li>赫本线</li>
                   <li>面颈拉提</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
           </swiper>
         </div>
@@ -456,10 +456,10 @@ export default {
   data() {
     return {
       questionList: [
-          {question: 'Q. 做一次收紧效果可以维持多久?', answer: '答：正常情况下3-5年。'},
-          {question: 'Q:恢复期多长时间?', answer: '答：隔天上班完全没问题，术后面部贴胶带72小时'},
-          {question: 'Q. 做的时候会不会很痛?', answer: '答：No! 跟看牙差不多，除了打麻药稍微有感，全程比7D还轻松'},
-          {question: 'Q:多久后可以做第二次RFAL灵动雕塑', answer: '答：1年后。'}
+        {question: 'Q. 做一次收紧效果可以维持多久?', answer: '答：正常情况下3-5年。'},
+        {question: 'Q:恢复期多长时间?', answer: '答：隔天上班完全没问题，术后面部贴胶带72小时'},
+        {question: 'Q. 做的时候会不会很痛?', answer: '答：No! 跟看牙差不多，除了打麻药稍微有感，全程比7D还轻松'},
+        {question: 'Q:多久后可以做第二次RFAL灵动雕塑', answer: '答：1年后。'}
       ]
     }
   },
@@ -474,6 +474,12 @@ export default {
     gotoLxzx() {
       navigateTo({
         path: "/lxzx"
+      })
+    },
+
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
       })
     }
   }

@@ -13,7 +13,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -28,7 +28,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -43,7 +43,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -68,7 +68,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -83,7 +83,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -98,7 +98,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -123,7 +123,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -138,7 +138,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -153,7 +153,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -178,7 +178,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -193,7 +193,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -208,7 +208,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -239,7 +239,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -254,7 +254,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -269,7 +269,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -294,7 +294,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -309,7 +309,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -324,7 +324,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -349,7 +349,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -364,7 +364,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -379,7 +379,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -404,7 +404,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -419,7 +419,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -434,7 +434,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/mljz/mljz-1-1.png" alt="">
 
             <div class="titleBox">
@@ -455,8 +455,18 @@
 </template>
 
 <script>
+import {navigateTo} from "nuxt/app";
+
 export default {
-  name: 'mljz'
+  name: 'mljz',
+
+  methods: {
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
+      })
+    }
+  }
 }
 </script>
 

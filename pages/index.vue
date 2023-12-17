@@ -11,10 +11,10 @@
       <swiper-slide>
         <a-row>
           <a-col :xs="0" :sm="24">
-            <img src="~/assets/images/index/index-banner-pc.jpg" alt="">
+            <img @click="gotoGyys" src="~/assets/images/index/index-banner-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/index/index-banner-h5.png" alt="">
+            <img @click="gotoGyys" src="~/assets/images/index/index-banner-h5.png" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -111,7 +111,7 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-0.jpg" alt="">
               </div>
@@ -125,7 +125,7 @@
                 <div class="content-item-tag--item">瘦脸</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-1.jpg" alt="">
               </div>
@@ -139,7 +139,7 @@
                 <div class="content-item-tag--item">液态隆鼻</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-2.jpg" alt="">
               </div>
@@ -153,7 +153,7 @@
                 <div class="content-item-tag--item">法令纹</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-3.jpg" alt="">
               </div>
@@ -174,7 +174,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-0.jpg" alt="">
                   </div>
@@ -190,7 +190,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-1.jpg" alt="">
                   </div>
@@ -206,7 +206,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-2.jpg" alt="">
                   </div>
@@ -222,7 +222,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-3.jpg" alt="">
                   </div>
@@ -248,7 +248,7 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-0.jpg" alt="">
               </div>
@@ -262,7 +262,7 @@
                 <div class="content-item-tag--item">全程清醒</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-1.jpg" alt="">
               </div>
@@ -276,7 +276,7 @@
                 <div class="content-item-tag--item">面部拉提</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-2.jpg" alt="">
               </div>
@@ -290,7 +290,7 @@
                 <div class="content-item-tag--item">发腮</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-3.jpg" alt="">
               </div>
@@ -311,7 +311,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-0.jpg" alt="">
                   </div>
@@ -327,7 +327,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-1.jpg" alt="">
                   </div>
@@ -343,7 +343,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-2.jpg" alt="">
                   </div>
@@ -359,7 +359,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-3.jpg" alt="">
                   </div>
@@ -385,7 +385,7 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-0.jpg" alt="">
               </div>
@@ -399,7 +399,7 @@
                 <div class="content-item-tag--item">随做随走</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-1.jpg" alt="">
               </div>
@@ -413,7 +413,7 @@
                 <div class="content-item-tag--item">副乳祛除</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-2.png" alt="">
               </div>
@@ -427,7 +427,7 @@
                 <div class="content-item-tag--item">蜜桃臀</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-3.jpg" alt="">
               </div>
@@ -448,7 +448,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-0.jpg" alt="">
                   </div>
@@ -464,7 +464,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-1.jpg" alt="">
                   </div>
@@ -480,7 +480,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-2.png" alt="">
                   </div>
@@ -496,7 +496,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-3.jpg" alt="">
                   </div>
@@ -517,12 +517,12 @@
         <div class="index-three-list--item">
           <div class="title">
             <div class="left">
-              <div class="big">美式微创男乳祛除术 </div>
+              <div class="big">美式微创男乳祛除术</div>
               <div class="small">Scarless Breast Removal</div>
             </div>
           </div>
           <div class="content">
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-3-0.jpg" alt="">
               </div>
@@ -535,7 +535,7 @@
                 <div class="content-item-tag--item">无痕治疗</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-3-1.png" alt="">
               </div>
@@ -548,7 +548,7 @@
                 <div class="content-item-tag--item">微创精雕</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-3-2.png" alt="">
               </div>
@@ -561,7 +561,7 @@
                 <div class="content-item-tag--item">男性女乳</div>
               </div>
             </div>
-            <div class="content-item">
+            <div @click="gotoDetail" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-3-3.png" alt="">
               </div>
@@ -581,7 +581,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-3-0.jpg" alt="">
                   </div>
@@ -596,7 +596,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-3-1.png" alt="">
                   </div>
@@ -611,7 +611,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-3-2.png" alt="">
                   </div>
@@ -626,7 +626,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div class="content-item-h5">
+                <div @click="gotoDetail" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-3-3.png" alt="">
                   </div>
@@ -684,29 +684,29 @@
       </ul>
 
       <a-row class="index-four-content">
-        <a-col class="index-four-content_item" :xs="24" :sm="12">
+        <a-col @click="gotoDetail" class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
             <img src="~/assets/images/index/four-text1.jpg" alt="">
           </div>
           <div class="index-four-content_item--title">
             <div class="left">《荷兰金融报》采访-中国消费群体的审美转型</div>
-<!--            <div class="right">- 享受美体的快乐…</div>-->
+            <!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年2月19日  作者terry yan</div>
+          <div class="index-four-content_item--time">2022年2月19日 作者terry yan</div>
           <div class="index-four-content_item--txt">
             颜士钧医师接受《荷兰金融报》（Het Financieele Dagblad）採访，介绍中国消费群体的审美转型
           </div>
           <div class="index-four-content_item--btn">阅读更多</div>
         </a-col>
-        <a-col class="index-four-content_item" :xs="24" :sm="12">
+        <a-col @click="gotoDetail" class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
             <img src="~/assets/images/index/four-text2.jpg" alt="">
           </div>
           <div class="index-four-content_item--title">
-            <div class="left">全网热搜 《纯纯甘 整形医师的一天》 </div>
-<!--            <div class="right">- 享受美体的快乐…</div>-->
+            <div class="left">全网热搜 《纯纯甘 整形医师的一天》</div>
+            <!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年10月23日  作者：浮生一日</div>
+          <div class="index-four-content_item--time">2022年10月23日 作者：浮生一日</div>
           <div class="index-four-content_item--txt">
             【浮生一日】北京整形医生颜士钧的真实一天。，一个台湾长大，美国做医学研究，北京工作的整形外科医生。一直在深造一直在加班；也和大多数北漂一样，他租住在单身公寓里，怀揣着很大的梦想。跟他一起揭开医美行业更真实的一面吧。
           </div>
@@ -780,6 +780,18 @@ export default {
     gotoLxzx() {
       navigateTo({
         path: "/lxzx"
+      })
+    },
+
+    gotoGyys() {
+      navigateTo({
+        path: "/gyys"
+      })
+    },
+
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
       })
     }
   }
@@ -1400,6 +1412,7 @@ export default {
               .content-item-h5-txt {
                 width: 282px;
               }
+
               .content-item-h5-txt--bottom {
                 height: 36px;
               }

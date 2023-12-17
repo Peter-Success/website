@@ -23,7 +23,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -38,7 +38,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -53,7 +53,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -68,7 +68,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -83,7 +83,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -98,7 +98,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -139,7 +139,7 @@
         </div>
 
         <ul class="caseBox-itemBox">
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -154,7 +154,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -169,7 +169,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -184,7 +184,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -199,7 +199,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -214,7 +214,7 @@
             <div class="btn">阅读更多</div>
           </li>
 
-          <li class="caseBox-itemBox-item">
+          <li @click="gotoDetail" class="caseBox-itemBox-item">
             <img src="~/assets/images/yszl/yszl-1-1.png" alt="">
 
             <div class="titleBox">
@@ -235,8 +235,18 @@
 </template>
 
 <script>
+import {navigateTo} from "nuxt/app";
+
 export default {
-  name: 'yszl'
+  name: 'yszl',
+
+  methods: {
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
+      })
+    }
+  }
 }
 </script>
 

@@ -102,7 +102,7 @@
         </div>
 
         <ul class="contrast-itemBox">
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg1.png" alt="">
             <div>为什么我是男人却有大胸部？</div>
             <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
@@ -111,7 +111,7 @@
               <li>无痕治疗</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg2.png" alt="">
             <div>不瞒你说，男人也有罩杯的烦恼</div>
             <span>文青艺术男体验美式微创男乳祛除术</span>
@@ -120,7 +120,7 @@
               <li>微创精雕</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg3.png" alt="">
             <div>告别宽松衣物，让你抬头挺胸</div>
             <span>药商高管美式微创男乳祛除术初体验</span>
@@ -129,7 +129,7 @@
               <li>男性女乳</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg4.png" alt="">
             <div>健身真的能“瘦胸”吗？</div>
             <span>健身达人体验美式微创男乳祛除术</span>
@@ -300,7 +300,7 @@
               :space-between="0"
           >
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg1.png" alt="">
                 <div>为什么我是男人却有大胸部？</div>
                 <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
@@ -308,10 +308,10 @@
                   <li>男性女乳</li>
                   <li>无痕治疗</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg2.png" alt="">
                 <div>不瞒你说，男人也有罩杯的烦恼</div>
                 <span>文青艺术男体验美式微创男乳祛除术</span>
@@ -319,10 +319,10 @@
                   <li>男性女乳</li>
                   <li>微创精雕</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg3.png" alt="">
                 <div>告别宽松衣物，让你抬头挺胸</div>
                 <span>药商高管美式微创男乳祛除术初体验</span>
@@ -330,10 +330,10 @@
                   <li>无痕治疗</li>
                   <li>男性女乳</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
             <swiper-slide>
-              <li class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg4.png" alt="">
                 <div>健身真的能“瘦胸”吗？</div>
                 <span>健身达人体验美式微创男乳祛除术</span>
@@ -341,7 +341,7 @@
                   <li>无痕治疗</li>
                   <li>健身达人</li>
                 </ul>
-              </li>
+              </div>
             </swiper-slide>
           </swiper>
         </div>
@@ -405,6 +405,7 @@ import {Swiper, SwiperSlide} from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import Unfold from '~/components/Unfold.vue'
+import {navigateTo} from "nuxt/app";
 
 export default {
   name: "nxnr",
@@ -413,6 +414,14 @@ export default {
     Swiper,
     SwiperSlide,
     Unfold
+  },
+
+  methods: {
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
+      })
+    }
   }
 }
 </script>

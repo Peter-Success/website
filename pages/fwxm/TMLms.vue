@@ -114,7 +114,7 @@
         </div>
 
         <ul class="contrast-itemBox">
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg1.png" alt="">
             <div>公认为最安全且有效的形体雕塑方式</div>
             <span>TML美式显微脂肪雕塑源自美国，借由移除你身体里面的不完美，雕刻出被埋藏的曼妙的形体。</span>
@@ -124,7 +124,7 @@
               <li>随做随走</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg2.png" alt="">
             <div>显微副乳祛除</div>
             <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
@@ -134,7 +134,7 @@
               <li>副乳祛除</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg3.png" alt="">
             <div>显微臀腿部雕塑</div>
             <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
@@ -144,7 +144,7 @@
               <li>蜜桃臀</li>
             </ul>
           </li>
-          <li class="contrast-itemBox-item">
+          <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg4.png" alt="">
             <div>精致身型打造</div>
             <span>告别圣诞树身型，让你的肉肉们再也不勒！</span>
@@ -316,7 +316,7 @@
               :space-between="0"
           >
             <swiper-slide>
-              <div class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg1.png" alt="">
                 <div>公认为最安全有效的雕塑方式</div>
                 <span>TML美式显微脂肪雕塑源自美国，借由移除你身体里面的不完美，雕刻出被埋藏的曼妙的形体。</span>
@@ -328,7 +328,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg2.png" alt="">
                 <div>显微副乳祛除</div>
                 <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
@@ -340,7 +340,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg3.png" alt="">
                 <div>显微臀腿部雕塑</div>
                 <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
@@ -352,7 +352,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="contrast-itemBox-item">
+              <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg4.png" alt="">
                 <div>精致身型打造</div>
                 <span>告别圣诞树身型，让你的肉肉们再也不勒！</span>
@@ -418,6 +418,7 @@ import {Swiper, SwiperSlide} from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import Unfold from '~/components/Unfold.vue'
+import {navigateTo} from "nuxt/app";
 
 export default {
   name: "TMLms",
@@ -454,6 +455,14 @@ export default {
       ]
     }
   },
+
+  methods: {
+    gotoDetail() {
+      navigateTo({
+        path: "/articleDetails"
+      })
+    }
+  }
 }
 </script>
 
