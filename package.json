@@ -19,6 +19,7 @@
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.20",
     "normalize.css": "^8.0.1",
-    "swiper": "^10.0.4"
+    "swiper": "^10.0.4",
+    "xgplayer": "^3.0.10"
   }
 }

@@ -18,11 +18,11 @@
 
       <!--      文章视频或图片-->
       <div class="mediaBox">
+        <!--        图片部分-->
         <img class="mediaBox-img" src="~/assets/images/detail/detail-img.png" alt="">
 
-        <div>
-          <!--          视频占位-->
-        </div>
+        <!--        视频部分-->
+        <div></div>
       </div>
 
       <!--      文章内容部分-->
