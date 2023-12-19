@@ -102,7 +102,7 @@ const navList = reactive([
         url: '/fwxm/nxnr'
       },{
         name: 'RFAL灵动雕塑',
-        url: '/ldds',
+        url: '/fwxm/ldds',
         value: 'ldds',
       }
     ]
