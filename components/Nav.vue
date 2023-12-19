@@ -84,12 +84,6 @@ const navList = reactive([
     subList: []
   },
   {
-    name: 'RFAL灵动雕塑',
-    url: '/ldds',
-    value: 'ldds',
-    subList: []
-  },
-  {
     name: '服务项目',
     url: '/fwxm/wzx',
     value: 'fwxm',
@@ -106,6 +100,10 @@ const navList = reactive([
         name: '男性女乳',
         value: 'nxnr',
         url: '/fwxm/nxnr'
+      },{
+        name: 'RFAL灵动雕塑',
+        url: '/ldds',
+        value: 'ldds',
       }
     ]
   },
