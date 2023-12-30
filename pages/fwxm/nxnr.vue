@@ -13,7 +13,7 @@
         </div>
         <div class="introduce-contentBox">
           <div class="introduce-contentBox-itemBox">
-            <img src="~/assets/images/nxnr/nxnr-jsImg1.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-jsImg1.jpg" alt="">
             <div class="textBox">
               <div class="textBox-title">美式微创男乳祛除术介绍</div>
               <p>医学上将男生胸大的症状称为“男性女乳症（Gynecomastia）是一种非常常见的病症，据流行病学研究显示，3 个男性就有 1 人有此症状，且其中
@@ -24,7 +24,7 @@
           </div>
 
           <div class="introduce-contentBox-itemBox">
-            <img src="~/assets/images/nxnr/nxnr-jsImg2.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-jsImg2.jpg" alt="">
             <div class="textBox">
               <div class="textBox-title">颜医生论文《男性乳房发育症的手术治疗新趋势》</div>
               <p>2016年，颜医生相关论文《男性乳房发育症的手术治疗新趋势》被中国整型美容外科杂志收录发表。</p>
@@ -38,7 +38,7 @@
 
       <!--      博士-->
       <div class="doctor">
-        <img src="~/assets/images/nxnr/nxnr-jcImg.png" alt="">
+        <img src="~/assets/images/nxnr/nxnr-jcImg.jpg" alt="">
 
         <div class="doctor-textBox">
           <div class="nameBox">
@@ -53,7 +53,7 @@
         <div class="advantage-title">优势特点</div>
 
         <div class="advantage-textBox">
-          <img src="~/assets/images/nxnr/nxnr-ys1.png" alt="">
+          <img src="~/assets/images/nxnr/nxnr-ys1.jpg" alt="">
           <div class="advantage-textBox-text">
             <div class="title">与传统手术对比</div>
             <p>
@@ -65,33 +65,33 @@
 
         <ul class="advantage-listBox">
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon1.jpg" alt="">
             <div>安全无痛</div>
             <p>相较于需要全身麻醉的传统男乳手术，安全系数大大提高，治疗只需采用局部麻醉，过程轻松无负担。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon2.jpg" alt="">
             <div>恢复更快、生活工作两不误</div>
             <p>传统男乳手术后要住院，伤口照护繁琐、可能有伤口撕裂、感染等术后并发症；而美式微创男乳祛除术只有一个针眼大小的微创伤口，随做随走，护理非常简单，术后第二天可轻松复工。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon3.jpg" alt="">
             <div>免塑身衣</div>
             <p>由于美式微创男乳祛除术伤口只有针眼大小，不易留疤，一般过半年到一年左右几乎找不到手术痕迹。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon4.jpg" alt="">
             <div>乳腺不易再生</div>
             <p>乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon5.jpg" alt="">
             <div>不留疤痕</div>
             <p>由于美式微创男乳祛除术伤口只有针眼大小，不易留疤，一般过半年到一年左右几乎找不到手术痕迹。</p>
           </li>
         </ul>
 
-        <img class="advantage-tableImg" src="~/assets/images/nxnr/nxnr-ys2.png" alt="">
+        <img class="advantage-tableImg" src="~/assets/images/nxnr/nxnr-ys2.jpg" alt="">
       </div>
 
       <!--      对比部分-->
@@ -103,7 +103,7 @@
 
         <ul class="contrast-itemBox">
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/nxnr/nxnr-dbImg1.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-dbImg1.jpg" alt="">
             <div>为什么我是男人却有大胸部？</div>
             <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
             <ul class="contrast-itemBox-tagBox">
@@ -112,7 +112,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/nxnr/nxnr-dbImg2.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-dbImg2.jpg" alt="">
             <div>不瞒你说，男人也有罩杯的烦恼</div>
             <span>文青艺术男体验美式微创男乳祛除术</span>
             <ul class="contrast-itemBox-tagBox">
@@ -121,7 +121,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/nxnr/nxnr-dbImg3.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-dbImg3.jpg" alt="">
             <div>告别宽松衣物，让你抬头挺胸</div>
             <span>药商高管美式微创男乳祛除术初体验</span>
             <ul class="contrast-itemBox-tagBox">
@@ -130,7 +130,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/nxnr/nxnr-dbImg4.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-dbImg4.jpg" alt="">
             <div>健身真的能“瘦胸”吗？</div>
             <span>健身达人体验美式微创男乳祛除术</span>
             <ul class="contrast-itemBox-tagBox">
@@ -165,7 +165,7 @@
             6.术后通常会有胸前皮肤可能会有暂时感觉迟钝、麻木等状况，依个人状况需要3-6个月恢复，实际时间因人而异。
           </p>
         </div>
-        <img class="notice-img" src="~/assets/images/nxnr/nxnr-zyImg.png" alt="">
+        <img class="notice-img" src="~/assets/images/nxnr/nxnr-zyImg.jpg" alt="">
       </div>
 
       <!--      特色服务-->
@@ -177,20 +177,20 @@
 
         <ul class="serve-contentBox">
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu1.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu1.jpg" alt="">
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu2.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu2.jpg" alt="">
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu3.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu3.jpg" alt="">
           </li>
         </ul>
       </div>
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
 
@@ -207,7 +207,7 @@
         </div>
         <div class="introduce-contentBox">
           <div class="introduce-contentBox-itemBox">
-            <img src="~/assets/images/nxnr/nxnr-jsImg1.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-jsImg1.jpg" alt="">
             <div class="textBox">
               <div class="textBox-title">美式微创男乳祛除术介绍</div>
               <p>医学上将男生胸大的症状称为“男性女乳症（Gynecomastia）是一种非常常见的病症，据流行病学研究显示，3 个男性就有 1 人有此症状，且其中
@@ -218,7 +218,7 @@
           </div>
 
           <div class="introduce-contentBox-itemBox">
-            <img src="~/assets/images/nxnr/nxnr-jsImg2.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-jsImg2.jpg" alt="">
             <div class="textBox">
               <div class="textBox-title">颜医生论文《男性乳房发育症的手术治疗新趋势》</div>
               <p>2016年，颜医生相关论文《男性乳房发育症的手术治疗新趋势》被中国整型美容外科杂志收录发表。</p>
@@ -236,7 +236,7 @@
           <div>男性女乳发育症的自我检查</div>
         </div>
 
-        <img src="~/assets/images/nxnr/nxnr-jcImg.png" alt="">
+        <img src="~/assets/images/nxnr/nxnr-jcImg.jpg" alt="">
 
         <p>临床的客观标准会是先检视自己的胸部外观大小，用食指与拇指捏起乳晕部分，若是捏起的厚度超过2公分（或厚度大于腋下皮肤），并在乳晕周围摸到圆盘状硬Ｑ、有弹性的乳腺组织，很有可能就是男性女乳症的问题。</p>
       </div>
@@ -246,7 +246,7 @@
         <div class="advantage-title">优势特点</div>
 
         <div class="advantage-textBox">
-          <img src="~/assets/images/nxnr/nxnr-ys1.png" alt="">
+          <img src="~/assets/images/nxnr/nxnr-ys1.jpg" alt="">
           <div class="advantage-textBox-text">
             <div class="title">与传统手术对比</div>
             <p>
@@ -258,33 +258,33 @@
 
         <ul class="advantage-listBox">
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon1.jpg" alt="">
             <div>安全无痛</div>
             <p>相较于需要全身麻醉的传统男乳手术，安全系数大大提高，治疗只需采用局部麻醉，过程轻松无负担。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon2.jpg" alt="">
             <div>恢复更快、生活工作两不误</div>
             <p>传统男乳手术后要住院，伤口照护繁琐、可能有伤口撕裂、感染等术后并发症；而美式微创男乳祛除术只有一个针眼大小的微创伤口，随做随走，护理非常简单，术后第二天可轻松复工。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon3.jpg" alt="">
             <div>免塑身衣</div>
             <p>由于美式微创男乳祛除术伤口只有针眼大小，不易留疤，一般过半年到一年左右几乎找不到手术痕迹。</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon4.jpg" alt="">
             <div>乳腺不易再生</div>
             <p>乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生</p>
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-ysIcon.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-ysIcon5.jpg" alt="">
             <div>不留疤痕</div>
             <p>由于美式微创男乳祛除术伤口只有针眼大小，不易留疤，一般过半年到一年左右几乎找不到手术痕迹。</p>
           </li>
         </ul>
 
-        <img class="advantage-tableImg" src="~/assets/images/nxnr/nxnr-ys2.png" alt="">
+        <img class="advantage-tableImg" src="~/assets/images/nxnr/nxnr-ys2.jpg" alt="">
       </div>
 
       <!--      对比部分-->
@@ -301,7 +301,7 @@
           >
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/nxnr/nxnr-dbImg1.png" alt="">
+                <img src="~/assets/images/nxnr/nxnr-dbImg1.jpg" alt="">
                 <div>为什么我是男人却有大胸部？</div>
                 <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -312,7 +312,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/nxnr/nxnr-dbImg2.png" alt="">
+                <img src="~/assets/images/nxnr/nxnr-dbImg2.jpg" alt="">
                 <div>不瞒你说，男人也有罩杯的烦恼</div>
                 <span>文青艺术男体验美式微创男乳祛除术</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -323,7 +323,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/nxnr/nxnr-dbImg3.png" alt="">
+                <img src="~/assets/images/nxnr/nxnr-dbImg3.jpg" alt="">
                 <div>告别宽松衣物，让你抬头挺胸</div>
                 <span>药商高管美式微创男乳祛除术初体验</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -334,7 +334,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/nxnr/nxnr-dbImg4.png" alt="">
+                <img src="~/assets/images/nxnr/nxnr-dbImg4.jpg" alt="">
                 <div>健身真的能“瘦胸”吗？</div>
                 <span>健身达人体验美式微创男乳祛除术</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -351,7 +351,7 @@
       <div class="notice">
         <div class="notice-title">术后注意事项</div>
 
-        <img class="notice-img" src="~/assets/images/nxnr/nxnr-zyImg.png" alt="">
+        <img class="notice-img" src="~/assets/images/nxnr/nxnr-zyImg.jpg" alt="">
 
         <div class="notice-textBox">
           <p>
@@ -381,20 +381,20 @@
 
         <ul class="serve-contentBox">
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu1.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu1.jpg" alt="">
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu2.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu2.jpg" alt="">
           </li>
           <li>
-            <img src="~/assets/images/nxnr/nxnr-fu3.png" alt="">
+            <img src="~/assets/images/nxnr/nxnr-fu3.jpg" alt="">
           </li>
         </ul>
       </div>
 
       <!--      问答-->
       <div class="question">
-        <Unfold></Unfold>
+        <Unfold :list="questionList"></Unfold>
       </div>
     </div>
   </div>
@@ -414,6 +414,37 @@ export default {
     Swiper,
     SwiperSlide,
     Unfold
+  },
+
+  data() {
+    return {
+      questionList: [
+        {
+          question: 'Q.什么是男性女乳症？',
+          answer: '答：增生注射后能运动么？增生注射后能运动么？增生注射后能运动么？增生注射后能运动么？增生注射后能运动么？增生注射后能运动么？增生注射后能运动么？增生注射后能运动么'
+        },
+        {
+          question: 'Q.男性女乳症可以靠健身运动或减肥瘦身解决吗？',
+          answer: '答：'
+        },
+        {
+          question: 'Q.造成男性女乳症的原因有哪些？',
+          answer: '答：'
+        },
+        {
+          question: 'Q.哪些因素也可能造成男性女乳症？',
+          answer: '答：'
+        },
+        {
+          question: 'Q.男性女乳症会复发吗？',
+          answer: '答：'
+        },
+        {
+          question: 'Q.男性女乳症会复发吗？',
+          answer: '答：'
+        }
+      ]
+    }
   },
 
   methods: {
