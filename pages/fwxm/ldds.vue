@@ -3,7 +3,7 @@
     <!--    pc版-->
     <div class="ldds-pc">
       <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/ldds/ldds-headImg-pc.png" alt="">
+      <img class="headImg" src="~/assets/images/ldds/ldds-headImg-pc.jpg" alt="">
 
       <!--      适用人群及项目-->
       <ul class="apply">
@@ -19,7 +19,7 @@
       <!--      咨询部分-->
       <div class="consult">
         <div class="consult-topBox">
-          <img class="consult-topBox-img" src="~/assets/images/ldds/ldds-zxImg.png" alt="">
+          <img class="consult-topBox-img" src="~/assets/images/ldds/ldds-zxImg.jpg" alt="">
           <div class="consult-topBox-textBox">
             <div class="title">紧肤溶脂提升一次搞定</div>
             <p>
@@ -36,19 +36,19 @@
 
         <ul class="consult-bottomBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist1.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist1.jpg" alt="">
             <div>面部精雕</div>
             <span>解决发腮、垮脸、双下巴，打造下颌线，精准溶解眼袋、嘴角、下苹果肌、法令纹脂肪。</span>
           </li>
 
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist2.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist2.jpg" alt="">
             <div>皮肤紧致拉提</div>
             <span>引发自然再生反应, 刺激新的生长胶原蛋白，达到平滑和紧致提升肌肤、减少细纹和皱纹。</span>
           </li>
 
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist3.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist3.jpg" alt="">
             <div>雕塑精细部位</div>
             <span>收紧副乳、腋下赘肉、蝴蝶袖、腹部松弛、膝盖及手部，改善妊娠纹、肥胖纹及橘皮。</span>
           </li>
@@ -61,23 +61,23 @@
 
         <ul class="recommend-listBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-tj1.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj1.jpg" alt="">
             <div>Kim Kardashian</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj2.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj2.jpg" alt="">
             <div>Kourtney Kardashian</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj3.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj3.jpg" alt="">
             <div>Chrissy Teigen</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj4.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj4.jpg" alt="">
             <div>Shay Mitchell</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj5.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj5.jpg" alt="">
             <div>Paula Abdul</div>
           </li>
         </ul>
@@ -85,26 +85,26 @@
 
       <!--      为什么选择部分-->
       <div class="select">
-        <img class="select-img" src="~/assets/images/ldds/ldds-xzImg.png" alt="">
+        <img class="select-img" src="~/assets/images/ldds/ldds-xzImg.jpg" alt="">
 
         <ul class="select-itemBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon1.jpg" alt="">
             <div>紧肤溶脂提升一次搞定</div>
             <span>Embrace RF犹如新型热玛吉，除了收紧皮肤外，可以精确作用于皮下脂肪层、筋膜与纤维隔，同时达到溶脂、提升紧致和胶原再生的多重效果。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon2.jpg" alt="">
             <div>效果更持久</div>
             <span>在治疗的过程中刺激和诱导胶原蛋白的再生与重组，有效地使肌肤质地改善。相较于其他紧致治疗，效果也会维持更久，做一次可维持3-5年。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon3.jpg" alt="">
             <div>更安全可靠</div>
             <span>装载 A. C. E 实时温度监控、TSP 温度浪涌保护等技术，温度更加温和，在满足效果的同时，更为安全高效。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon4.jpg" alt="">
             <div>微创更方便</div>
             <span>皮肤仅有抽血针孔大小的伤口，随做随走，术后恢复快，非常适合996的上班族。</span>
           </li>
@@ -120,7 +120,7 @@
 
         <ul class="contrast-itemBox">
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db1.png" alt="">
+            <img src="~/assets/images/ldds/ldds-db1.jpg" alt="">
             <div>抗衰紧致黑科技-巧变“精英”美容术</div>
             <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
             <ul class="contrast-itemBox-tagBox">
@@ -130,7 +130,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db2.png" alt="">
+            <img src="~/assets/images/ldds/ldds-db2.jpg" alt="">
             <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
             <span>嘟嘟肉bye-bye，恢复英气感</span>
             <ul class="contrast-itemBox-tagBox">
@@ -140,7 +140,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db3.png" alt="">
+            <img src="~/assets/images/ldds/ldds-db3.jpg" alt="">
             <div>男性也需要，油腻双下巴退散！</div>
             <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
             <ul class="contrast-itemBox-tagBox">
@@ -150,7 +150,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/ldds/ldds-db4.png" alt="">
+            <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
             <div>男性也需要，油腻双下巴退散！</div>
             <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
             <ul class="contrast-itemBox-tagBox">
@@ -188,7 +188,7 @@
             ·如您有任何不了解的问题或疑惑，请不要迟疑，随时与我们联系。
           </p>
         </div>
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.jpg" alt="">
       </div>
 
       <!--      特色服务-->
@@ -233,7 +233,7 @@
       <!--      咨询部分-->
       <div class="consult">
         <div class="consult-topBox">
-          <img class="consult-topBox-img" src="~/assets/images/ldds/ldds-zxImg.png" alt="">
+          <img class="consult-topBox-img" src="~/assets/images/ldds/ldds-zxImg.jpg" alt="">
           <div class="consult-topBox-textBox">
             <div class="title">紧肤溶脂提升一次搞定</div>
             <p>
@@ -248,19 +248,19 @@
 
         <ul class="consult-bottomBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist1.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist1.jpg" alt="">
             <div>面部精雕</div>
             <span>解决发腮、垮脸、双下巴，打造下颌线，精准溶解眼袋、嘴角、下苹果肌、法令纹脂肪。</span>
           </li>
 
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist2.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist2.jpg" alt="">
             <div>皮肤紧致拉提</div>
             <span>引发自然再生反应, 刺激新的生长胶原蛋白，达到平滑和紧致提升肌肤、减少细纹和皱纹。</span>
           </li>
 
           <li>
-            <img src="~/assets/images/ldds/ldds-zxlist3.png" alt="">
+            <img src="~/assets/images/ldds/ldds-zxlist3.jpg" alt="">
             <div>雕塑精细部位</div>
             <span>收紧副乳、腋下赘肉、蝴蝶袖、腹部松弛、膝盖及手部，改善妊娠纹、肥胖纹及橘皮。</span>
           </li>
@@ -273,23 +273,23 @@
 
         <ul class="recommend-listBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-tj1.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj1.jpg" alt="">
             <div>Kim Kardashian</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj2.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj2.jpg" alt="">
             <div>Kourtney Kardashian</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj3.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj3.jpg" alt="">
             <div>Chrissy Teigen</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj4.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj4.jpg" alt="">
             <div>Shay Mitchell</div>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-tj5.png" alt="">
+            <img src="~/assets/images/ldds/ldds-tj5.jpg" alt="">
             <div>Paula Abdul</div>
           </li>
         </ul>
@@ -297,26 +297,26 @@
 
       <!--      为什么选择部分-->
       <div class="select">
-        <img class="select-img" src="~/assets/images/ldds/ldds-xzImg.png" alt="">
+        <img class="select-img" src="~/assets/images/ldds/ldds-xzImg.jpg" alt="">
 
         <ul class="select-itemBox">
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon1.jpg" alt="">
             <div>紧肤溶脂提升一次搞定</div>
             <span>Embrace RF犹如新型热玛吉，除了收紧皮肤外，可以精确作用于皮下脂肪层、筋膜与纤维隔，同时达到溶脂、提升紧致和胶原再生的多重效果。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon2.jpg" alt="">
             <div>效果更持久</div>
             <span>在治疗的过程中刺激和诱导胶原蛋白的再生与重组，有效地使肌肤质地改善。相较于其他紧致治疗，效果也会维持更久，做一次可维持3-5年。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon3.jpg" alt="">
             <div>更安全可靠</div>
             <span>装载 A. C. E 实时温度监控、TSP 温度浪涌保护等技术，温度更加温和，在满足效果的同时，更为安全高效。</span>
           </li>
           <li>
-            <img src="~/assets/images/ldds/ldds-xzIcon.png" alt="">
+            <img src="~/assets/images/ldds/ldds-xzIcon4.jpg" alt="">
             <div>微创更方便</div>
             <span>皮肤仅有抽血针孔大小的伤口，随做随走，术后恢复快，非常适合996的上班族。</span>
           </li>
@@ -337,7 +337,7 @@
           >
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/ldds/ldds-db1.png" alt="">
+                <img src="~/assets/images/ldds/ldds-db1.jpg" alt="">
                 <div>抗衰紧致黑科技-巧变“精英”美容术</div>
                 <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -349,7 +349,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/ldds/ldds-db2.png" alt="">
+                <img src="~/assets/images/ldds/ldds-db2.jpg" alt="">
                 <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
                 <span>嘟嘟肉bye-bye，恢复英气感</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -361,7 +361,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/ldds/ldds-db3.png" alt="">
+                <img src="~/assets/images/ldds/ldds-db3.jpg" alt="">
                 <div>男性也需要，油腻双下巴退散！</div>
                 <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -373,7 +373,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/ldds/ldds-db4.png" alt="">
+                <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
                 <div>男性也需要，油腻双下巴退散！</div>
                 <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -391,7 +391,7 @@
       <div class="notice">
         <div class="notice-title">术后注意事项</div>
 
-        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.png" alt="">
+        <img class="notice-img" src="~/assets/images/ldds/ldds-zysxImg.jpg" alt="">
 
         <div class="notice-textBox">
           <p>
