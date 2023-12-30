@@ -14,7 +14,7 @@
             <img @click="gotoGyys" src="~/assets/images/index/index-banner-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img @click="gotoGyys" src="~/assets/images/index/index-banner-h5.png" alt="">
+            <img @click="gotoGyys" src="~/assets/images/index/index-banner-h5.jpg" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -24,7 +24,7 @@
             <img src="~/assets/images/index/index-banner1-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/index/index-banner1-h5.png" alt="">
+            <img src="~/assets/images/index/index-banner1-h5.jpg" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -44,27 +44,27 @@
           <a-col :xs="0" :sm="12" class="one">
             <div class="left">
               <div class="top">
-                <img src="~/assets/images/index/two-0-left-top.png" alt="">
+                <img src="~/assets/images/index/two-0-left-top.jpg" alt="">
               </div>
               <div class="bottom">
-                <img src="~/assets/images/index/two-0-left-bottom.png" alt="">
+                <img src="~/assets/images/index/two-0-left-bottom.jpg" alt="">
               </div>
             </div>
             <div class="right">
-              <img src="~/assets/images/index/two-0-right.png" alt="">
+              <img src="~/assets/images/index/two-0-right.jpg" alt="">
             </div>
           </a-col>
           <a-col :xs="0" :sm="12" class="two">
             <div class="top">
               <div class="left">
-                <img src="~/assets/images/index/two-1-top-left.png" alt="">
+                <img src="~/assets/images/index/two-1-top-left.jpg" alt="">
               </div>
               <div class="right">
-                <img src="~/assets/images/index/two-1-top-right.png" alt="">
+                <img src="~/assets/images/index/two-1-top-right.jpg" alt="">
               </div>
             </div>
             <div class="bottom">
-              <img src="~/assets/images/index/two-1-bottom.png" alt="">
+              <img src="~/assets/images/index/two-1-bottom.jpg" alt="">
             </div>
           </a-col>
         </a-row>
@@ -74,27 +74,27 @@
       <div class="one">
         <div class="left">
           <div class="top">
-            <img src="~/assets/images/index/two-0-left-top.png" alt="">
+            <img src="~/assets/images/index/two-0-left-top.jpg" alt="">
           </div>
           <div class="bottom">
-            <img src="~/assets/images/index/two-0-left-bottom.png" alt="">
+            <img src="~/assets/images/index/two-0-left-bottom.jpg" alt="">
           </div>
         </div>
         <div class="right">
-          <img src="~/assets/images/index/two-0-right.png" alt="">
+          <img src="~/assets/images/index/two-0-right.jpg" alt="">
         </div>
       </div>
       <div class="two">
         <div class="top">
           <div class="left">
-            <img src="~/assets/images/index/two-1-top-left.png" alt="">
+            <img src="~/assets/images/index/two-1-top-left.jpg" alt="">
           </div>
           <div class="right">
-            <img src="~/assets/images/index/two-1-top-right.png" alt="">
+            <img src="~/assets/images/index/two-1-top-right.jpg" alt="">
           </div>
         </div>
         <div class="bottom">
-          <img src="~/assets/images/index/two-1-bottom.png" alt="">
+          <img src="~/assets/images/index/two-1-bottom.jpg" alt="">
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@
             </div>
           </div>
           <div class="content">
-            <div @click="gotoDetail" class="content-item">
+            <div @click="gotoWzx" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-0.jpg" alt="">
               </div>
@@ -125,7 +125,7 @@
                 <div class="content-item-tag--item">瘦脸</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-1.jpg" alt="">
               </div>
@@ -139,7 +139,7 @@
                 <div class="content-item-tag--item">液态隆鼻</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-2.jpg" alt="">
               </div>
@@ -153,7 +153,7 @@
                 <div class="content-item-tag--item">法令纹</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-0-3.jpg" alt="">
               </div>
@@ -174,7 +174,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div @click="gotoWzx" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-0.jpg" alt="">
                   </div>
@@ -190,7 +190,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-1.jpg" alt="">
                   </div>
@@ -206,7 +206,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-2.jpg" alt="">
                   </div>
@@ -222,7 +222,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-0-3.jpg" alt="">
                   </div>
@@ -248,7 +248,7 @@
             </div>
           </div>
           <div class="content">
-            <div @click="gotoDetail" class="content-item">
+            <div @click="gotoLdds" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-0.jpg" alt="">
               </div>
@@ -262,7 +262,7 @@
                 <div class="content-item-tag--item">全程清醒</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-1.jpg" alt="">
               </div>
@@ -276,7 +276,7 @@
                 <div class="content-item-tag--item">面部拉提</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-2.jpg" alt="">
               </div>
@@ -290,7 +290,7 @@
                 <div class="content-item-tag--item">发腮</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-1-3.jpg" alt="">
               </div>
@@ -311,7 +311,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div @click="gotoLdds" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-0.jpg" alt="">
                   </div>
@@ -327,7 +327,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-1.jpg" alt="">
                   </div>
@@ -343,7 +343,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-2.jpg" alt="">
                   </div>
@@ -359,7 +359,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-1-3.jpg" alt="">
                   </div>
@@ -385,7 +385,7 @@
             </div>
           </div>
           <div class="content">
-            <div @click="gotoDetail" class="content-item">
+            <div @click="gotoTMLms" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-0.jpg" alt="">
               </div>
@@ -399,7 +399,7 @@
                 <div class="content-item-tag--item">随做随走</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-1.jpg" alt="">
               </div>
@@ -413,9 +413,9 @@
                 <div class="content-item-tag--item">副乳祛除</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-2-2.png" alt="">
+                <img src="~/assets/images/index/three-2-2.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">显微臀腿部雕塑</div>
@@ -427,7 +427,7 @@
                 <div class="content-item-tag--item">蜜桃臀</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-2-3.jpg" alt="">
               </div>
@@ -448,7 +448,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div @click="gotoTMLms" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-0.jpg" alt="">
                   </div>
@@ -464,7 +464,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-1.jpg" alt="">
                   </div>
@@ -480,9 +480,9 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
-                    <img src="~/assets/images/index/three-2-2.png" alt="">
+                    <img src="~/assets/images/index/three-2-2.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
                     <div class="content-item-h5-txt--top">显微臀腿部雕塑</div>
@@ -496,7 +496,7 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-2-3.jpg" alt="">
                   </div>
@@ -522,7 +522,7 @@
             </div>
           </div>
           <div class="content">
-            <div @click="gotoDetail" class="content-item">
+            <div @click="gotoNxnr" class="content-item">
               <div class="content-item-img">
                 <img src="~/assets/images/index/three-3-0.jpg" alt="">
               </div>
@@ -535,9 +535,9 @@
                 <div class="content-item-tag--item">无痕治疗</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-3-1.png" alt="">
+                <img src="~/assets/images/index/three-3-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">不瞒你说，男人也有罩杯的烦恼</div>
@@ -548,9 +548,9 @@
                 <div class="content-item-tag--item">微创精雕</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-3-2.png" alt="">
+                <img src="~/assets/images/index/three-3-2.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">告别宽松衣物，让你抬头挺胸</div>
@@ -561,9 +561,9 @@
                 <div class="content-item-tag--item">男性女乳</div>
               </div>
             </div>
-            <div @click="gotoDetail" class="content-item">
+            <div class="content-item">
               <div class="content-item-img">
-                <img src="~/assets/images/index/three-3-3.png" alt="">
+                <img src="~/assets/images/index/three-3-3.jpg" alt="">
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">健身真的能“瘦胸”吗？</div>
@@ -581,7 +581,7 @@
                 :space-between="20"
             >
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div @click="gotoNxnr" class="content-item-h5">
                   <div class="content-item-h5-img">
                     <img src="~/assets/images/index/three-3-0.jpg" alt="">
                   </div>
@@ -596,9 +596,9 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
-                    <img src="~/assets/images/index/three-3-1.png" alt="">
+                    <img src="~/assets/images/index/three-3-1.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
                     <div class="content-item-h5-txt--top">不瞒你说，男人也有罩杯的烦恼</div>
@@ -611,9 +611,9 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
-                    <img src="~/assets/images/index/three-3-2.png" alt="">
+                    <img src="~/assets/images/index/three-3-2.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
                     <div class="content-item-h5-txt--top">告别宽松衣物，让你抬头挺胸</div>
@@ -626,9 +626,9 @@
                 </div>
               </swiper-slide>
               <swiper-slide>
-                <div @click="gotoDetail" class="content-item-h5">
+                <div class="content-item-h5">
                   <div class="content-item-h5-img">
-                    <img src="~/assets/images/index/three-3-3.png" alt="">
+                    <img src="~/assets/images/index/three-3-3.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
                     <div class="content-item-h5-txt--top">健身真的能“瘦胸”吗？</div>
@@ -653,38 +653,38 @@
 
       <ul class="index-four-magazine">
         <li>
-          <img src="~/assets/images/index/index-zz1.png" alt="">
+          <img src="~/assets/images/index/index-zz1.jpg" alt="">
           <div>《健康美容》</div>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-zz2.png" alt="">
+          <img src="~/assets/images/index/index-zz2.jpg" alt="">
           <div>《men's uno 风度》</div>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-zz3.png" alt="">
+          <img src="~/assets/images/index/index-zz3.jpg" alt="">
           <div>《父母世界》</div>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-zz4.png" alt="">
+          <img src="~/assets/images/index/index-zz4.jpg" alt="">
           <div>《men's uno 风度》</div>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-zz5.png" alt="">
+          <img src="~/assets/images/index/index-zz5.jpg" alt="">
           <div>《时尚芭莎》</div>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-zz6.png" alt="">
+          <img src="~/assets/images/index/index-zz6.jpg" alt="">
           <div>《时尚芭莎》</div>
         </li>
       </ul>
 
       <a-row class="index-four-content">
-        <a-col @click="gotoDetail" class="index-four-content_item" :xs="24" :sm="12">
+        <a-col @click="gotoMtbd" class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
             <img src="~/assets/images/index/four-text1.jpg" alt="">
           </div>
@@ -698,7 +698,7 @@
           </div>
           <div class="index-four-content_item--btn">阅读更多</div>
         </a-col>
-        <a-col @click="gotoDetail" class="index-four-content_item" :xs="24" :sm="12">
+        <a-col @click="gotoMtbd" class="index-four-content_item" :xs="24" :sm="12">
           <div class="index-four-content_item--img">
             <img src="~/assets/images/index/four-text2.jpg" alt="">
           </div>
@@ -719,30 +719,30 @@
         <p>2022年颜士钧医师登上了荷兰金融日报，其对颜医师丰富的医学美容临床经验给予了极大肯定。</p>
       </div>
 
-      <img class="index-four-pt" src="~/assets/images/index/index-pt.png" alt="">
+      <img class="index-four-pt" src="~/assets/images/index/index-pt.jpg" alt="">
 
       <ul class="index-four-intro">
         <li>
-          <img src="~/assets/images/index/index-icon-meirong.png" alt="">
+          <img src="~/assets/images/index/index-icon-meirong1.jpg" alt="">
           <div>专业高品质</div>
           <p>颜医师提供专业、人性、定制化的医疗服务，致力于为您提供世界一流的服务，运用全球领先的技术、先进的医疗设备，完善的术后保养及疗程，定期与世界医美领域顶尖的医师交流技术，不断精进钻研发展适合中国人的医美疗程。</p>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-icon-meirong.png" alt="">
+          <img src="~/assets/images/index/index-icon-meirong2.jpg" alt="">
           <div>安心保证</div>
           <p>
             颜医师谨慎选用合格之医疗设备、耗材、药品等，配合的医师与护理人员符合执行资格且不断进修训练，以提供安全完善的医疗服务；并对各种风险进行分析管理，提供品质管理的最高指导原则，确保品质管理系统能正常运作，并持续的适用与有效。</p>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-icon-meirong.png" alt="">
+          <img src="~/assets/images/index/index-icon-meirong3.jpg" alt="">
           <div>服务到家</div>
           <p>近悦远来，止于至善，是颜医师的理念。在颜医师这治疗的结束并不是服务的结束，颜医师团队会细心陪伴、解答您的疑虑，让您省心，活出自信与美丽。</p>
         </li>
 
         <li>
-          <img src="~/assets/images/index/index-icon-meirong.png" alt="">
+          <img src="~/assets/images/index/index-icon-meirong4.jpg" alt="">
           <div>价格透明</div>
           <p>在颜医师这里有价格透明有保障，童叟无欺，让您选择更省心。</p>
         </li>
@@ -763,6 +763,7 @@ export default {
     Swiper,
     SwiperSlide
   },
+
   setup() {
     const onSwiper = (swiper) => {
       console.log(swiper)
@@ -776,6 +777,7 @@ export default {
       modules: [Pagination, Autoplay]
     }
   },
+
   methods: {
     gotoLxzx() {
       navigateTo({
@@ -793,10 +795,39 @@ export default {
       navigateTo({
         path: "/articleDetails"
       })
+    },
+
+    gotoWzx() {
+      navigateTo({
+        path: "/fwxm/wzx"
+      })
+    },
+
+    gotoLdds() {
+      navigateTo({
+        path: "/fwxm/ldds"
+      })
+    },
+
+    gotoTMLms() {
+      navigateTo({
+        path: "/fwxm/TMLms"
+      })
+    },
+
+    gotoNxnr() {
+      navigateTo({
+        path: "/fwxm/nxnr"
+      })
+    },
+
+    gotoMtbd() {
+      navigateTo({
+        path: "/mtbd"
+      })
     }
   }
 }
-
 </script>
 
 <style lang="scss" scoped>
