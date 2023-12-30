@@ -19,7 +19,7 @@
       <!--      介绍部分-->
       <div class="introduce">
         <div class="introduce-itemBox">
-          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg1.png" alt="">
+          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg1.jpg" alt="">
           <div class="introduce-itemBox-textBox">
             <div class="title">TML 美式显微脂肪雕塑介绍</div>
             <p>TML 美式显微脂肪雕塑（Tumescent Microcannula Liposuction）是源自美国的微创脂肪雕塑技术，采用美国知名医师 Dr. Jeffrey Klein
@@ -29,7 +29,7 @@
         </div>
 
         <div class="introduce-itemBox">
-          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg2.png" alt="">
+          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg2.jpg" alt="">
           <div class="introduce-itemBox-textBox">
             <div class="title">颜医生论文《皮下肿胀显微体雕术的临床应用》</div>
             <p>2015年，颜医生相关论文《皮下肿胀显微体雕术的临床应用》被中国整型美容外科杂志收录发表. Clinical Application of Tumescent Microliposculpture
@@ -39,7 +39,7 @@
       </div>
 
       <!--      TML美式图片-->
-      <img class="TMLmsImg" src="~/assets/images/TMLms/TMLms-pc.png" alt="">
+      <img class="TMLmsImg" src="~/assets/images/TMLms/TMLms-pc.jpg" alt="">
 
       <!--      博士-->
       <div class="doctor">
@@ -52,14 +52,14 @@
             美式显微脂肪雕塑”因为安全、精细高效、无需全身麻醉、微创舒适、术后无需穿着束身衣和恢复快等特点，一举使吸脂手术从传统的大手术摇身一变为午餐美容，造福了世界广大的求美者。</p>
         </div>
 
-        <img src="~/assets/images/TMLms/TMLms-bsImg.png" alt="">
+        <img src="~/assets/images/TMLms/TMLms-bsImg.jpg" alt="">
       </div>
 
       <!--      为什么选择TML雕塑-->
       <div class="why">
         <div class="why-title">为什么选择TML雕塑</div>
         <div class="why-contentBox">
-          <img class="whyImg" src="~/assets/images/TMLms/TMLms-whyImg1.png" alt="">
+          <img class="whyImg" src="~/assets/images/TMLms/TMLms-whyImg1.jpg" alt="">
 
           <div class="textBox">
             <div class="textBox-sy">
@@ -72,38 +72,38 @@
             </div>
             <ul class="textBox-itmeBox">
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon1.jpg" alt="">
                 <div class="title">安全</div>
                 <span class="text">不用全身麻醉，只使用局部麻醉，如看牙般全程清醒、舒适</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon2.jpg" alt="">
                 <div class="title">快速</div>
                 <span class="text">随做随走，术后即可正常活动，治疗后不影响生活</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon3.jpg" alt="">
                 <div class="title">隐蔽</div>
                 <span class="text">伤口微创，不易被发现手术痕迹，穿着也不受伤口或塑身衣限制</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon4.jpg" alt="">
                 <div class="title">轻松</div>
                 <span class="text">术后不需穿塑身衣，不用按摩</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon5.jpg" alt="">
                 <div class="title">精准定位</div>
                 <span class="text">可精确定位需要修饰的位置，塑造自然优美的线条</span>
               </li>
             </ul>
           </div>
         </div>
-        <img class="why-img" src="~/assets/images/TMLms/TMLms-whyImg2.png" alt="">
+        <img class="why-img" src="~/assets/images/TMLms/TMLms-whyImg2.jpg" alt="">
       </div>
 
       <!--      对比部分-->
@@ -115,7 +115,7 @@
 
         <ul class="contrast-itemBox">
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/TMLms/TMLms-dbImg1.png" alt="">
+            <img src="~/assets/images/TMLms/TMLms-dbImg1.jpg" alt="">
             <div>公认为最安全且有效的形体雕塑方式</div>
             <span>TML美式显微脂肪雕塑源自美国，借由移除你身体里面的不完美，雕刻出被埋藏的曼妙的形体。</span>
             <ul class="contrast-itemBox-tagBox">
@@ -125,7 +125,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/TMLms/TMLms-dbImg2.png" alt="">
+            <img src="~/assets/images/TMLms/TMLms-dbImg2.jpg" alt="">
             <div>显微副乳祛除</div>
             <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
             <ul class="contrast-itemBox-tagBox">
@@ -135,7 +135,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/TMLms/TMLms-dbImg3.png" alt="">
+            <img src="~/assets/images/TMLms/TMLms-dbImg3.jpg" alt="">
             <div>显微臀腿部雕塑</div>
             <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
             <ul class="contrast-itemBox-tagBox">
@@ -145,7 +145,7 @@
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
-            <img src="~/assets/images/TMLms/TMLms-dbImg4.png" alt="">
+            <img src="~/assets/images/TMLms/TMLms-dbImg4.jpg" alt="">
             <div>精致身型打造</div>
             <span>告别圣诞树身型，让你的肉肉们再也不勒！</span>
             <ul class="contrast-itemBox-tagBox">
@@ -172,7 +172,7 @@
             ·由于亚洲人种皮肤的特性，部分人群治疗后伤口针眼处皮肤可能会产生炎症后的色素沉着，这个现象会随时间逐渐淡化、恢复，时间根据个体体质而有所不同。治疗后可搭配激光、药物涂抹、注射等治疗，如需相关治疗请与医师助理咨询。</p>
           <p>·如您有任何不了解的问题或疑惑，请不要迟疑，随时与我们联系。</p>
         </div>
-        <img class="headImg" src="~/assets/images/TMLms/TMLms-zyImg.png" alt="">
+        <img class="headImg" src="~/assets/images/TMLms/TMLms-zyImg.jpg" alt="">
       </div>
 
       <!--      特色服务-->
@@ -217,7 +217,7 @@
       <!--      介绍部分-->
       <div class="introduce">
         <div class="introduce-itemBox">
-          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg1.png" alt="">
+          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg1.jpg" alt="">
           <div class="introduce-itemBox-textBox">
             <div class="title">TML 美式显微脂肪雕塑介绍</div>
             <p>TML 美式显微脂肪雕塑（Tumescent Microcannula Liposuction）是源自美国的微创脂肪雕塑技术，采用美国知名医师 Dr. Jeffrey Klein
@@ -227,7 +227,7 @@
         </div>
 
         <div class="introduce-itemBox">
-          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg2.png" alt="">
+          <img class="headImg" src="~/assets/images/TMLms/TMLms-jsImg2.jpg" alt="">
           <div class="introduce-itemBox-textBox">
             <div class="title">颜医生论文《皮下肿胀显微体雕术的临床应用》</div>
             <p>2015年，颜医生相关论文《皮下肿胀显微体雕术的临床应用》被中国整型美容外科杂志收录发表. Clinical Application of Tumescent Microliposculpture
@@ -237,7 +237,7 @@
       </div>
 
       <!--      TML美式图片-->
-      <img class="TMLmsImg" src="~/assets/images/TMLms/TMLms-h5.png" alt="">
+      <img class="TMLmsImg" src="~/assets/images/TMLms/TMLms-h5.jpg" alt="">
 
       <!--      博士-->
       <div class="doctor">
@@ -246,7 +246,7 @@
           <span>博士</span>
         </div>
 
-        <img src="~/assets/images/TMLms/TMLms-bsImg.png" alt="">
+        <img src="~/assets/images/TMLms/TMLms-bsImg.jpg" alt="">
 
         <p>颜医生的美国导师，美国著名皮肤外科医生克莱恩博士（Dr. Jeffrey Klein），为国际美容外科的开山鼻祖，他的划时代发明“TML
           美式显微脂肪雕塑”因为安全、精细高效、无需全身麻醉、微创舒适、术后无需穿着束身衣和恢复快等特点，一举使吸脂手术从传统的大手术摇身一变为午餐美容，造福了世界广大的求美者。</p>
@@ -256,7 +256,7 @@
       <div class="why">
         <div class="why-title">为什么选择TML雕塑</div>
         <div class="why-contentBox">
-          <img class="whyImg" src="~/assets/images/TMLms/TMLms-whyImg1.png" alt="">
+          <img class="whyImg" src="~/assets/images/TMLms/TMLms-whyImg1.jpg" alt="">
 
           <div class="textBox">
             <div class="textBox-sy">
@@ -269,38 +269,38 @@
             </div>
             <ul class="textBox-itmeBox">
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon1.jpg" alt="">
                 <div class="title">安全</div>
                 <span class="text">不用全身麻醉，只使用局部麻醉，如看牙般全程清醒、舒适</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon2.jpg" alt="">
                 <div class="title">快速</div>
                 <span class="text">随做随走，术后即可正常活动，治疗后不影响生活</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon3.jpg" alt="">
                 <div class="title">隐蔽</div>
                 <span class="text">伤口微创，不易被发现手术痕迹，穿着也不受伤口或塑身衣限制</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon4.jpg" alt="">
                 <div class="title">轻松</div>
                 <span class="text">术后不需穿塑身衣，不用按摩</span>
               </li>
 
               <li class="textBox-itmeBox-item">
-                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon.png" alt="">
+                <img class="icon" src="~/assets/images/TMLms/TMLms-whyIcon5.jpg" alt="">
                 <div class="title">精准定位</div>
                 <span class="text">可精确定位需要修饰的位置，塑造自然优美的线条</span>
               </li>
             </ul>
           </div>
         </div>
-        <img class="why-img" src="~/assets/images/TMLms/TMLms-whyImg2.png" alt="">
+        <img class="why-img" src="~/assets/images/TMLms/TMLms-whyImg2.jpg" alt="">
       </div>
 
       <!--      对比部分-->
@@ -317,7 +317,7 @@
           >
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/TMLms/TMLms-dbImg1.png" alt="">
+                <img src="~/assets/images/TMLms/TMLms-dbImg1.jpg" alt="">
                 <div>公认为最安全有效的雕塑方式</div>
                 <span>TML美式显微脂肪雕塑源自美国，借由移除你身体里面的不完美，雕刻出被埋藏的曼妙的形体。</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -329,7 +329,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/TMLms/TMLms-dbImg2.png" alt="">
+                <img src="~/assets/images/TMLms/TMLms-dbImg2.jpg" alt="">
                 <div>显微副乳祛除</div>
                 <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -341,7 +341,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/TMLms/TMLms-dbImg3.png" alt="">
+                <img src="~/assets/images/TMLms/TMLms-dbImg3.jpg" alt="">
                 <div>显微臀腿部雕塑</div>
                 <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -353,7 +353,7 @@
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
-                <img src="~/assets/images/TMLms/TMLms-dbImg4.png" alt="">
+                <img src="~/assets/images/TMLms/TMLms-dbImg4.jpg" alt="">
                 <div>精致身型打造</div>
                 <span>告别圣诞树身型，让你的肉肉们再也不勒！</span>
                 <ul class="contrast-itemBox-tagBox">
@@ -371,7 +371,7 @@
       <div class="attention">
         <div class="attention-title">术后注意事项</div>
 
-        <img class="headImg" src="~/assets/images/TMLms/TMLms-zyImg.png" alt="">
+        <img class="headImg" src="~/assets/images/TMLms/TMLms-zyImg.jpg" alt="">
 
         <div class="attention-textBox">
           <p>
