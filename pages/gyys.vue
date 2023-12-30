@@ -14,7 +14,7 @@
             <img src="~/assets/images/gyys/gyys-banner-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/gyys/gyys-banner-h5.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner-h5.jpg" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -24,7 +24,7 @@
             <img src="~/assets/images/gyys/gyys-banner1-pc.jpg" alt="">
           </a-col>
           <a-col :xs="24" :sm="0">
-            <img src="~/assets/images/gyys/gyys-banner1-h5.png" alt="">
+            <img src="~/assets/images/gyys/gyys-banner1-h5.jpg" alt="">
           </a-col>
         </a-row>
       </swiper-slide>
@@ -42,10 +42,10 @@
 
         <!--        内容部分-->
         <div class="education-contentBox">
-          <img class="education-contentBox-portrait" src="~/assets/images/gyys/gyys-portrait.png" alt="">
+          <img class="education-contentBox-portrait" src="~/assets/images/gyys/gyys-portrait.jpg" alt="">
           <div class="education-contentBox-rightBox">
             <div class="bschooladgeBox">
-              <img src="~/assets/images/gyys/gyys-Bschooladge.png" alt="">
+              <img src="~/assets/images/gyys/gyys-Bschooladge.jpg" alt="">
               <div>北京大学 临床医学系、清华大学-澳大利亚国立大学 管理学系</div>
             </div>
 
@@ -65,7 +65,7 @@
       <!--      合影部分-->
       <ul class="groupPhoto">
         <li class="groupPhoto-item one">
-          <img src="~/assets/images/gyys/gyys-experience1.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience1.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <div>杰佛里·克莱恩</div>
             <span>颜医生的美国导师，美国著名皮肤外科医生克莱恩博士（Dr. Jeffrey Klein），为国际美容外科的开山鼻祖，他的划时代发明“TML 美式显微脂肪雕塑”因为安全、精细高效、无需全身麻醉、微创舒适、术后无需穿着束身衣和恢复快等特点，一举使吸脂手术从传统的大手术摇身一变为午餐美容，造福了世界广大的求美者。</span>
@@ -73,37 +73,37 @@
         </li>
 
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience2.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience2.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>中国整形美容界泰斗高景恒教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience3.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>台湾亚太美容外科医学会理事长 郝治华教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience4.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>中华海峡两岸整形美容协会理事长 王笃行教</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience5.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience5.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>大连医科大学 王冀耕教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience7.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>美国著名整形专家Michael Pasquale</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience6.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
           </div>
@@ -118,22 +118,22 @@
         </div>
 
         <div class="certificate-contentBox">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate1.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate2.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate3.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate4.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate5.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate6.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate7.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate8.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate9.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate10.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate11.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate12.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate13.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate14.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate15.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate16.png" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate1.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate2.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate3.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate4.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate5.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate6.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate7.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate8.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate9.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate10.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate11.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate12.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate13.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate14.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate15.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate16.jpg" alt="">
         </div>
       </div>
 
@@ -145,7 +145,7 @@
         </div>
 
         <div class="work-contentBox">
-          <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.png" alt="">
+          <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.jpg" alt="">
 
           <div class="work-contentBox-rightBox">
             <div class="title">学术论文</div>
@@ -203,7 +203,7 @@
             </ul>
           </div>
 
-          <img class="thesis-contentBox-img" src="~/assets/images/gyys/gyys-thesis.png" alt="">
+          <img class="thesis-contentBox-img" src="~/assets/images/gyys/gyys-thesis.jpg" alt="">
         </div>
       </div>
     </div>
@@ -221,7 +221,7 @@
         <!--        内容部分-->
         <div class="education-contentBox">
           <div class="bschooladgeBox">
-            <img src="~/assets/images/gyys/gyys-Bschooladge.png" alt="">
+            <img src="~/assets/images/gyys/gyys-Bschooladge.jpg" alt="">
             <div class="bschooladgeBox-text">北京大学 临床医学系、清华大学-澳大利亚国立大学 管理学系</div>
           </div>
 
@@ -235,14 +235,14 @@
             <li>● 亚太美容外科医学会 APACS 成员</li>
           </ul>
 
-          <img class="portrait" src="~/assets/images/gyys/gyys-portrait.png" alt="">
+          <img class="portrait" src="~/assets/images/gyys/gyys-portrait.jpg" alt="">
         </div>
       </div>
 
       <!--      合影部分-->
       <ul class="groupPhoto">
         <li class="groupPhoto-item one">
-          <img src="~/assets/images/gyys/gyys-experience1.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience1.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <div>杰佛里·克莱恩</div>
             <span>颜医生的美国导师，美国著名皮肤外科医生克莱恩博士（Dr. Jeffrey Klein），为国际美容外科的开山鼻祖，他的划时代发明“TML 美式显微脂肪雕塑”因为安全、精细高效、无需全身麻醉、微创舒适、术后无需穿着束身衣和恢复快等特点，一举使吸脂手术从传统的大手术摇身一变为午餐美容，造福了世界广大的求美者。</span>
@@ -250,37 +250,37 @@
         </li>
 
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience2.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience2.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>中国整形美容界泰斗高景恒教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience3.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>台湾亚太美容外科医学会理事长 郝治华教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience4.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>中华海峡两岸整形美容协会理事长 王笃行教</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience5.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience5.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>大连医科大学 王冀耕教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience6.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>美国著名整形专家Michael Pasq</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience7.png" alt="">
+          <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
           </div>
@@ -295,22 +295,22 @@
         </div>
 
         <div class="certificate-contentBox">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate1.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate2.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate3.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate4.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate5.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate6.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate7.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate8.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate9.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate10.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate11.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate12.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate13.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate14.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate15.png" alt="">
-          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate16.png" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate1.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate2.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate3.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate4.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate5.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate6.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate7.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate8.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate9.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate10.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate11.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate12.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate13.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate14.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate15.jpg" alt="">
+          <img class="certificate-contentBox-item" src="~/assets/images/gyys/gyys-certificate16.jpg" alt="">
         </div>
       </div>
 
@@ -322,7 +322,7 @@
         </div>
 
         <div class="work-contentBox">
-          <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.png" alt="">
+          <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.jpg" alt="">
 
           <div class="work-contentBox-bottomBox">
             <div class="title">学术论文</div>
@@ -353,7 +353,7 @@
         </div>
 
         <div class="thesis-contentBox">
-          <img class="thesis-contentBox-img" src="~/assets/images/gyys/gyys-thesis.png" alt="">
+          <img class="thesis-contentBox-img" src="~/assets/images/gyys/gyys-thesis.jpg" alt="">
 
           <div class="thesis-contentBox-bottomBox">
             <div class="title">整形美容核心期刊论文4篇， SCI论文1篇。</div>
@@ -392,7 +392,6 @@ import {Swiper, SwiperSlide} from 'swiper/vue'
 import {Pagination, Autoplay} from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import test1 from '~/assets/images/gyys/gyys-experience1.png'
 
 export default {
   name: "gyys",
