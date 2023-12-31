@@ -176,7 +176,7 @@ export default {
         }
 
         .showAnswer {
-          max-height: 250px;
+          max-height: max-content;
         }
       }
     }
@@ -227,7 +227,7 @@ export default {
         }
 
         .showAnswer {
-          max-height: 250px;
+          max-height: max-content;
         }
       }
     }
