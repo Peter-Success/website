@@ -1,7 +1,7 @@
 <template>
 	<div class="nav">
 		<div class="nav-pc" :style="{'backgroundColor': `rgba(61,61,61,${scrollTop/100})`}">
-			<div class="nav-left">
+			<div class="nav-left" @click="handleClickLogo">
 				<img src="~/assets/images/nav/logo.png" alt="">
 			</div>
 			<div class="nav-center">
@@ -92,18 +92,21 @@ const navList = reactive([
         name: '微整形',
         value: 'wzx',
         url: '/fwxm/wzx'
-      },{
-        name: 'TML美式',
-        value: 'TMLms',
-        url: '/fwxm/TMLms'
-      },{
-        name: '男性女乳',
-        value: 'nxnr',
-        url: '/fwxm/nxnr'
-      },{
+      },
+      {
         name: 'RFAL灵动雕塑',
         url: '/fwxm/ldds',
         value: 'ldds',
+      },
+      {
+        name: 'TML美式显微脂肪雕塑',
+        value: 'TMLms',
+        url: '/fwxm/TMLms'
+      },
+      {
+        name: '美式微创男乳祛除术',
+        value: 'nxnr',
+        url: '/fwxm/nxnr'
       }
     ]
   },
@@ -195,6 +198,11 @@ router.beforeEach((to, from, next) => {
   currentRoute.value = to.path
   next()
 })
+const handleClickLogo = () => {
+  navigateTo({
+    path: "/"
+  })
+}
 </script>
 
 <style lang="scss" scoped>
