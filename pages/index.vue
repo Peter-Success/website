@@ -692,7 +692,7 @@
             <div class="left">《荷兰金融报》采访-中国消费群体的审美转型</div>
             <!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年2月19日 作者terry yan</div>
+          <div class="index-four-content_item--time">2022-2-19</div>
           <div class="index-four-content_item--txt">
             颜士钧医师接受《荷兰金融报》（Het Financieele Dagblad）採访，介绍中国消费群体的审美转型
           </div>
@@ -706,7 +706,7 @@
             <div class="left">全网热搜 《纯纯甘 整形医师的一天》</div>
             <!--            <div class="right">- 享受美体的快乐…</div>-->
           </div>
-          <div class="index-four-content_item--time">2022年10月23日 作者：浮生一日</div>
+          <div class="index-four-content_item--time">2022-10-23</div>
           <div class="index-four-content_item--txt">
             【浮生一日】北京整形医生颜士钧的真实一天。，一个台湾长大，美国做医学研究，北京工作的整形外科医生。一直在深造一直在加班；也和大多数北漂一样，他租住在单身公寓里，怀揣着很大的梦想。跟他一起揭开医美行业更真实的一面吧。
           </div>
