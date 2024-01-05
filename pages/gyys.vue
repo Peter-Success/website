@@ -51,12 +51,14 @@
 
             <ul class="itemBox">
               <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 15 余年担任：</li>
-              <li>● 美国整形美容手术学会AICPS 讲师</li>
-              <li>● 韩国美容外科协会 KSAS 讲师</li>
-              <li>● 东方国际美容外科协会 ECS讲师</li>
-              <li>● 美国美容医学学会 AAAM 成员</li>
-              <li>● 国际皮肤美容外科联盟 DASIL成员</li>
-              <li>● 亚太美容外科医学会 APACS 成员</li>
+              <li>● 韩国美容外科协会Korean Society of Aesthetic Surgery 讲师</li>
+              <li>● 美国美容整形手术学院American Institute of Cosmetic Plastic Surgery 讲师</li>
+              <li>● 美国整形外科医师协会American Society of Plastic Surgeons 会员</li>
+              <li>● 美国美容医学学院American Academy of Aesthetic Medicine 成员</li>
+              <li>● 国际皮肤美容外科联盟Dermatologic Aesthetic Surgery International League 成员</li>
+              <li>● 东方国际美容外科协会Eastern Cosmetic Surgery 讲师</li>
+              <li>● 亚太美容外科医学会 Asian Pacific Academy of Cosmetic Surgery 成员</li>
+              <li>● 中国上海医师协会Shanghai Medical Association 成员</li>
             </ul>
           </div>
         </div>
@@ -177,7 +179,7 @@
 
         <div class="thesis-contentBox">
           <div class="thesis-contentBox-leftBox">
-            <div class="title">整形美容核心期刊论文4篇， SCI论文1篇。</div>
+            <!--            <div class="title">整形美容核心期刊论文4篇， SCI论文1篇。</div>-->
             <ul class="textBox">
               <li>
                 <div>● 抽脂手术的发展史,台湾医界, 2014</div>
@@ -227,12 +229,14 @@
 
           <ul class="textBox">
             <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 15 余年担任：</li>
-            <li>● 美国整形美容手术学会AICPS 讲师</li>
-            <li>● 韩国美容外科协会 KSAS 讲师</li>
-            <li>● 东方国际美容外科协会 ECS讲师</li>
-            <li>● 美国美容医学学会 AAAM 成员</li>
-            <li>● 国际皮肤美容外科联盟 DASIL成员</li>
-            <li>● 亚太美容外科医学会 APACS 成员</li>
+            <li>● 韩国美容外科协会Korean Society of Aesthetic Surgery 讲师</li>
+            <li>● 美国美容整形手术学院American Institute of Cosmetic Plastic Surgery 讲师</li>
+            <li>● 美国整形外科医师协会American Society of Plastic Surgeons 会员</li>
+            <li>● 美国美容医学学院American Academy of Aesthetic Medicine 成员</li>
+            <li>● 国际皮肤美容外科联盟Dermatologic Aesthetic Surgery International League 成员</li>
+            <li>● 东方国际美容外科协会Eastern Cosmetic Surgery 讲师</li>
+            <li>● 亚太美容外科医学会 Asian Pacific Academy of Cosmetic Surgery 成员</li>
+            <li>● 中国上海医师协会Shanghai Medical Association 成员</li>
           </ul>
 
           <img class="portrait" src="~/assets/images/gyys/gyys-portrait.jpg" alt="">
@@ -356,7 +360,7 @@
           <img class="thesis-contentBox-img" src="~/assets/images/gyys/gyys-thesis.jpg" alt="">
 
           <div class="thesis-contentBox-bottomBox">
-            <div class="title">整形美容核心期刊论文4篇， SCI论文1篇。</div>
+            <!--            <div class="title">整形美容核心期刊论文4篇， SCI论文1篇。</div>-->
             <ul class="textBox">
               <li>
                 <div>● 抽脂手术的发展史,台湾医界, 2014</div>

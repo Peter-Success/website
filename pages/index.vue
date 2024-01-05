@@ -653,6 +653,16 @@
 
       <ul class="index-four-magazine">
         <li>
+          <img src="~/assets/images/index/index-zz5.jpg" alt="">
+          <div>《时尚芭莎》</div>
+        </li>
+
+        <li>
+          <img src="~/assets/images/index/index-zz6.jpg" alt="">
+          <div>《时尚芭莎》</div>
+        </li>
+
+        <li>
           <img src="~/assets/images/index/index-zz1.jpg" alt="">
           <div>《健康美容》</div>
         </li>
@@ -670,16 +680,6 @@
         <li>
           <img src="~/assets/images/index/index-zz4.jpg" alt="">
           <div>《men's uno 风度》</div>
-        </li>
-
-        <li>
-          <img src="~/assets/images/index/index-zz5.jpg" alt="">
-          <div>《时尚芭莎》</div>
-        </li>
-
-        <li>
-          <img src="~/assets/images/index/index-zz6.jpg" alt="">
-          <div>《时尚芭莎》</div>
         </li>
       </ul>
 
