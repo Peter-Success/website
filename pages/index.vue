@@ -792,9 +792,9 @@ export default {
     },
 
     gotoDetail() {
-      navigateTo({
-        path: "/articleDetails"
-      })
+      // navigateTo({
+      //   path: "/articleDetails"
+      // })
     },
 
     gotoWzx() {

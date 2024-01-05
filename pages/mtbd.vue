@@ -286,9 +286,9 @@ export default {
 
   methods: {
     gotoDetail() {
-      navigateTo({
-        path: "/articleDetails"
-      })
+      // navigateTo({
+      //   path: "/articleDetails"
+      // })
     }
   }
 }
