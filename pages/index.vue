@@ -845,6 +845,7 @@ export default {
   @at-root &-one {
     img {
       width: 100%;
+      height: auto;
     }
 
     :deep(.swiper-pagination-bullet) {
