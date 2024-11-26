@@ -11,7 +11,7 @@
         <li class="apply-item title">微整形</li>
         <li class="apply-item">TML高清脂肪雕塑</li>
         <li class="apply-item">美式微创男乳祛除术</li>
-        <li class="apply-item">身体雕塑</li>
+        <li class="apply-item">身体体雕</li>
         <li class="apply-item">面部局部提拉</li>
       </ul>
 
@@ -57,7 +57,7 @@
         <li class="apply-item title">微整形</li>
         <li class="apply-item">TML高清脂肪雕塑</li>
         <li class="apply-item">美式微创男乳祛除术</li>
-        <li class="apply-item">身体雕塑</li>
+        <li class="apply-item">身体体雕</li>
         <li class="apply-item">面部局部提拉</li>
       </ul>
 
@@ -139,6 +139,111 @@ export default {
         },
         {
           imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img3,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img1,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img2,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
@@ -294,7 +399,7 @@ export default {
 
           .textBox {
             font-size: 12px;
-            color: 686868;
+            color: #686868;
             padding: 15px;
             box-sizing: border-box;
 
@@ -310,6 +415,14 @@ export default {
         .activeItem {
           width: 48.5%;
           height: auto;
+
+          .textBox {
+            color: #BC8346;
+
+            @at-root &-title {
+              color: #BC8346;
+            }
+          }
         }
       }
     }
@@ -420,7 +533,7 @@ export default {
 
           .textBox {
             font-size: 12px;
-            color: 686868;
+            color: #686868;
             padding: 15px;
             box-sizing: border-box;
 
