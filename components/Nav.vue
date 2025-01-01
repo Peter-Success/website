@@ -97,26 +97,31 @@ const navList = reactive([
         value: 'wzx',
         url: '/mljz/wzx'
       },
-      {
-        name: 'TML高清脂肪雕塑术',
-        value: 'tml',
-        url: '/mljz/tml'
+	  {
+        name: '形体塑形',
+        value: 'xtsx',
+        url: '/mljz/xtsx'
       },
-      {
-        name: '美式微创男乳祛除术',
-        value: 'mswc',
-        url: '/mljz/mswc'
-      },
-      {
-        name: '身体体雕',
-        value: 'sttd',
-        url: '/mljz/sttd'
-      },
-      {
-        name: '面部局部拉提',
-        value: 'jblt',
-        url: '/mljz/jblt'
-      }
+	  {
+		name: '美式微创男乳祛除术',
+		value: 'mswc',
+		url: '/mljz/mswc'
+	  },
+    //   {
+    //     name: 'TML高清脂肪雕塑术',
+    //     value: 'tml',
+    //     url: '/mljz/tml'
+    //   },
+    //   {
+    //     name: '身体体雕',
+    //     value: 'sttd',
+    //     url: '/mljz/sttd'
+    //   },
+    //   {
+    //     name: '面部局部拉提',
+    //     value: 'jblt',
+    //     url: '/mljz/jblt'
+    //   }
     ]
   },
   {

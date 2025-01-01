@@ -106,8 +106,8 @@
       <!-- 产品展示部分 -->
       <div class="productBox">
         <div class="productBox-titleBox">
-          <div class="productBox-titleBox-title">RFAL灵动雕塑</div>
-          <span class="productBox-titleBox-subTitle">Facial Reshaping</span>
+          <div class="productBox-titleBox-title">微整形</div>
+          <span class="productBox-titleBox-subTitle">Injectables</span>
         </div>
 
         <div class="productBox-slider">
