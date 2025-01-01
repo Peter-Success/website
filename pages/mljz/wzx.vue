@@ -6,66 +6,63 @@
       <img class="headImg" src="~/assets/images/mljz-wzx/wzx-headImg-pc.jpg" alt="">
 
       <!--      适用人群及项目-->
-      <ul class="apply">
+      <!-- <ul class="apply">
         <li class="apply-item">RFAL灵动雕塑</li>
         <li class="apply-item title">微整形</li>
         <li class="apply-item">TML高清脂肪雕塑</li>
         <li class="apply-item">美式微创男乳祛除术</li>
         <li class="apply-item">身体体雕</li>
         <li class="apply-item">面部局部提拉</li>
-      </ul>
+      </ul> -->
 
       <!-- 产品展示部分 -->
       <div class="productBox">
         <div class="productBox-titleBox">
-          <div class="productBox-titleBox-title">全脸抗衰提拉</div>
-          <span class="productBox-titleBox-subTitle">Anti ageing injectables</span>
+          <div class="productBox-titleBox-title">微整形</div>
+          <span class="productBox-titleBox-subTitle">Injectables</span>
         </div>
 
-        <ul class="productBox-listBox">
-          <li v-for="(item, index) in productList" :key="`productBox-listBox-itemBox-${index}`"
-            class="productBox-listBox-itemBox" :class="index === 0 || index === 1 ? 'activeItem' : ''">
-            <img class="img" :src="item.imgUrl" alt="">
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/mljz-wzx/wzx-img1-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/mljz-wzx/wzx-img1-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">全脸抗衰拉提</div>
+            <span class="textBox-subTitle">Anti-aging injectables</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/mljz-wzx/wzx-img2-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/mljz-wzx/wzx-img2-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">全脸抗衰拉提</div>
+            <span class="textBox-subTitle">Anti-aging injectables</span>
+          </div>
+        </div>
+
+        <div class="sliderBox">
+          <div class="productBox-slider" style="margin-right: 10px;">
+            <img-comparison-slider>
+              <img slot="before" src="~/assets/images/mljz-wzx/wzx-img3-1.jpg" alt="Before">
+              <img slot="after" src="~/assets/images/mljz-wzx/wzx-img3-2.jpg" alt="After">
+            </img-comparison-slider>
             <div class="textBox">
-              <div class="textBox-title">{{ item.title }}</div>
-              <span class="textBox-subTitle">{{ item.subTitle }}</span>
+              <div class="textBox-title">全脸抗衰拉提</div>
+              <span class="textBox-subTitle">Anti-aging injectables</span>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
 
-      <!-- 了解更多部分 -->
-      <ul class="moreBox">
-        <li v-for="(item, index) in moreList" :key="`moreBox-itemBox-${index}`" class="moreBox-itemBox">
-          <img class="icon" :src="item.icon" alt="">
-          <div class="title">{{ item.title }}</div>
-          <p class="subTitle">{{ item.subTitle }}</p>
-          <div class="btn">了解更多 ></div>
-        </li>
-      </ul>
-    </div>
-
-    <!--    h5版-->
-    <div class="wzx-h5">
-      <!--      头图部分-->
-      <img class="headImg" src="~/assets/images/mljz-wzx/wzx-headImg-h5.jpg" alt="">
-
-      <!--      适用人群及项目-->
-      <!--      适用人群及项目-->
-      <ul class="apply">
-        <li class="apply-item">RFAL灵动雕塑</li>
-        <li class="apply-item title">微整形</li>
-        <li class="apply-item">TML高清脂肪雕塑</li>
-        <li class="apply-item">美式微创男乳祛除术</li>
-        <li class="apply-item">身体体雕</li>
-        <li class="apply-item">面部局部提拉</li>
-      </ul>
-
-      <!-- 产品展示部分 -->
-      <div class="productBox">
-        <div class="productBox-titleBox">
-          <div class="productBox-titleBox-title">RFAL灵动雕塑</div>
-          <span class="productBox-titleBox-subTitle">Facial Reshaping</span>
+          <div class="productBox-slider" style="margin-left: 10px;">
+            <img style="height: auto;width: 100%;" src="~/assets/images/mljz-wzx/wzx-img4.jpg" alt="Before">
+            <div class="textBox">
+              <div class="textBox-title">全脸抗衰拉提</div>
+              <span class="textBox-subTitle">Anti-aging injectables</span>
+            </div>
+          </div>
         </div>
 
         <ul class="productBox-listBox">
@@ -81,23 +78,130 @@
       </div>
 
       <!-- 了解更多部分 -->
-      <ul class="moreBox">
+      <!-- <ul class="moreBox">
         <li v-for="(item, index) in moreList" :key="`moreBox-itemBox-${index}`" class="moreBox-itemBox">
           <img class="icon" :src="item.icon" alt="">
           <div class="title">{{ item.title }}</div>
           <p class="subTitle">{{ item.subTitle }}</p>
           <div class="btn">了解更多 ></div>
         </li>
-      </ul>
+      </ul> -->
+    </div>
+
+    <!--    h5版-->
+    <div class="wzx-h5">
+      <!--      头图部分-->
+      <img class="headImg" src="~/assets/images/mljz-wzx/wzx-headImg-h5.jpg" alt="">
+
+      <!--      适用人群及项目-->
+      <!-- <ul class="apply">
+        <li class="apply-item">RFAL灵动雕塑</li>
+        <li class="apply-item title">微整形</li>
+        <li class="apply-item">TML高清脂肪雕塑</li>
+        <li class="apply-item">美式微创男乳祛除术</li>
+        <li class="apply-item">身体体雕</li>
+        <li class="apply-item">面部局部提拉</li>
+      </ul> -->
+
+      <!-- 产品展示部分 -->
+      <div class="productBox">
+        <div class="productBox-titleBox">
+          <div class="productBox-titleBox-title">RFAL灵动雕塑</div>
+          <span class="productBox-titleBox-subTitle">Facial Reshaping</span>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/mljz-wzx/wzx-img1-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/mljz-wzx/wzx-img1-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">全脸抗衰拉提</div>
+            <span class="textBox-subTitle">Anti-aging injectables</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/mljz-wzx/wzx-img2-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/mljz-wzx/wzx-img2-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">全脸抗衰拉提</div>
+            <span class="textBox-subTitle">Anti-aging injectables</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/mljz-wzx/wzx-img3-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/mljz-wzx/wzx-img3-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">全脸抗衰拉提</div>
+            <span class="textBox-subTitle">Anti-aging injectables</span>
+          </div>
+        </div>
+
+        <ul class="productBox-listBox">
+          <li v-for="(item, index) in productList" :key="`productBox-listBox-itemBox-${index}`"
+            class="productBox-listBox-itemBox">
+            <img class="img" :src="item.imgUrl" alt="">
+            <div class="textBox">
+              <div class="textBox-title">{{ item.title }}</div>
+              <span class="textBox-subTitle">{{ item.subTitle }}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 了解更多部分 -->
+      <!-- <ul class="moreBox">
+        <li v-for="(item, index) in moreList" :key="`moreBox-itemBox-${index}`" class="moreBox-itemBox">
+          <img class="icon" :src="item.icon" alt="">
+          <div class="title">{{ item.title }}</div>
+          <p class="subTitle">{{ item.subTitle }}</p>
+          <div class="btn">了解更多 ></div>
+        </li>
+      </ul> -->
     </div>
   </div>
 </template>
 
 <script>
 import { navigateTo } from "nuxt/app";
-import Img1 from '~/assets/images/mljz-wzx/wzx-img1.jpg'
-import Img2 from '~/assets/images/mljz-wzx/wzx-img2.jpg'
-import Img3 from '~/assets/images/mljz-wzx/wzx-img3.jpg'
+import 'img-comparison-slider'
+import 'img-comparison-slider/dist/styles.css'
+import Img5 from '~/assets/images/mljz-wzx/wzx-img5.jpg'
+import Img6 from '~/assets/images/mljz-wzx/wzx-img6.jpg'
+import Img7 from '~/assets/images/mljz-wzx/wzx-img7.jpg'
+import Img8 from '~/assets/images/mljz-wzx/wzx-img8.jpg'
+import Img9 from '~/assets/images/mljz-wzx/wzx-img9.jpg'
+import Img10 from '~/assets/images/mljz-wzx/wzx-img10.jpg'
+import Img11 from '~/assets/images/mljz-wzx/wzx-img11.jpg'
+import Img12 from '~/assets/images/mljz-wzx/wzx-img12.jpg'
+import Img13 from '~/assets/images/mljz-wzx/wzx-img13.jpg'
+import Img14 from '~/assets/images/mljz-wzx/wzx-img14.jpg'
+import Img15 from '~/assets/images/mljz-wzx/wzx-img15.jpg'
+import Img16 from '~/assets/images/mljz-wzx/wzx-img16.jpg'
+import Img17 from '~/assets/images/mljz-wzx/wzx-img17.jpg'
+import Img18 from '~/assets/images/mljz-wzx/wzx-img18.jpg'
+import Img19 from '~/assets/images/mljz-wzx/wzx-img19.jpg'
+import Img20 from '~/assets/images/mljz-wzx/wzx-img20.jpg'
+import Img21 from '~/assets/images/mljz-wzx/wzx-img21.jpg'
+import Img22 from '~/assets/images/mljz-wzx/wzx-img22.jpg'
+import Img23 from '~/assets/images/mljz-wzx/wzx-img23.jpg'
+import Img24 from '~/assets/images/mljz-wzx/wzx-img24.jpg'
+import Img25 from '~/assets/images/mljz-wzx/wzx-img25.jpg'
+import Img26 from '~/assets/images/mljz-wzx/wzx-img26.jpg'
+import Img27 from '~/assets/images/mljz-wzx/wzx-img27.jpg'
+import Img28 from '~/assets/images/mljz-wzx/wzx-img28.jpg'
+import Img29 from '~/assets/images/mljz-wzx/wzx-img29.jpg'
+import Img30 from '~/assets/images/mljz-wzx/wzx-img30.jpg'
+import Img31 from '~/assets/images/mljz-wzx/wzx-img31.jpg'
+import Img32 from '~/assets/images/mljz-wzx/wzx-img32.jpg'
+import Img33 from '~/assets/images/mljz-wzx/wzx-img33.jpg'
+import Img34 from '~/assets/images/mljz-wzx/wzx-img34.jpg'
 import Icon from '~/assets/images/mljz-wzx/wzx-icon-more.png'
 
 export default {
@@ -108,180 +212,155 @@ export default {
       // 产品列表
       productList: [
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img5,
+          title: '颜值微调',
+          subTitle: 'Facial Contouring Injections'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img6,
+          title: '全脸微调',
+          subTitle: 'Facial Aesthetic Injections'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img7,
+          title: '全脸抗衰拉提',
+          subTitle: 'Liquid Face-Lift'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img8,
+          title: '微整形',
+          subTitle: 'Injectable'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img9,
+          title: '颜值微调',
+          subTitle: 'Micro-plastic surgery'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img10,
+          title: '鱼骨线拉提',
+          subTitle: 'Cog Thread Lifting'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img11,
+          title: '微整形',
+          subTitle: 'Injectable'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img12,
+          title: '全脸抗衰拉提',
+          subTitle: 'Anti ageing iniectables'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img13,
+          title: '轮廓固定',
+          subTitle: 'Facial Contouring Injection'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img14,
+          title: '颜值微调',
+          subTitle: 'Micro-plastic surgery'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img15,
+          title: '面部拉提',
+          subTitle: 'Mini-Facelifting'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img16,
+          title: '轮廓固定',
+          subTitle: 'Facial Contouring Injection'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img17,
+          title: '颜值微调',
+          subTitle: 'Micro-plastic surgery'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img18,
+          title: '全脸抗衰拉提',
+          subTitle: 'Anti ageing injectables'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img19,
+          title: '颜值微调',
+          subTitle: 'Micro-plastic surgery'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img20,
+          title: '下巴塑形',
+          subTitle: 'Chin Augmentation'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img21,
+          title: '口周年轻化',
+          subTitle: 'Perioral Rejuvenation'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img22,
+          title: '口周年轻化',
+          subTitle: 'Perioral Rejuvenation'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img23,
+          title: '眉弓微调',
+          subTitle: 'Injectable Brow Lifting'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img24,
+          title: '额头塑形',
+          subTitle: 'Forehead Filler'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img25,
+          title: '液态隆鼻',
+          subTitle: 'Liquid Rhinoplasty'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img26,
+          title: 'RFAL注射式去眼袋',
+          subTitle: 'RFAL Eye bag removal'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img27,
+          title: '注射式下睑年轻化',
+          subTitle: 'Under Eye Fillers'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img28,
+          title: '注射式下睑年轻化',
+          subTitle: 'Under Eye Fillers'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img29,
+          title: '黑眼圈治疗',
+          subTitle: 'Dark Eye Circles Treatment'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img30,
+          title: '黑眼圈治疗',
+          subTitle: 'Dark Eye Circles Treatment'
         },
         {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img31,
+          title: '注射式下睑年轻化',
+          subTitle: 'Under Eye Fillers'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img32,
+          title: '注射式下睑年轻化',
+          subTitle: 'Under Eye Fillers'
         },
         {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          imgUrl: Img33,
+          title: '唇塑形',
+          subTitle: 'Lip Fillers'
         },
         {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
-        {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
-        {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
-        {
-          imgUrl: Img3,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
-        {
-          imgUrl: Img1,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
-        {
-          imgUrl: Img2,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
-        },
+          imgUrl: Img34,
+          title: '唇塑形',
+          subTitle: 'Lip Fillers'
+        }
       ],
 
       // 更多列表
@@ -365,7 +444,7 @@ export default {
 
     // 产品展示部分
     .productBox {
-      padding: 0 360px;
+      padding: 120px 360px 30px;
 
       @at-root &-titleBox {
         display: flex;
@@ -380,6 +459,38 @@ export default {
         }
       }
 
+      .sliderBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      @at-root &-slider {
+        background: #F0F0F0;
+        margin-bottom: 20px;
+        flex: 1;
+        overflow: hidden;
+
+        img-comparison-slider img {
+          width: 100%;
+          height: auto;
+        }
+
+        .textBox {
+          font-size: 12px;
+          color: #686868;
+          padding: 15px;
+          box-sizing: border-box;
+
+          @at-root &-title {
+            font-size: 14px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
       @at-root &-listBox {
         display: flex;
         align-items: center;
@@ -387,7 +498,7 @@ export default {
 
         @at-root &-itemBox {
           width: 380px;
-          height: 300px;
+          height: auto;
           background: #F0F0F0;
           margin: 10px 6px;
 
@@ -498,7 +609,7 @@ export default {
 
     // 产品展示部分
     .productBox {
-      padding: 0 20px 20px;
+      padding: 20px;
 
       @at-root &-titleBox {
         display: flex;
@@ -514,6 +625,32 @@ export default {
         }
       }
 
+      @at-root &-slider {
+        background: #F0F0F0;
+        margin-bottom: 20px;
+        flex: 1;
+        overflow: hidden;
+
+        img-comparison-slider img {
+          width: 100%;
+          height: auto;
+        }
+
+        .textBox {
+          font-size: 12px;
+          color: #686868;
+          padding: 15px;
+          box-sizing: border-box;
+
+          @at-root &-title {
+            font-size: 14px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
       @at-root &-listBox {
         display: flex;
         align-items: center;
@@ -521,7 +658,7 @@ export default {
 
         @at-root &-itemBox {
           width: 100%;
-          height: 300px;
+          height: auto;
           background: #F0F0F0;
           margin-bottom: 10px;
 

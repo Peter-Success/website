@@ -216,6 +216,8 @@
 
 <script>
 import { navigateTo } from "nuxt/app";
+import 'img-comparison-slider'
+import 'img-comparison-slider/dist/styles.css'
 import Img7 from '@/assets/images/rfal/rfal-img7.jpg'
 import Img8 from '@/assets/images/rfal/rfal-img8.jpg'
 import Img9 from '@/assets/images/rfal/rfal-img9.jpg'
@@ -238,8 +240,6 @@ import Img25 from '@/assets/images/rfal/rfal-img25.jpg'
 import Img26 from '@/assets/images/rfal/rfal-img26.jpg'
 import Img27 from '@/assets/images/rfal/rfal-img27.jpg'
 import Icon from '~/assets/images/rfal/rfal-icon-more.png'
-import 'img-comparison-slider'
-import 'img-comparison-slider/dist/styles.css'
 
 export default {
   name: "rfal",
@@ -488,7 +488,7 @@ export default {
 
         @at-root &-itemBox {
           width: 380px;
-          height: 300px;
+          height: auto;
           background: #F0F0F0;
           margin: 10px 6px;
 
