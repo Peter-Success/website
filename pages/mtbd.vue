@@ -246,6 +246,7 @@ export default {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+        cursor: pointer;
 
         .image {
           flex-shrink: 0;
@@ -337,6 +338,7 @@ export default {
       @at-root &-itemBox-item {
         margin-bottom: 25px;
         border-bottom: 1px solid #B7B7B7;
+        cursor: pointer;
 
         .image {
           width: 100%;
