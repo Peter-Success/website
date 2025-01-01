@@ -6,20 +6,87 @@
       <img class="headImg" src="~/assets/images/rfal/rfal-headImg-pc.jpg" alt="">
 
       <!--      适用人群及项目-->
-      <ul class="apply">
+      <!-- <ul class="apply">
         <li class="apply-item title">RFAL灵动雕塑</li>
         <li class="apply-item">微整形</li>
         <li class="apply-item">TML高清脂肪雕塑</li>
         <li class="apply-item">美式微创男乳祛除术</li>
         <li class="apply-item">身体体雕</li>
         <li class="apply-item">面部局部提拉</li>
-      </ul>
+      </ul> -->
 
       <!-- 产品展示部分 -->
       <div class="productBox">
         <div class="productBox-titleBox">
           <div class="productBox-titleBox-title">RFAL灵动雕塑</div>
           <span class="productBox-titleBox-subTitle">Facial Reshaping</span>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img1-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img1-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img2-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img2-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="sliderBox">
+          <div class="productBox-slider" style="margin-right: 10px;">
+            <img-comparison-slider>
+              <img slot="before" src="~/assets/images/rfal/rfal-img3-1.jpg" alt="Before">
+              <img slot="after" src="~/assets/images/rfal/rfal-img3-2.jpg" alt="After">
+            </img-comparison-slider>
+            <div class="textBox">
+              <div class="textBox-title">RFAL灵动雕塑</div>
+              <span class="textBox-subTitle">Facial Reshaping</span>
+            </div>
+          </div>
+
+          <div class="productBox-slider" style="margin-left: 10px;">
+            <img-comparison-slider>
+              <img slot="before" src="~/assets/images/rfal/rfal-img4-1.jpg" alt="Before">
+              <img slot="after" src="~/assets/images/rfal/rfal-img4-2.jpg" alt="After">
+            </img-comparison-slider>
+            <div class="textBox">
+              <div class="textBox-title">RFAL灵动雕塑</div>
+              <span class="textBox-subTitle">Facial Reshaping</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sliderBox">
+          <div class="productBox-slider" style="margin-right: 10px;">
+            <img-comparison-slider>
+              <img slot="before" src="~/assets/images/rfal/rfal-img5-1.jpg" alt="Before">
+              <img slot="after" src="~/assets/images/rfal/rfal-img5-2.jpg" alt="After">
+            </img-comparison-slider>
+            <div class="textBox">
+              <div class="textBox-title">RFAL灵动雕塑</div>
+              <span class="textBox-subTitle">Facial Reshaping</span>
+            </div>
+          </div>
+
+          <div class="productBox-slider" style="margin-left: 10px;">
+            <img style="height: auto;width: 100%;" src="~/assets/images/rfal/rfal-img6.jpg" alt="Before">
+            <div class="textBox">
+              <div class="textBox-title">RFAL灵动雕塑</div>
+              <span class="textBox-subTitle">Facial Reshaping</span>
+            </div>
+          </div>
         </div>
 
         <ul class="productBox-listBox">
@@ -35,14 +102,14 @@
       </div>
 
       <!-- 了解更多部分 -->
-      <ul class="moreBox">
+      <!-- <ul class="moreBox">
         <li v-for="(item, index) in moreList" :key="`moreBox-itemBox-${index}`" class="moreBox-itemBox">
           <img class="icon" :src="item.icon" alt="">
           <div class="title">{{ item.title }}</div>
           <p class="subTitle">{{ item.subTitle }}</p>
           <div class="btn">了解更多 ></div>
         </li>
-      </ul>
+      </ul> -->
     </div>
 
     <!--    h5版-->
@@ -51,21 +118,75 @@
       <img class="headImg" src="~/assets/images/rfal/rfal-headImg-h5.jpg" alt="">
 
       <!--      适用人群及项目-->
-      <!--      适用人群及项目-->
-      <ul class="apply">
+      <!-- <ul class="apply">
         <li class="apply-item title">RFAL灵动雕塑</li>
         <li class="apply-item">微整形</li>
         <li class="apply-item">TML高清脂肪雕塑</li>
         <li class="apply-item">美式微创男乳祛除术</li>
         <li class="apply-item">身体体雕</li>
         <li class="apply-item">面部局部提拉</li>
-      </ul>
+      </ul> -->
 
       <!-- 产品展示部分 -->
       <div class="productBox">
         <div class="productBox-titleBox">
           <div class="productBox-titleBox-title">RFAL灵动雕塑</div>
           <span class="productBox-titleBox-subTitle">Facial Reshaping</span>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img1-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img1-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img2-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img2-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img3-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img3-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img4-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img4-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
+        </div>
+
+        <div class="productBox-slider">
+          <img-comparison-slider>
+            <img slot="before" src="~/assets/images/rfal/rfal-img5-1.jpg" alt="Before">
+            <img slot="after" src="~/assets/images/rfal/rfal-img5-2.jpg" alt="After">
+          </img-comparison-slider>
+          <div class="textBox">
+            <div class="textBox-title">RFAL灵动雕塑</div>
+            <span class="textBox-subTitle">Facial Reshaping</span>
+          </div>
         </div>
 
         <ul class="productBox-listBox">
@@ -81,24 +202,44 @@
       </div>
 
       <!-- 了解更多部分 -->
-      <ul class="moreBox">
+      <!-- <ul class="moreBox">
         <li v-for="(item, index) in moreList" :key="`moreBox-itemBox-${index}`" class="moreBox-itemBox">
           <img class="icon" :src="item.icon" alt="">
           <div class="title">{{ item.title }}</div>
           <p class="subTitle">{{ item.subTitle }}</p>
           <div class="btn">了解更多 ></div>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </template>
 
 <script>
 import { navigateTo } from "nuxt/app";
-import Img1 from '@/assets/images/rfal/rfal-img1.jpg'
-import Img2 from '@/assets/images/rfal/rfal-img2.jpg'
-import Img3 from '@/assets/images/rfal/rfal-img3.jpg'
+import Img7 from '@/assets/images/rfal/rfal-img7.jpg'
+import Img8 from '@/assets/images/rfal/rfal-img8.jpg'
+import Img9 from '@/assets/images/rfal/rfal-img9.jpg'
+import Img10 from '@/assets/images/rfal/rfal-img10.jpg'
+import Img11 from '@/assets/images/rfal/rfal-img11.jpg'
+import Img12 from '@/assets/images/rfal/rfal-img12.jpg'
+import Img13 from '@/assets/images/rfal/rfal-img13.jpg'
+import Img14 from '@/assets/images/rfal/rfal-img14.jpg'
+import Img15 from '@/assets/images/rfal/rfal-img15.jpg'
+import Img16 from '@/assets/images/rfal/rfal-img16.jpg'
+import Img17 from '@/assets/images/rfal/rfal-img17.jpg'
+import Img18 from '@/assets/images/rfal/rfal-img18.jpg'
+import Img19 from '@/assets/images/rfal/rfal-img19.jpg'
+import Img20 from '@/assets/images/rfal/rfal-img20.jpg'
+import Img21 from '@/assets/images/rfal/rfal-img21.jpg'
+import Img22 from '@/assets/images/rfal/rfal-img22.jpg'
+import Img23 from '@/assets/images/rfal/rfal-img23.jpg'
+import Img24 from '@/assets/images/rfal/rfal-img24.jpg'
+import Img25 from '@/assets/images/rfal/rfal-img25.jpg'
+import Img26 from '@/assets/images/rfal/rfal-img26.jpg'
+import Img27 from '@/assets/images/rfal/rfal-img27.jpg'
 import Icon from '~/assets/images/rfal/rfal-icon-more.png'
+import 'img-comparison-slider'
+import 'img-comparison-slider/dist/styles.css'
 
 export default {
   name: "rfal",
@@ -108,72 +249,107 @@ export default {
       // 产品列表
       productList: [
         {
-          imgUrl: Img1,
+          imgUrl: Img7,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img2,
+          imgUrl: Img8,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img3,
+          imgUrl: Img9,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img1,
+          imgUrl: Img10,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img2,
+          imgUrl: Img11,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img3,
+          imgUrl: Img12,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img1,
+          imgUrl: Img13,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img2,
+          imgUrl: Img14,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img3,
+          imgUrl: Img15,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img1,
+          imgUrl: Img16,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img2,
+          imgUrl: Img17,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img3,
+          imgUrl: Img18,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img1,
+          imgUrl: Img19,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
         {
-          imgUrl: Img2,
+          imgUrl: Img20,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img21,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img22,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img23,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img24,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img25,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img26,
+          title: 'RFAL灵动雕塑',
+          subTitle: 'Facial Reshaping'
+        },
+        {
+          imgUrl: Img27,
           title: 'RFAL灵动雕塑',
           subTitle: 'Facial Reshaping'
         },
@@ -258,7 +434,7 @@ export default {
 
     // 产品展示部分
     .productBox {
-      padding: 0 360px;
+      padding: 120px 360px 30px;
 
       @at-root &-titleBox {
         display: flex;
@@ -270,6 +446,38 @@ export default {
         @at-root &-subTitle {
           font-size: 12px;
           margin-left: 10px;
+        }
+      }
+
+      .sliderBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      @at-root &-slider {
+        background: #F0F0F0;
+        margin-bottom: 20px;
+        flex: 1;
+        overflow: hidden;
+
+        img-comparison-slider img {
+          width: 100%;
+          height: auto;
+        }
+
+        .textBox {
+          font-size: 12px;
+          color: #686868;
+          padding: 15px;
+          box-sizing: border-box;
+
+          @at-root &-title {
+            font-size: 14px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
         }
       }
 
@@ -378,7 +586,7 @@ export default {
 
     // 产品展示部分
     .productBox {
-      padding: 0 20px 20px;
+      padding: 20px;
 
       @at-root &-titleBox {
         display: flex;
@@ -394,6 +602,32 @@ export default {
         }
       }
 
+      @at-root &-slider {
+        background: #F0F0F0;
+        margin-bottom: 20px;
+        flex: 1;
+        overflow: hidden;
+
+        img-comparison-slider img {
+          width: 100%;
+          height: auto;
+        }
+
+        .textBox {
+          font-size: 12px;
+          color: #686868;
+          padding: 15px;
+          box-sizing: border-box;
+
+          @at-root &-title {
+            font-size: 14px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
       @at-root &-listBox {
         display: flex;
         align-items: center;
@@ -401,7 +635,6 @@ export default {
 
         @at-root &-itemBox {
           width: 100%;
-          height: 300px;
           background: #F0F0F0;
           margin-bottom: 10px;
 
