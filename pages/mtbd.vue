@@ -30,7 +30,7 @@
           到目前为止，颜士钧医师已经成功服务了超过一万名全球客户，被CCTV、人民网、澎湃新闻、时尚芭莎、瑞丽杂志等多家官媒与知名媒体报道，在中国建立了良好的客户信任度与极佳的口碑。2022年颜士钧医师登上了荷兰金融日报，其对颜医师丰富的医学美容临床经验给予了极大肯定。
         </div>
 
-        <img src="~/assets/images/mtbd/mtbd-pt.jpg" alt="">
+        <img src="~/assets/images/mtbd/mtbd-pt-pc.jpg" alt="">
       </div>
     </div>
 
@@ -64,7 +64,7 @@
           到目前为止，颜士钧医师已经成功服务了超过一万名全球客户，被CCTV、人民网、澎湃新闻、时尚芭莎、瑞丽杂志等多家官媒与知名媒体报道，在中国建立了良好的客户信任度与极佳的口碑。2022年颜士钧医师登上了荷兰金融日报，其对颜医师丰富的医学美容临床经验给予了极大肯定。
         </div>
 
-        <img src="~/assets/images/mtbd/mtbd-pt.jpg" alt="">
+        <img src="~/assets/images/mtbd/mtbd-pt-h5.jpg" alt="">
       </div>
     </div>
   </div>
