@@ -143,6 +143,14 @@
           </div>
         </div>
 
+        <div class="productBox-slider">
+            <img style="height: auto;width: 100%;" src="~/assets/images/mljz-wzx/wzx-img4.jpg" alt="Before">
+            <div class="textBox">
+              <div class="textBox-title">全脸抗衰拉提</div>
+              <span class="textBox-subTitle">Anti-aging injectables</span>
+            </div>
+          </div>
+
         <ul class="productBox-listBox">
           <li v-for="(item, index) in productList" :key="`productBox-listBox-itemBox-${index}`"
             class="productBox-listBox-itemBox">

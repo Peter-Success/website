@@ -25,8 +25,8 @@
         <div class="productBox-slider">
           <img style="height: auto;width: 100%;" src="~/assets/images/mswc/mswc-img1.jpg" alt="Before">
           <div class="textBox">
-            <div class="textBox-title">RFAL副乳祛除</div>
-            <span class="textBox-subTitle">RFAL Axillary Breast Removal</span>
+            <div class="textBox-title">美式微创男乳祛除术</div>
+            <span class="textBox-subTitle">Gynecomastia Treatment</span>
           </div>
         </div>
 
@@ -78,8 +78,8 @@
         <div class="productBox-slider">
           <img style="height: auto;width: 100%;" src="~/assets/images/mswc/mswc-img1.jpg" alt="Before">
           <div class="textBox">
-            <div class="textBox-title">RFAL副乳祛除</div>
-            <span class="textBox-subTitle">RFAL Axillary Breast Removal</span>
+            <div class="textBox-title">美式微创男乳祛除术</div>
+            <span class="textBox-subTitle">Gynecomastia Treatment</span>
           </div>
         </div>
 
@@ -129,43 +129,43 @@ export default {
       productList: [
         {
           imgUrl: Img2,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img3,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img4,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img5,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img6,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img7,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img8,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '美式微创男乳祛除术',
+          subTitle: 'Gynecomastia Treatment'
         },
         {
           imgUrl: Img9,
-          title: '帅气科创COO的颜值维养秘诀',
-          subTitle: 'Facial Reshaping'
+          title: '胸型调整',
+          subTitle: 'Male Chest Reshaping'
         }
       ],
 

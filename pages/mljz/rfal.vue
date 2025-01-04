@@ -83,8 +83,8 @@
           <div class="productBox-slider" style="margin-left: 10px;">
             <img style="height: auto;width: 100%;" src="~/assets/images/rfal/rfal-img6.jpg" alt="Before">
             <div class="textBox">
-              <div class="textBox-title">RFAL灵动雕塑</div>
-              <span class="textBox-subTitle">Facial Reshaping</span>
+              <div class="textBox-title">显微自体脂肪移植</div>
+              <span class="textBox-subTitle">Micro-autologous fat transplantation</span>
             </div>
           </div>
         </div>
@@ -189,6 +189,14 @@
           </div>
         </div>
 
+        <div class="productBox-slider">
+          <img style="height: auto;width: 100%;" src="~/assets/images/rfal/rfal-img6.jpg" alt="Before">
+          <div class="textBox">
+            <div class="textBox-title">显微自体脂肪移植</div>
+            <span class="textBox-subTitle">Micro-autologous fat transplantation</span>
+          </div>
+        </div>
+
         <ul class="productBox-listBox">
           <li v-for="(item, index) in productList" :key="`productBox-listBox-itemBox-${index}`"
             class="productBox-listBox-itemBox">
@@ -285,28 +293,28 @@ export default {
         },
         {
           imgUrl: Img14,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: 'RFAL馒化修复',
+          subTitle: 'RFAL FOS-Treatment'
         },
         {
           imgUrl: Img15,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: 'RFAL馒化修复',
+          subTitle: 'RFAL FOS-Treatment'
         },
         {
           imgUrl: Img16,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: 'RFAL馒化修复',
+          subTitle: 'RFAL FOS-Treatment'
         },
         {
           imgUrl: Img17,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: 'RFAL馒化修复',
+          subTitle: 'RFAL FOS-Treatment'
         },
         {
           imgUrl: Img18,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: 'RFAL馒化修复',
+          subTitle: 'RFAL FOS-Treatment'
         },
         {
           imgUrl: Img19,
@@ -340,8 +348,8 @@ export default {
         },
         {
           imgUrl: Img25,
-          title: 'RFAL灵动雕塑',
-          subTitle: 'Facial Reshaping'
+          title: '改善大小脸',
+          subTitle: 'Facial Aesthetics Treatments'
         },
         {
           imgUrl: Img26,

@@ -10,7 +10,7 @@
         <div class="listBox-title">媒体报道</div>
 
         <ul class="listBox-itemBox">
-          <li v-for="(item, index) in mtList" :key="index" @click="gotoDetail(item, gotoUrl)"
+          <li v-for="(item, index) in mtList" :key="index" @click="gotoDetail(item.gotoUrl)"
             class="listBox-itemBox-item">
             <img class="image" :src="item.imgUrl" alt="">
 
@@ -44,7 +44,7 @@
         <div class="listBox-title">媒体报道</div>
 
         <ul class="listBox-itemBox">
-          <li v-for="(item, index) in mtList" :key="index" @click="gotoDetail(item, gotoUrl)"
+          <li v-for="(item, index) in mtList" :key="index" @click="gotoDetail(item.gotoUrl)"
             class="listBox-itemBox-item">
             <img class="image" :src="item.imgUrl" alt="">
 
