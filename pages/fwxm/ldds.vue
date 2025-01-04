@@ -11,7 +11,7 @@
         <li class="apply-item">瘦脸</li>
         <li class="apply-item">眼周紧致</li>
         <li class="apply-item">下面部</li>
-        <li class="apply-item">妊辰纹</li>
+        <li class="apply-item">妊娠纹</li>
         <li class="apply-item">双下巴</li>
         <li class="apply-item">副乳</li>
       </ul>
@@ -225,7 +225,7 @@
         <li class="apply-item">瘦脸</li>
         <li class="apply-item">眼周紧致</li>
         <li class="apply-item">下面部</li>
-        <li class="apply-item">妊辰纹</li>
+        <li class="apply-item">妊娠纹</li>
         <li class="apply-item">双下巴</li>
         <li class="apply-item">副乳</li>
       </ul>
