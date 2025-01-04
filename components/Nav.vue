@@ -85,7 +85,7 @@ const navList = reactive([
   },
   {
     name: '美丽见证',
-    url: '/mljz',
+    url: '/mljz/rfal',
     subList: [
       {
         name: 'RFAL灵动雕塑',
@@ -226,7 +226,6 @@ onMounted(() => {
 	})
 })
 const router = useRouter()
-console.log('router---', router)
 router.beforeEach((to, from, next) => {
   console.log('to--', to)
   console.log('from--', from)
