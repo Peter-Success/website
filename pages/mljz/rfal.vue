@@ -597,9 +597,10 @@ export default {
       padding: 20px;
 
       @at-root &-titleBox {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
+        // display: flex;
+        // align-items: baseline;
+        // justify-content: center;
+        text-align: center;
         font-size: 24px;
         color: #000000;
         margin-bottom: 30px;

@@ -119,8 +119,8 @@ export default {
           imgUrl: Img4,
           title: '《纯纯甘出品-整形医师的一天》',
           subTitle: '全网热搜，知名自媒体人纯纯甘浮生一日系列，采访颜士钧医师（Dr.Terry Yen）的一天，让她带着大家窥医美行业更真实的一面吧。',
-          isShowBtn: false,
-          gotoUrl: ''
+          isShowBtn: true,
+          gotoUrl: 'https://m.weibo.cn/status/KE1Piz0AQ?type=repost&jumpfrom=weibocom'
         },
         {
           imgUrl: Img5,
@@ -277,10 +277,10 @@ export default {
             font-size: 15px;
             color: rgba(68, 68, 68, 0.85);
             // text-indent: 2rem;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
+            // text-overflow: ellipsis;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 3;
+            // -webkit-box-orient: vertical;
             overflow: hidden;
             min-height: 60px;
           }
@@ -366,10 +366,10 @@ export default {
             font-size: 13px;
             color: rgba(68, 68, 68, 0.85);
             // text-indent: 2rem;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
+            // text-overflow: ellipsis;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 3;
+            // -webkit-box-orient: vertical;
             overflow: hidden;
           }
 

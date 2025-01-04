@@ -19,7 +19,7 @@
       <div class="productBox">
         <div class="productBox-titleBox">
           <div class="productBox-titleBox-title">美式微创男乳祛除术</div>
-          <span class="productBox-titleBox-subTitle">Male Breast Reduction</span>
+          <span class="productBox-titleBox-subTitle">Gynecomastia Treatment</span>
         </div>
 
         <div class="productBox-slider">
@@ -72,7 +72,7 @@
       <div class="productBox">
         <div class="productBox-titleBox">
           <div class="productBox-titleBox-title">美式微创男乳祛除术</div>
-          <span class="productBox-titleBox-subTitle">Male Breast Reduction</span>
+          <span class="productBox-titleBox-subTitle">Gynecomastia Treatment</span>
         </div>
 
         <div class="productBox-slider">
@@ -403,9 +403,10 @@ export default {
       padding: 20px;
 
       @at-root &-titleBox {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
+        // display: flex;
+        // align-items: baseline;
+        // justify-content: center;
+        text-align: center;
         font-size: 24px;
         color: #000000;
         margin-bottom: 30px;
