@@ -33,7 +33,7 @@
       <div class="index-two-title">为什么选择咨询 Dr.Terry Yen</div>
       <div class="index-two-content">
         <p>欢迎来到颜士鈞医师中国北京的诊室，我们致力于通过融合整形美容外科的科学和艺术来提供定制医疗服务，提供专业、人性、定制化的治疗方案， 致力于为您提供世界一流的服务，运用全球领先的技术满足您的美容及抗衰需求。</p>
-        <p>师从高景恒教授、郝治华教授、王冀耕教授、王笃行教授、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
+        <p>师从高景恒教授、Dr.Justin Hao、王冀耕教授、王笃行教授、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
         <p>良好的医疗美容源于对人体生理构造和技术的深刻理解、对细节的关注、积累的临床经验和一丝不苟的执行。</p>
       </div>
       <div class="index-two-btn">

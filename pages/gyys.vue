@@ -50,15 +50,15 @@
             </div>
 
             <ul class="itemBox">
-              <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 15 余年担任：</li>
-              <li>● 韩国美容外科协会Korean Society of Aesthetic Surgery 讲师</li>
-              <li>● 美国美容整形手术学院American Institute of Cosmetic Plastic Surgery 讲师</li>
-              <li>● 美国整形外科医师协会American Society of Plastic Surgeons 会员</li>
-              <li>● 美国美容医学学院American Academy of Aesthetic Medicine 成员</li>
-              <li>● 国际皮肤美容外科联盟Dermatologic Aesthetic Surgery International League 成员</li>
-              <li>● 东方国际美容外科协会Eastern Cosmetic Surgery 讲师</li>
-              <li>● 亚太美容外科医学会 Asian Pacific Academy of Cosmetic Surgery 成员</li>
-              <li>● 中国上海医师协会Shanghai Medical Association 成员</li>
+              <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 19 余年担任：</li>
+              <li>● 美国整形美容手术学会AICPS 讲师</li>
+              <li>● 韩国美容外科协会 KSAS 讲师</li>
+              <li>● 美国整形外科医师协会ASPS 会员</li>
+              <li>● 东方国际美容外科协会 ECS讲师</li>
+              <li>● 美国美容医学学会 AAAM 成员</li>
+              <li>● 国际皮肤美容外科联盟 DASIL成员</li>
+              <li>● 亚太美容外科医学会 APACS 成员</li>
+              <li>● 中国整形美容协会CAPA会员</li>
             </ul>
           </div>
         </div>
@@ -89,7 +89,7 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中华海峡两岸整形美容协会理事长 王笃行教</span>
+            <span>中华海峡两岸整形美容协会理事长 王笃行教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
@@ -150,8 +150,6 @@
           <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.jpg" alt="">
 
           <div class="work-contentBox-rightBox">
-            <div class="title">学术论文</div>
-
             <ul class="textBox">
               <li>
                 <div>●《面部危险区-整形美容医师必知的面部七大雷区》</div>
@@ -198,9 +196,11 @@
                 <span>The updated concept of Autologous Fat Implantation - How to Boost Fat Grafting Survivability, 2016, 59(9):1-6</span>
               </li>
               <li>
-                <div>● Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians, Aesthetic
-                  Surgery Journal Open Forum, 2023
-                </div>
+                <div>● Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians, Aesthetic Surgery Journal Open Forum, 2023</div>
+              </li>
+              <li>
+                <div>● 双极射频辅助吸脂治疗颈部皮肤及软组织松弛的应用研究，安徽医科大学，2023</div>
+                <span>Bipolar radiofrequency-assisted liposuction applied to cervicomental angle definition 【D】. Anhui Medical University, 2023:6.</span>
               </li>
             </ul>
           </div>
@@ -228,15 +228,15 @@
           </div>
 
           <ul class="textBox">
-            <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 15 余年担任：</li>
-            <li>● 韩国美容外科协会Korean Society of Aesthetic Surgery 讲师</li>
-            <li>● 美国美容整形手术学院American Institute of Cosmetic Plastic Surgery 讲师</li>
-            <li>● 美国整形外科医师协会American Society of Plastic Surgeons 会员</li>
-            <li>● 美国美容医学学院American Academy of Aesthetic Medicine 成员</li>
-            <li>● 国际皮肤美容外科联盟Dermatologic Aesthetic Surgery International League 成员</li>
-            <li>● 东方国际美容外科协会Eastern Cosmetic Surgery 讲师</li>
-            <li>● 亚太美容外科医学会 Asian Pacific Academy of Cosmetic Surgery 成员</li>
-            <li>● 中国上海医师协会Shanghai Medical Association 成员</li>
+            <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 19 余年担任：</li>
+              <li>● 美国整形美容手术学会AICPS 讲师</li>
+              <li>● 韩国美容外科协会 KSAS 讲师</li>
+              <li>● 美国整形外科医师协会ASPS 会员</li>
+              <li>● 东方国际美容外科协会 ECS讲师</li>
+              <li>● 美国美容医学学会 AAAM 成员</li>
+              <li>● 国际皮肤美容外科联盟 DASIL成员</li>
+              <li>● 亚太美容外科医学会 APACS 成员</li>
+              <li>● 中国整形美容协会CAPA会员</li>
           </ul>
 
           <img class="portrait" src="~/assets/images/gyys/gyys-portrait.jpg" alt="">
@@ -268,7 +268,7 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中华海峡两岸整形美容协会理事长 王笃行教</span>
+            <span>中华海峡两岸整形美容协会理事长 王笃行教授</span>
           </div>
         </li>
         <li class="groupPhoto-item">
@@ -278,13 +278,13 @@
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
+          <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>美国著名整形专家Michael Pasq</span>
           </div>
         </li>
         <li class="groupPhoto-item">
-          <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
+          <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
           <div class="groupPhoto-item-textBox">
             <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
           </div>
@@ -329,8 +329,6 @@
           <img class="work-contentBox-img" src="~/assets/images/gyys/gyys-work.jpg" alt="">
 
           <div class="work-contentBox-bottomBox">
-            <div class="title">学术论文</div>
-
             <ul class="textBox">
               <li>
                 <div>●《面部危险区-整形美容医师必知的面部七大雷区》</div>
@@ -379,9 +377,11 @@
                 <span>The updated concept of Autologous Fat Implantation - How to Boost Fat Grafting Survivability, 2016, 59(9):1-6</span>
               </li>
               <li>
-                <div>● Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians, Aesthetic
-                  Surgery Journal Open Forum, 2023
-                </div>
+                <div>● Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians, Aesthetic Surgery Journal Open Forum, 2023</div>
+              </li>
+              <li>
+                <div>● 双极射频辅助吸脂治疗颈部皮肤及软组织松弛的应用研究，安徽医科大学，2023</div>
+                <span>Bipolar radiofrequency-assisted liposuction applied to cervicomental angle definition 【D】. Anhui Medical University, 2023:6.</span>
               </li>
             </ul>
           </div>

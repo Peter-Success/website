@@ -18,7 +18,7 @@
       </div>
       <div class="footer-pc-bottom">
         <div class="media">
-          <div class="media-title">关注DR.Terry YEn：</div>
+          <div class="media-title">关注Dr.Terry Yen：</div>
           <ul class="media-iocnBox">
             <li class="media-iocnBox-item">
               <img @click="iconClick('youtu')" class="icon" src="~/assets/images/footer/footer-youtu.png" alt="">

@@ -77,7 +77,7 @@
           <div class="two">欢迎使用联络功能，提问请务必填写E-mail及电话，我们会尽快回复您的问题</div>
           <div class="three">
             <div>电话：</div>
-            <div>135-5253-0999</div>
+            <div>1369-322-4553</div>
           </div>
         </div>
         <div class="lxzx-h5-content--form">
