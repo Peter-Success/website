@@ -471,13 +471,14 @@
                     <img src="~/assets/images/index/three-2-1.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
-                    <div class="content-item-h5-txt--top">显微副乳祛除</div>
-                    <div class="content-item-h5-txt--bottom">轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</div>
+                    <div class="content-item-h5-txt--top">TML美式显微脂肪雕塑术</div>
+                    <div class="content-item-h5-txt--bottom">每块石头内都蕴藏着一优美雕塑，雕塑家的使命就是发现它。</div>
                   </div>
                   <div class="content-item-h5-tag">
-                    <div class="content-item-h5-tag--item">针眼伤口</div>
-                    <div class="content-item-h5-tag--item">随做随走</div>
-                    <div class="content-item-h5-tag--item">副乳祛除</div>
+                    <div class="content-item-h5-tag--item">蚂蚁腰</div>
+                    <div class="content-item-h5-tag--item">巴掌腰</div>
+                    <div class="content-item-h5-tag--item">S曲线</div>
+                    <div class="content-item-h5-tag--item">漏斗身形</div>
                   </div>
                 </div>
               </swiper-slide>
@@ -487,13 +488,14 @@
                     <img src="~/assets/images/index/three-2-2.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
-                    <div class="content-item-h5-txt--top">显微臀腿部雕塑</div>
-                    <div class="content-item-h5-txt--bottom">击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</div>
+                    <div class="content-item-h5-txt--top">TML美式显微脂肪雕塑术</div>
+                    <div class="content-item-h5-txt--bottom">研究表明的腰臀比例0.7的女性最具性吸引力，可以透过一些“后天的努力”来获得婀娜多姿的S曲线</div>
                   </div>
                   <div class="content-item-h5-tag">
-                    <div class="content-item-h5-tag--item">假胯宽</div>
-                    <div class="content-item-h5-tag--item">马鞍肉</div>
-                    <div class="content-item-h5-tag--item">蜜桃臀</div>
+                    <div class="content-item-h5-tag--item">瘦腰</div>
+                    <div class="content-item-h5-tag--item">瘦腰</div>
+                    <div class="content-item-h5-tag--item">曲线美</div>
+                    <div class="content-item-h5-tag--item">魔鬼腰臀比</div>
                   </div>
                 </div>
               </swiper-slide>
