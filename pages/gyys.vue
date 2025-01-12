@@ -83,7 +83,7 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>台湾亚太美容外科医学会理事长 郝治华教授</span>
+            <span>台湾亚太美容外科医学会理事长 Dr. Justin Hao</span>
           </div>
         </li>
         <li class="groupPhoto-item">
@@ -262,7 +262,7 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>台湾亚太美容外科医学会理事长 郝治华教授</span>
+            <span>台湾亚太美容外科医学会理事长 Dr. Justin Hao</span>
           </div>
         </li>
         <li class="groupPhoto-item">

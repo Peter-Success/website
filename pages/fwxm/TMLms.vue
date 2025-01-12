@@ -126,22 +126,24 @@
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg2.jpg" alt="">
-            <div>显微副乳祛除</div>
-            <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
+            <div>TML美式显微脂肪雕塑术</div>
+            <span>每块石头内都蕴藏着一优美雕塑，雕塑家的使命就是发现它。</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>针眼伤口</li>
-              <li>随做随走</li>
-              <li>副乳祛除</li>
+              <li>蚂蚁腰</li>
+              <li>巴掌腰</li>
+              <li>S曲线</li>
+              <li>漏斗身形</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/TMLms/TMLms-dbImg3.jpg" alt="">
-            <div>显微臀腿部雕塑</div>
-            <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
+            <div>TML美式显微脂肪雕塑术</div>
+            <span>研究表明的腰臀比例0.7的女性最具性吸引力，可以透过一些“后天的努力”来获得婀娜多姿的S曲线</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>假胯宽</li>
-              <li>马鞍肉</li>
-              <li>蜜桃臀</li>
+              <li>瘦腰</li>
+              <li>瘦腰</li>
+              <li>曲线美</li>
+              <li>魔鬼腰臀比</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
@@ -330,24 +332,26 @@
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg2.jpg" alt="">
-                <div>显微副乳祛除</div>
-                <span>轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</span>
+                <div>TML美式显微脂肪雕塑术</div>
+                <span>每块石头内都蕴藏着一优美雕塑，雕塑家的使命就是发现它。</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>针眼伤口</li>
-                  <li>随做随走</li>
-                  <li>副乳祛除</li>
+                  <li>蚂蚁腰</li>
+                  <li>巴掌腰</li>
+                  <li>S曲线</li>
+                  <li>漏斗身形</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/TMLms/TMLms-dbImg3.jpg" alt="">
-                <div>显微臀腿部雕塑</div>
-                <span>击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</span>
+                <div>TML美式显微脂肪雕塑术</div>
+                <span>研究表明的腰臀比例0.7的女性最具性吸引力，可以透过一些“后天的努力”来获得婀娜多姿的S曲线</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>假胯宽</li>
-                  <li>马鞍肉</li>
-                  <li>蜜桃臀</li>
+                  <li>瘦腰</li>
+                  <li>瘦腰</li>
+                  <li>曲线美</li>
+                  <li>魔鬼腰臀比</li>
                 </ul>
               </div>
             </swiper-slide>
@@ -721,7 +725,7 @@ export default {
 
           span {
             display: block;
-            height: 42px;
+            height: 60px;
             font-size: 13px;
             color: #666666;
             line-height: 1.5;
@@ -744,6 +748,7 @@ export default {
             margin-right: 10px;
             font-size: 12px;
             color: #888888;
+            white-space: nowrap;
           }
         }
       }
@@ -1067,7 +1072,7 @@ export default {
 
           span {
             display: block;
-            height: 42px;
+            height: 60px;
             font-size: 13px;
             color: #666666;
             line-height: 1.5;
@@ -1090,6 +1095,7 @@ export default {
             margin-right: 10px;
             font-size: 12px;
             color: #888888;
+            white-space: nowrap;
           }
         }
       }

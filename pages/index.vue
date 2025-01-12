@@ -33,7 +33,7 @@
       <div class="index-two-title">为什么选择咨询 Dr.Terry Yen</div>
       <div class="index-two-content">
         <p>欢迎来到颜士鈞医师中国北京的诊室，我们致力于通过融合整形美容外科的科学和艺术来提供定制医疗服务，提供专业、人性、定制化的治疗方案， 致力于为您提供世界一流的服务，运用全球领先的技术满足您的美容及抗衰需求。</p>
-        <p>师从高景恒教授、Dr.Justin Hao、王冀耕教授、王笃行教授、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
+        <p>师从高景恒教授、王冀耕教授、Dr. Justin Hao、Dr. Jeffrey Klein、Dr. Michael Pasquale 等国内外知名整形美容专家，曾赴美、韩进修 5年。</p>
         <p>良好的医疗美容源于对人体生理构造和技术的深刻理解、对细节的关注、积累的临床经验和一丝不苟的执行。</p>
       </div>
       <div class="index-two-btn">
@@ -404,13 +404,14 @@
                 <img src="~/assets/images/index/three-2-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">显微副乳祛除</div>
-                <div class="content-item-txt--bottom">轻松告别腋下那两坨若隐若现、怎么收都收不进去的副乳</div>
+                <div class="content-item-txt--top">TML美式显微脂肪雕塑术</div>
+                <div class="content-item-txt--bottom">每块石头内都蕴藏着一优美雕塑，雕塑家的使命就是发现它。</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">针眼伤口</div>
-                <div class="content-item-tag--item">随做随走</div>
-                <div class="content-item-tag--item">副乳祛除</div>
+                <div class="content-item-tag--item">蚂蚁腰</div>
+                <div class="content-item-tag--item">巴掌腰</div>
+                <div class="content-item-tag--item">S曲线</div>
+                <div class="content-item-tag--item">漏斗身形</div>
               </div>
             </div>
             <div class="content-item">
@@ -418,13 +419,14 @@
                 <img src="~/assets/images/index/three-2-2.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">显微臀腿部雕塑</div>
-                <div class="content-item-txt--bottom">击退梨形身材，让腿视觉立刻增加5cm，打造笔直美腿</div>
+                <div class="content-item-txt--top">TML美式显微脂肪雕塑术</div>
+                <div class="content-item-txt--bottom">研究表明的腰臀比例0.7的女性最具性吸引力，可以透过一些“后天的努力”来获得婀娜多姿的S曲线</div>
               </div>
               <div class="content-item-tag">
-                <div class="content-item-tag--item">假胯宽</div>
-                <div class="content-item-tag--item">马鞍肉</div>
-                <div class="content-item-tag--item">蜜桃臀</div>
+                <div class="content-item-tag--item">瘦腰</div>
+                <div class="content-item-tag--item">瘦腰</div>
+                <div class="content-item-tag--item">曲线美</div>
+                <div class="content-item-tag--item">魔鬼腰臀比</div>
               </div>
             </div>
             <div class="content-item">
