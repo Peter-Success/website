@@ -723,7 +723,8 @@
         <p>2022年颜士钧医师登上了荷兰金融日报，其对颜医师丰富的医学美容临床经验给予了极大肯定。</p>
       </div>
 
-      <img class="index-four-pt" src="~/assets/images/index/index-pt.jpg" alt="">
+      <img class="index-four-pt-pc" src="~/assets/images/index/index-pt-pc.jpg" alt="">
+      <img class="index-four-pt-h5" src="~/assets/images/index/index-pt-h5.jpg" alt="">
 
       <ul class="index-four-intro">
         <li>
@@ -1213,11 +1214,15 @@ export default {
       line-height: 1.5;
       margin: 57px 0 40px;
     }
-    @at-root &-pt {
+    @at-root &-pt-pc {
+      display: block;
       width: 1200px;
       height: auto;
       vertical-align: middle;
       margin-bottom: 64px;
+    }
+    @at-root &-pt-h5 {
+      display: none;
     }
 
     @at-root &-intro {
@@ -1557,7 +1562,11 @@ export default {
         font-size: 14px;
         color: #313131;
       }
-      @at-root &-pt {
+      @at-root &-pt-pc{
+        display: none;
+      }
+      @at-root &-pt-h5 {
+        display: block;
         width: 100%;
       }
       @at-root &-intro {

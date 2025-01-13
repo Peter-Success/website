@@ -280,7 +280,7 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>美国著名整形专家Michael Pasq</span>
+            <span>美国著名整形专家Michael Pasquale</span>
           </div>
         </li>
         <li class="groupPhoto-item">
