@@ -121,41 +121,41 @@
         <ul class="contrast-itemBox">
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db1.jpg" alt="">
-            <div>抗衰紧致黑科技-巧变“精英”美容术</div>
-            <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
+            <div>职场女精英精致下颌线重塑</div>
+            <span>拥有年轻时的柔顺俐落又明显的下颌线会使整体脸形线条柔和，更有女人味！</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>紧致轮廓</li>
-              <li>瘦 脸</li>
+              <li>下颌线</li>
               <li>面部拉提</li>
+              <li>瘦脸</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db2.jpg" alt="">
-            <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
-            <span>嘟嘟肉bye-bye，恢复英气感</span>
+            <div>卡哇伊宝妈拯救垂垂下半脸</div>
+            <span>Inmode Embrace RF微创治疗可轻松实现瘦脸及轮廓线收紧的效果</span>
             <ul class="contrast-itemBox-tagBox">
+              <li>不动刀</li>
+              <li>针眼伤口</li>
               <li>嘟嘟肉</li>
-              <li>V脸神器</li>
-              <li>发 腮</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db3.jpg" alt="">
-            <div>男性也需要，油腻双下巴退散！</div>
-            <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+            <div>初老油腻发腮怎解？</div>
+            <span>社会在走，颜值要有。让你老气变帅气，利落更有型。</span>
             <ul class="contrast-itemBox-tagBox">
+              <li>男性微整</li>
               <li>双下巴</li>
-              <li>赫本线</li>
-              <li>面颈拉提</li>
+              <li>硬汉下颌线</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
-            <div>男性也需要，油腻双下巴退散！</div>
-            <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+            <div>照相看起来好胖好显老怎么办？！</div>
+            <span>透过RFAL复合式微创拉提疗程轻松回复年轻态</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>双下巴</li>
               <li>赫本线</li>
+              <li>双下巴</li>
               <li>面颈拉提</li>
             </ul>
           </li>
@@ -338,47 +338,47 @@
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db1.jpg" alt="">
-                <div>抗衰紧致黑科技-巧变“精英”美容术</div>
-                <span>新型射频紧实面颈部轮廓，比做热玛吉还不痛，比打溶脂针还不肿</span>
+                <div>职场女精英精致下颌线重塑</div>
+                <span>拥有年轻时的柔顺俐落又明显的下颌线会使整体脸形线条柔和，更有女人味！</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>紧致轮廓</li>
-                  <li>瘦 脸</li>
+                  <li>下颌线</li>
                   <li>面部拉提</li>
+                  <li>瘦脸</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db2.jpg" alt="">
-                <div>宝妈-拒绝垮脸发腮，轻松恢复幼态</div>
-                <span>嘟嘟肉bye-bye，恢复英气感</span>
+                <div>卡哇伊宝妈拯救垂垂下半脸</div>
+                <span>Inmode Embrace RF微创治疗可轻松实现瘦脸及轮廓线收紧的效果</span>
                 <ul class="contrast-itemBox-tagBox">
+                  <li>不动刀</li>
+                  <li>针眼伤口</li>
                   <li>嘟嘟肉</li>
-                  <li>V脸神器</li>
-                  <li>发 腮</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db3.jpg" alt="">
-                <div>男性也需要，油腻双下巴退散！</div>
-                <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+                <div>初老油腻发腮怎解？</div>
+                <span>社会在走，颜值要有。让你老气变帅气，利落更有型。</span>
                 <ul class="contrast-itemBox-tagBox">
+                  <li>男性微整</li>
                   <li>双下巴</li>
-                  <li>赫本线</li>
-                  <li>面颈拉提</li>
+                  <li>硬汉下颌线</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
-                <div>男性也需要，油腻双下巴退散！</div>
-                <span>下巴多了一块肉，拍照看起来显胖又显老，透过RFAL轻松重拾英气感</span>
+                <div>照相看起来好胖好显老怎么办？！</div>
+                <span>透过RFAL复合式微创拉提疗程轻松回复年轻态</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>双下巴</li>
                   <li>赫本线</li>
+                  <li>双下巴</li>
                   <li>面颈拉提</li>
                 </ul>
               </div>

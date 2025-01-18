@@ -53,6 +53,7 @@
               <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 19 余年担任：</li>
               <li>● 美国整形美容手术学会AICPS 讲师</li>
               <li>● 韩国美容外科协会 KSAS 讲师</li>
+              <li>● AMSC国际整形美容医学协会讲师</li>
               <li>● 美国整形外科医师协会ASPS 会员</li>
               <li>● 东方国际美容外科协会 ECS讲师</li>
               <li>● 美国美容医学学会 AAAM 成员</li>
@@ -77,37 +78,37 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience2.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中国整形美容界泰斗高景恒教授</span>
+            中国整形美容界泰斗高景恒教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>台湾亚太美容外科医学会理事长 Dr. Justin Hao</span>
+            台湾亚太美容外科医学会理事长 Dr. Justin Hao
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中华海峡两岸整形美容协会理事长 王笃行教授</span>
+            中华海峡两岸整形美容协会理事长 王笃行教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience5.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>大连医科大学 王冀耕教授</span>
+            大连医科大学 王冀耕教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>美国著名整形专家Michael Pasquale</span>
+            美国著名整形专家Michael Pasquale
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
+            科尔曼脂肪注射创始人Sydney R. Coleman
           </div>
         </li>
       </ul>
@@ -231,6 +232,7 @@
             <li>颜士钧医师拥有整形外科及管理学双学位（MD/MM），从事整形美容工作 19 余年担任：</li>
               <li>● 美国整形美容手术学会AICPS 讲师</li>
               <li>● 韩国美容外科协会 KSAS 讲师</li>
+              <li>● AMSC国际整形美容医学协会讲师</li>
               <li>● 美国整形外科医师协会ASPS 会员</li>
               <li>● 东方国际美容外科协会 ECS讲师</li>
               <li>● 美国美容医学学会 AAAM 成员</li>
@@ -256,37 +258,37 @@
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience2.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中国整形美容界泰斗高景恒教授</span>
+            中国整形美容界泰斗高景恒教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience3.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>台湾亚太美容外科医学会理事长 Dr. Justin Hao</span>
+            台湾亚太美容外科医学会理事长 Dr. Justin Hao
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience4.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>中华海峡两岸整形美容协会理事长 王笃行教授</span>
+            中华海峡两岸整形美容协会理事长 王笃行教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience5.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>大连医科大学 王冀耕教授</span>
+            大连医科大学 王冀耕教授
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience7.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>美国著名整形专家Michael Pasquale</span>
+            美国著名整形专家Michael Pasquale
           </div>
         </li>
         <li class="groupPhoto-item">
           <img src="~/assets/images/gyys/gyys-experience6.jpg" alt="">
           <div class="groupPhoto-item-textBox">
-            <span>科尔曼脂肪注射创始人Sydney R. Coleman</span>
+            科尔曼脂肪注射创始人Sydney R. Coleman
           </div>
         </li>
       </ul>

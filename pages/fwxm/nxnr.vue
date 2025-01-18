@@ -82,7 +82,7 @@
           <li>
             <img src="~/assets/images/nxnr/nxnr-ysIcon4.jpg" alt="">
             <div>乳腺不易再生</div>
-            <p>乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生</p>
+            <p>乳腺组织移除后，绝大部分的患者乳腺不会再次增长。</p>
           </li>
           <li>
             <img src="~/assets/images/nxnr/nxnr-ysIcon5.jpg" alt="">
@@ -104,38 +104,42 @@
         <ul class="contrast-itemBox">
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg1.jpg" alt="">
-            <div>为什么我是男人却有大胸部？</div>
-            <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
+            <div>男性女乳症治疗</div>
+            <span>利用新型微创术式同时祛除脂肪及乳腺组织，不留疤痕、收紧胸部肌肤</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>男性女乳</li>
-              <li>无痕治疗</li>
+              <li>针眼伤口</li>
+              <li>随做随走</li>
+              <li>无需穿塑身衣</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg2.jpg" alt="">
-            <div>不瞒你说，男人也有罩杯的烦恼</div>
+            <div>不瞒你说,男人也有罩杯的烦恼</div>
             <span>文青艺术男体验美式微创男乳祛除术</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>男性女乳</li>
-              <li>微创精雕</li>
+              <li>局部麻醉</li>
+              <li>无需拆线</li>
+              <li>皮肤自然回缩</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg3.jpg" alt="">
-            <div>告别宽松衣物，让你抬头挺胸</div>
-            <span>药商高管美式微创男乳祛除术初体验</span>
+            <div>挥别女乳症 重建自信胸膛</div>
+            <span>厌倦穿着宽松衣物遮遮掩掩吗？只要2小时，轻松让你走路抬头挺胸</span>
             <ul class="contrast-itemBox-tagBox">
-              <li>无痕治疗</li>
-              <li>男性女乳</li>
+              <li>胸廓塑型</li>
+              <li>激凸</li>
+              <li>乳腺祛除</li>
             </ul>
           </li>
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/nxnr/nxnr-dbImg4.jpg" alt="">
-            <div>健身真的能“瘦胸”吗？</div>
-            <span>健身达人体验美式微创男乳祛除术</span>
+            <div>健身到位，但胸型不完美怎么办？</div>
+            <span>雕琢角斗士般胸大肌</span>
             <ul class="contrast-itemBox-tagBox">
+              <li>胸肌塑形</li>
               <li>无痕治疗</li>
-              <li>健身达人</li>
+              <li>方块胸肌</li>
             </ul>
           </li>
         </ul>
@@ -275,7 +279,7 @@
           <li>
             <img src="~/assets/images/nxnr/nxnr-ysIcon4.jpg" alt="">
             <div>乳腺不易再生</div>
-            <p>乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生乳腺不易再生</p>
+            <p>乳腺组织移除后，绝大部分的患者乳腺不会再次增长。</p>
           </li>
           <li>
             <img src="~/assets/images/nxnr/nxnr-ysIcon5.jpg" alt="">
@@ -302,44 +306,48 @@
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg1.jpg" alt="">
-                <div>为什么我是男人却有大胸部？</div>
-                <span>采用局部麻醉，仅用针眼伤口,过程轻松无负担</span>
+                <div>男性女乳症治疗</div>
+                <span>利用新型微创术式同时祛除脂肪及乳腺组织，不留疤痕、收紧胸部肌肤</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>男性女乳</li>
-                  <li>无痕治疗</li>
+                  <li>针眼伤口</li>
+                  <li>随做随走</li>
+                  <li>无需穿塑身衣</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg2.jpg" alt="">
-                <div>不瞒你说，男人也有罩杯的烦恼</div>
+                <div>不瞒你说,男人也有罩杯的烦恼</div>
                 <span>文青艺术男体验美式微创男乳祛除术</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>男性女乳</li>
-                  <li>微创精雕</li>
+                  <li>局部麻醉</li>
+                  <li>无需拆线</li>
+                  <li>皮肤自然回缩</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg3.jpg" alt="">
-                <div>告别宽松衣物，让你抬头挺胸</div>
-                <span>药商高管美式微创男乳祛除术初体验</span>
+                <div>挥别女乳症 重建自信胸膛</div>
+                <span>厌倦穿着宽松衣物遮遮掩掩吗？只要2小时，轻松让你走路抬头挺胸</span>
                 <ul class="contrast-itemBox-tagBox">
-                  <li>无痕治疗</li>
-                  <li>男性女乳</li>
+                  <li>胸廓塑型</li>
+                  <li>激凸</li>
+                  <li>乳腺祛除</li>
                 </ul>
               </div>
             </swiper-slide>
             <swiper-slide>
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/nxnr/nxnr-dbImg4.jpg" alt="">
-                <div>健身真的能“瘦胸”吗？</div>
-                <span>健身达人体验美式微创男乳祛除术</span>
+                <div>健身到位，但胸型不完美怎么办？</div>
+                <span>雕琢角斗士般胸大肌</span>
                 <ul class="contrast-itemBox-tagBox">
+                  <li>胸肌塑形</li>
                   <li>无痕治疗</li>
-                  <li>健身达人</li>
+                  <li>方块胸肌</li>
                 </ul>
               </div>
             </swiper-slide>
@@ -714,7 +722,9 @@ export default {
           align-content: center;
 
           li {
-            width: 62px;
+            min-width: 62px;
+            padding: 0 2px;
+            box-sizing: border-box;
             height: 24px;
             display: flex;
             align-items: center;
@@ -1044,7 +1054,9 @@ export default {
           align-content: center;
 
           li {
-            width: 62px;
+            min-width: 62px;
+            padding: 0 2px;
+            box-sizing: border-box;
             height: 24px;
             display: flex;
             align-items: center;

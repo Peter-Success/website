@@ -110,8 +110,8 @@ export default {
         },
         {
           imgUrl: Img3,
-          title: '颜士钧医生前往雅加达与印尼进行医美医学培训教学',
-          subTitle: '技术出海，感谢Inmode APAC邀请，颜士钧医生前来雅加达与印尼多位尖端的医生和整形外科医生们，进行分享医美医学培训教学，首要专注于以色列EmbraceRF & Morpheus8的技术研讨，国际间的专业知识互动。',
+          title: '颜士钧医生担任Inmode World Expert于雅加达进行培训教学',
+          subTitle: 'Inmode APAC邀请颜士钧医生（Dr.Terry Yen）于雅加达培训教学多位当地优秀整形外科医生，演示Inmode Embrace RF & Morpheus 8的新型微创治疗技术。',
           isShowBtn: false,
           gotoUrl: ''
         },
@@ -139,21 +139,21 @@ export default {
         {
           imgUrl: Img7,
           title: '颜士钧医师于AMSC国际会议发表面部馒化的治疗及预防手段',
-          subTitle: '马来西亚美容医学协会副会长暨《面部过度填充综合症Facial Overfilled Syndrome》作者 Dr. Ting Song Lim邀请，9月20-21日作为讲者在AMSC国际学术会议上分享RFAL射频消融在医美领域的临床应用，内容包含RFAL在面部馒化修復治疗、面部松垂及眼袋等治疗案例。',
+          subTitle: '马来西亚美容医学协会副会长暨《面部过度填充综合症Facial Overfilled Syndrome》作者 林挺松（Dr. Ting Song Lim）邀请颜士钧医师（Dr. Shih Chun Yen）在AMSC国际学术会议上分享RFAL射频消融在医美领域的临床应用，内容包含RFAL在面部馒化修復治疗、面部松垂及眼袋等治疗案例',
           isShowBtn: true,
           gotoUrl: 'https://healthnews.sina.cn/news/2024-10-10/detail-incsameu5209822.d.html?sinawapsharesource=newsapp&wm=3049_0013&from=wb2source'
         },
         {
           imgUrl: Img8,
-          title: '颜士钧医师在国际SCI期刊发表东亚人面颈部皮肤软组织松弛新型微创治疗手段',
-          subTitle: '颜士钧医生的project-东亚人面颈部皮肤软组织松弛微创治疗文章终于顺利完成发表！Perseverance is the hard work you do after you get tired of doing the hard work you already did.',
+          title: '颜士钧医师在国际期刊《Aesthetic Surgery Journal》上发表东亚人面颈部皮肤软组织松弛新型微创治疗手段',
+          subTitle: 'Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians',
           isShowBtn: true,
           gotoUrl: 'https://pubmed.ncbi.nlm.nih.gov/37205298/'
         },
         {
           imgUrl: Img9,
           title: '颜士钧医师(Dr.Terry Yen)接受美国专业医疗媒体《Medical Insight》采访',
-          subTitle: '接受美国专业医疗媒体《医学洞察Medical Insight》采访，介绍后疫情时代亚太地区的医美消费新趋势。',
+          subTitle: '颜士钧医师（Dr.Terry Yen）介绍后疫情时代亚太地区的医美消费新趋势。',
           isShowBtn: true,
           gotoUrl: 'https://miinews.com/Article?id=428'
         },
@@ -173,8 +173,8 @@ export default {
         },
         {
           imgUrl: Img12,
-          title: '颜士钧医师于大韩美容外科医学会发表运用新型双极射频治疗面颈部轮廓衰老',
-          subTitle: '受邀参加42届大韩美容外科 学术大会Korea Society of Aesthetic Surgery ，主讲：应用RFAL雕塑下颌线及面部馒化的治疗要点',
+          title: '颜士钧医师受邀出席大韩美容外科学会春季学术大会',
+          subTitle: '面部抗衰专家颜士钧医生主持KSAS学术会议并发表新型双极射频微创治疗东亚女性的面部轮廓主题演讲',
           isShowBtn: true,
           gotoUrl: 'https://healthnews.sina.cn/news/2024-04-08/detail-inarchuq5172269.d.html?sinawapsharesource=newsapp&wm=3049_0013&from=wb2source'
         },
@@ -187,15 +187,15 @@ export default {
         },
         {
           imgUrl: Img14,
-          title: '《面部危险区-美容手术》新书翻译发布',
-          subTitle: '与行业顶尖大脑Rod J. Rohrich同步。由王冀耕老师、颜士钧医生同译著的教科书《面部危险区-美容手术、注射填充、微创治疗风险防范的解剖指引》耗时近两年终于印刷出版了，仅以此献礼致敬各位老师们教师节快乐！',
+          title: '颜士钧医师新书《面部危险区》新闻发布会',
+          subTitle: '由颜士钧医生译著的整形教科书《面部危险区-美容手术、注射填充、微创治疗风险防范的解剖指引》于北京顺利发布',
           isShowBtn: false,
           gotoUrl: ''
         },
         {
           imgUrl: Img15,
-          title: '颜士钧医师与学术会议发表东方宝妈重塑术《Oriental Mommy Makeover》',
-          subTitle: '台湾显微吸脂体雕专家颜士钧医师在会上发表了《Oriemtalmommy makeover》（《东方宝妈重塑术》）的主题演讲。颜士钧医师本次大会上特别分享了女性产后身体塑形领域的较新整形美容运用。',
+          title: '颜士钧医师于学术会议发表东方宝妈重塑术《Oriental Mommy Makeover》',
+          subTitle: '颜士钧医师于首尔发表了《Oriental mommy makeover东方宝妈重塑术》，分享了女性产后身体塑形领域的较新整形美容运用。',
           isShowBtn: true,
           gotoUrl: 'https://zixun.focus.cn/d630495ebc937d32.html'
         }
