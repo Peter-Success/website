@@ -125,7 +125,7 @@ export default {
         {
           imgUrl: Img5,
           title: '颜士钧医师出席Inmode学术大会接受媒体专访',
-          subTitle: '颜士钧医师出席北京Inmode学术大会接受媒体专访',
+          subTitle: '颜士钧医师出席北京Inmode学术大会接受媒体专访。',
           isShowBtn: false,
           gotoUrl: ''
         },
@@ -139,14 +139,14 @@ export default {
         {
           imgUrl: Img7,
           title: '颜士钧医师于AMSC国际会议发表面部馒化的治疗及预防手段',
-          subTitle: '马来西亚美容医学协会副会长暨《面部过度填充综合症Facial Overfilled Syndrome》作者 林挺松（Dr. Ting Song Lim）邀请颜士钧医师（Dr. Shih Chun Yen）在AMSC国际学术会议上分享RFAL射频消融在医美领域的临床应用，内容包含RFAL在面部馒化修復治疗、面部松垂及眼袋等治疗案例',
+          subTitle: '马来西亚美容医学协会副会长暨《面部过度填充综合症Facial Overfilled Syndrome》作者 林挺松（Dr. Ting Song Lim）邀请颜士钧医师（Dr. Shih Chun Yen）在AMSC国际学术会议上分享RFAL射频消融在医美领域的临床应用，内容包含RFAL在面部馒化修復治疗、面部松垂及眼袋等治疗案例。',
           isShowBtn: true,
           gotoUrl: 'https://healthnews.sina.cn/news/2024-10-10/detail-incsameu5209822.d.html?sinawapsharesource=newsapp&wm=3049_0013&from=wb2source'
         },
         {
           imgUrl: Img8,
           title: '颜士钧医师在国际期刊《Aesthetic Surgery Journal》上发表东亚人面颈部皮肤软组织松弛新型微创治疗手段',
-          subTitle: 'Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians',
+          subTitle: 'Bipolar Radiofrequency-Assisted Liposuction for Cervical Contouring in Eastern Asians.',
           isShowBtn: true,
           gotoUrl: 'https://pubmed.ncbi.nlm.nih.gov/37205298/'
         },
@@ -174,7 +174,7 @@ export default {
         {
           imgUrl: Img12,
           title: '颜士钧医师受邀出席大韩美容外科学会春季学术大会',
-          subTitle: '面部抗衰专家颜士钧医生主持KSAS学术会议并发表新型双极射频微创治疗东亚女性的面部轮廓主题演讲',
+          subTitle: '面部抗衰专家颜士钧医生主持KSAS学术会议并发表新型双极射频微创治疗东亚女性的面部轮廓主题演讲。',
           isShowBtn: true,
           gotoUrl: 'https://healthnews.sina.cn/news/2024-04-08/detail-inarchuq5172269.d.html?sinawapsharesource=newsapp&wm=3049_0013&from=wb2source'
         },
@@ -188,7 +188,7 @@ export default {
         {
           imgUrl: Img14,
           title: '颜士钧医师新书《面部危险区》新闻发布会',
-          subTitle: '由颜士钧医生译著的整形教科书《面部危险区-美容手术、注射填充、微创治疗风险防范的解剖指引》于北京顺利发布',
+          subTitle: '由颜士钧医生译著的整形教科书《面部危险区-美容手术、注射填充、微创治疗风险防范的解剖指引》于北京顺利发布。',
           isShowBtn: false,
           gotoUrl: ''
         },

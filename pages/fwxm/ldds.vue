@@ -152,7 +152,7 @@
           <li @click="gotoDetail" class="contrast-itemBox-item">
             <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
             <div>照相看起来好胖好显老怎么办？！</div>
-            <span>透过RFAL复合式微创拉提疗程轻松回复年轻态</span>
+            <span>透过RFAL复合式微创拉提疗程轻松恢复年轻态</span>
             <ul class="contrast-itemBox-tagBox">
               <li>赫本线</li>
               <li>双下巴</li>
@@ -375,7 +375,7 @@
               <div @click="gotoDetail" class="contrast-itemBox-item">
                 <img src="~/assets/images/ldds/ldds-db4.jpg" alt="">
                 <div>照相看起来好胖好显老怎么办？！</div>
-                <span>透过RFAL复合式微创拉提疗程轻松回复年轻态</span>
+                <span>透过RFAL复合式微创拉提疗程轻松恢复年轻态</span>
                 <ul class="contrast-itemBox-tagBox">
                   <li>赫本线</li>
                   <li>双下巴</li>

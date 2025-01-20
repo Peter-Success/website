@@ -130,8 +130,8 @@
                 <img src="~/assets/images/index/three-0-1.jpg" alt="">
               </div>
               <div class="content-item-txt">
-                <div class="content-item-txt--top">瑜伽大使🧘逐光逆龄初体验</div>
-                <div class="content-item-txt--bottom">有面部松垂或嘴边肉困扰吗？透过微整拉提，30分钟轻轻松松回复迷人神采！</div>
+                <div class="content-item-txt--top">瑜伽大使，逐光逆龄初体验</div>
+                <div class="content-item-txt--bottom">有面部松垂或嘴边肉困扰吗？透过微整拉提，30分钟轻轻松松恢复迷人神采！</div>
               </div>
               <div class="content-item-tag">
                 <div class="content-item-tag--item">微整拉提</div>
@@ -159,7 +159,7 @@
               </div>
               <div class="content-item-txt">
                 <div class="content-item-txt--top">水嫩宝妈逆龄重回颜值巅峰</div>
-                <div class="content-item-txt--bottom">摆脱憔悴疲倦感，回复高透氧少女漾 ！</div>
+                <div class="content-item-txt--bottom">摆脱憔悴疲倦感，恢复高透氧少女样 ！</div>
               </div>
               <div class="content-item-tag">
                 <div class="content-item-tag--item">少女针</div>
@@ -195,8 +195,8 @@
                     <img src="~/assets/images/index/three-0-1.jpg" alt="">
                   </div>
                   <div class="content-item-h5-txt">
-                    <div class="content-item-h5-txt--top">瑜伽大使🧘逐光逆龄初体验</div>
-                    <div class="content-item-h5-txt--bottom">有面部松垂或嘴边肉困扰吗？透过微整拉提，30分钟轻轻松松回复迷人神采！</div>
+                    <div class="content-item-h5-txt--top">瑜伽大使，逐光逆龄初体验</div>
+                    <div class="content-item-h5-txt--bottom">有面部松垂或嘴边肉困扰吗？透过微整拉提，30分钟轻轻松松恢复迷人神采！</div>
                   </div>
                   <div class="content-item-h5-tag">
                     <div class="content-item-h5-tag--item">微整拉提</div>
@@ -228,7 +228,7 @@
                   </div>
                   <div class="content-item-h5-txt">
                     <div class="content-item-h5-txt--top">水嫩宝妈逆龄重回颜值巅峰</div>
-                    <div class="content-item-h5-txt--bottom">摆脱憔悴疲倦感，回复高透氧少女漾 ！</div>
+                    <div class="content-item-h5-txt--bottom">摆脱憔悴疲倦感，恢复高透氧少女样 ！</div>
                   </div>
                   <div class="content-item-h5-tag">
                     <div class="content-item-h5-tag--item">少女针</div>
@@ -1069,11 +1069,15 @@ export default {
                 color: rgba(0, 0, 0, 0.6);
                 height: 24px;
                 line-height: 24px;
-                min-width: 62px;
+                min-width: 60px;
                 padding: 0 2px;
                 box-sizing: border-box;
                 text-align: center;
                 margin-right: 10px;
+              }
+
+              @at-root &--item:last-child {
+                margin-right: 0;
               }
             }
           }
@@ -1117,6 +1121,10 @@ export default {
                 line-height: 24px;
                 padding: 0 7px;
                 margin-right: 10px;
+              }
+
+              @at-root &--item:last-child {
+                margin-right: 0;
               }
             }
           }
