@@ -118,7 +118,7 @@ export default {
         {
           imgUrl: Img4,
           title: '《纯纯甘出品-整形医师的一天》',
-          subTitle: '全网热搜，知名自媒体人纯纯甘浮生一日系列，采访颜士钧医师（Dr.Terry Yen）的一天，让她带着大家窥医美行业更真实的一面吧。',
+          subTitle: '全网热搜，知名自媒体人纯纯甘《浮生一日》系列，采访颜士钧医师（Dr.Terry Yen）的一天，让她带着大家窥医美行业更真实的一面吧。',
           isShowBtn: true,
           gotoUrl: 'https://m.weibo.cn/status/KE1Piz0AQ?type=repost&jumpfrom=weibocom'
         },
